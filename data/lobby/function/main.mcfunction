@@ -4,4 +4,5 @@ title @a[team=spectator] actionbar [{"translate":"bf.lobby.spectator",fallback:"
 
 gamemode adventure @a[gamemode=spectator]
 
+function lobby:credit/main
 function lobby:minigame/slot/main
