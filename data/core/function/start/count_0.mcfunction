@@ -13,3 +13,4 @@ function core:start/set_team_1
 scoreboard players set $now bf 2
 
 function core:stage/gen/
+function core:ingame/round/start
