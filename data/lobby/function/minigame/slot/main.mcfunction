@@ -16,4 +16,4 @@ execute if entity @n[tag=lobby.minigame.slot.1,type=marker] as @e[type=item_disp
 execute if entity @n[tag=lobby.minigame.slot.2,type=marker] as @e[type=item_display,tag=lobby.minigame.slot.2] at @s run tp @s ~ ~-0.3 ~
 execute if entity @n[tag=lobby.minigame.slot.3,type=marker] as @e[type=item_display,tag=lobby.minigame.slot.3] at @s run tp @s ~ ~-0.3 ~
 
-execute positioned -13.0 -3 -8.0 run kill @e[type=minecraft:item_display,dx=2,dy=2,dz=0]
+execute as @e[type=item_display,tag=lobby.minigame.slot] at @s if block ~ ~ ~ air run kill @s
