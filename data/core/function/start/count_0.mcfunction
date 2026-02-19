@@ -12,5 +12,8 @@ function core:start/set_initiative
 function core:start/set_team_1
 scoreboard players set $now bf 2
 
+bossbar set turn_timer_my visible true
+bossbar set turn_timer_other visible true
+
 function core:stage/gen/
 function core:ingame/round/start
