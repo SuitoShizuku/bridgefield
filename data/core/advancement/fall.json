@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "falling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "falling"
+    ]
+  ],
+  "rewards": {
+    "function": "core:ingame/fall"
+  }
+}

@@ -26,6 +26,7 @@
     "bf.lobby.teams.leave": "観戦者になる",
     "bf.lobby.spectator": "あなたは今観戦者です。",
     "bf.lobby.start": "右クリックでスタート",
+    "bf.lobby.start.stop": "右クリックでキャンセル",
     "bf.game.countdown": "%s秒後に始まります。",
     "bf.game.countend": "スタート"
 }

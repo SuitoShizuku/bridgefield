@@ -1,4 +1,5 @@
 setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
+data modify entity @n[type=text_display,tag=lobby.text.start] text set value [{translate:"bf.lobby.start",fallback:"リソースパックを導入してください"}]
 scoreboard players set $ready bf 0
 schedule clear core:start/count_0
 schedule clear core:start/count_1
