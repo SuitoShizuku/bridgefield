@@ -28,5 +28,7 @@
     "bf.lobby.start": "右クリックでスタート",
     "bf.lobby.start.stop": "右クリックでキャンセル",
     "bf.game.countdown": "%s秒後に始まります。",
-    "bf.game.countend": "スタート"
+    "bf.game.countend": "スタート",
+    "bf.game.mytimer.title": "あなたのターン",
+    "bf.game.timer.title": "%sのターン"
 }
