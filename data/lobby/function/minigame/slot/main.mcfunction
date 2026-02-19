@@ -5,9 +5,9 @@ execute as @n[tag=lobby.minigame.slot.1] if score @s bf matches 4.. at @s run fu
 execute as @n[tag=lobby.minigame.slot.2] if score @s bf matches 4.. at @s run function lobby:minigame/slot/summon {num:2}
 execute as @n[tag=lobby.minigame.slot.3] if score @s bf matches 4.. at @s run function lobby:minigame/slot/summon {num:3}
 
-execute if block -13 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.1]
-execute if block -12 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.2]
-execute if block -11 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.3]
+execute if block -13 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.1,type=marker]
+execute if block -12 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.2,type=marker]
+execute if block -11 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.3,type=marker]
 execute if block -10 3 -6 minecraft:oak_button[facing=south,powered=true] run function lobby:minigame/slot/init
 fill -13 3 -6 -11 3 -6 stone_button[facing=south,powered=false]
 setblock -10 3 -6 oak_button[facing=south,powered=false]
