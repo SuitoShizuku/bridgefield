@@ -5,3 +5,7 @@ execute unless score $now bf matches -2147483648..2147483647 run scoreboard play
 execute unless score $ready bf matches -2147483648..2147483647 run scoreboard players set $ready bf 0
 # ステージ
 execute unless score $stage bf matches -2147483648..2147483647 run scoreboard players set $stage bf 1
+# ゲーム離脱検知用
+scoreboard objectives add leave custom:leave_game
+# 行動順
+scoreboard objectives add initiative dummy "行動値"

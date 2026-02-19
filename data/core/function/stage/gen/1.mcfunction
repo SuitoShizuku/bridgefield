@@ -34,3 +34,13 @@ place template core:island_0 ~8 ~12 ~18
 place template core:island_0 ~18 ~12 ~18
 
 execute as @e[tag=game.interact.bridge] run data remove entity @s interaction
+
+tp @a[team=player.red] ~-10 ~19 ~0 facing ~ ~19 ~
+tp @a[team=player.blue] ~10 ~19 ~0 facing ~ ~19 ~
+tp @a[team=player.yellow] ~-10 ~19 ~0 facing ~ ~19 ~
+tp @a[team=player.green] ~10 ~19 ~0 facing ~ ~19 ~
+tp @a[team=player.orange] ~-10 ~19 ~-10 facing ~ ~19 ~
+tp @a[team=player.pink] ~10 ~19 ~10 facing ~ ~19 ~
+tp @a[team=player.cyan] ~10 ~19 ~-10 facing ~ ~19 ~
+tp @a[team=player.white] ~-10 ~19 ~10 facing ~ ~19 ~
+tp @a[team=spectator] ~ ~30 ~ facing ~ ~19 ~
