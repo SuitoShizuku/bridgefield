@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "walking_copper": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_on_ground": true
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:waxed_copper_block",
+                "minecraft:waxed_exposed_copper",
+                "minecraft:waxed_weathered_copper",
+                "minecraft:waxed_oxidized_copper"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "walking_copper"
+    ]
+  ],
+  "rewards": {
+    "function": "core:bridge/func/walking_copper"
+  }
+}
