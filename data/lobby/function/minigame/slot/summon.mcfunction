@@ -12,7 +12,7 @@ $execute if score $lobby.slot bf matches 66..78 run summon minecraft:item_displa
 # 10%
 $execute if score $lobby.slot bf matches 79..88 run summon minecraft:item_display ~ ~ ~ {"item":{id:"diamond"},Tags:["lobby","lobby.minigame","lobby.minigame.slot","lobby.minigame.slot.diamond",lobby.minigame.slot.$(num)],"teleport_duration":0}
 # 6%
-$execute if score $lobby.slot bf matches 88..94 run summon minecraft:item_display ~ ~ ~ {"item":{id:"netherite_ingot"},Tags:["lobby","lobby.minigame","lobby.minigame.slot","lobby.minigame.slot.netherite",lobby.minigame.slot.$(num)],"teleport_duration":0}
+$execute if score $lobby.slot bf matches 89..94 run summon minecraft:item_display ~ ~ ~ {"item":{id:"netherite_ingot"},Tags:["lobby","lobby.minigame","lobby.minigame.slot","lobby.minigame.slot.netherite",lobby.minigame.slot.$(num)],"teleport_duration":0}
 # 4%
 $execute if score $lobby.slot bf matches 95..98 run summon minecraft:item_display ~ ~ ~ {"item":{id:"emerald"},Tags:["lobby","lobby.minigame","lobby.minigame.slot","lobby.minigame.slot.emerald",lobby.minigame.slot.$(num)],"teleport_duration":0}
 # 2%
