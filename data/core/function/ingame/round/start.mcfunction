@@ -1,5 +1,5 @@
-execute store result bossbar turn_timer_team max run scoreboard players get $turn_time bf
-execute store result bossbar turn_timer_othor max run scoreboard players get $turn_time bf
+execute store result bossbar turn_timer_my max run scoreboard players get $turn_time bf
+execute store result bossbar turn_timer_other max run scoreboard players get $turn_time bf
 
 tag @a remove true_turn
 tag @a remove turn
