@@ -1,5 +1,5 @@
 execute as @e[tag=lobby.text.credit] at @s run tp @s ~ ~0.025 ~
-execute positioned -30 10 0 run kill @e[tag=lobby.credit,distance=..2]
+execute positioned -30.0 10.0 0.5 run kill @e[tag=lobby.credit,distance=..2]
 
 scoreboard players add $lobby.credit bf 1
 
