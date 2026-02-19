@@ -9,3 +9,7 @@ summon minecraft:text_display 7.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:
 summon minecraft:block_display 9.0 4.0 -1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:1}}
 summon minecraft:block_display 9.0 4.0 0.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:1}}
 summon minecraft:block_display 9.0 4.0 1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:1}}
+
+summon marker -12.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigame.slot.1"]}
+summon marker -11.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigame.slot.2"]}
+summon marker -10.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigame.slot.3"]}
