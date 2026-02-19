@@ -16,4 +16,5 @@ scoreboard players set $now initiative 0
 execute as @a[tag=turn] run attribute @s movement_speed modifier add false_turn -1 add_multiplied_total
 execute as @a[tag=turn] run attribute @s jump_strength modifier add false_turn -1 add_multiplied_total
 
+scoreboard players set $now initiative 0
 function core:ingame/round/find_turn
