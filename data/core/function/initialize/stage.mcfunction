@@ -1,1 +1,1 @@
-kill @e[tag=game]
+kill @e[tag=game,distance=..75]
