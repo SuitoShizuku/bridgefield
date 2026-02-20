@@ -1,0 +1,1 @@
+advancement revoke @s only core:consume_item

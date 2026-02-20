@@ -1,0 +1,218 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:oak_log",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.oak_log",
+                  "fallback": "[橋]オークの木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "oak_log"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.oak_log.comment",
+                    "fallback": "最も橋に最適",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:pale_oak_log",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.pale_log",
+                  "fallback": "[橋]ペールオークの木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "pale_log"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.pale_log.comment",
+                    "fallback": "ちょっと左に転がった",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:dark_oak_log",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.dark_log",
+                  "fallback": "[橋]ダークオークの木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "dark_log"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.dark_log.comment",
+                    "fallback": "ちょっと右に転がった",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:enchantments": {
+          "core:bridge": 1
+        },
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:enchantments"
+          ]
+        }
+      }
+    }
+  ]
+}
