@@ -9,6 +9,8 @@ team join entrant @a[team=player.pink]
 team join entrant @a[team=player.white]
 scoreboard players set $now bf 1
 
+function lobby:gen
+
 tp @a[team=entrant] 0 1 -13 0 0
 tp @a[team=spectator] 0 1 -13 0 0
 
