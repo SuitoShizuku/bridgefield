@@ -20,7 +20,9 @@
                   "color": "gray"
                 },
                 "minecraft:custom_data": {
-                  "bridgeId": "oak_log"
+                  "bridgeId": "oak_log",
+                  "bridgeCost": 3,
+                  "bridgedurability": 3
                 },
                 "minecraft:lore": [
                   {
@@ -84,7 +86,9 @@
                   "color": "gray"
                 },
                 "minecraft:custom_data": {
-                  "bridgeId": "pale_log"
+                  "bridgeId": "pale_log",
+                  "bridgeCost": 3,
+                  "bridgedurability": 3
                 },
                 "minecraft:lore": [
                   {
@@ -148,7 +152,9 @@
                   "color": "gray"
                 },
                 "minecraft:custom_data": {
-                  "bridgeId": "dark_log"
+                  "bridgeId": "dark_log",
+                  "bridgeCost": 3,
+                  "bridgedurability": 3
                 },
                 "minecraft:lore": [
                   {

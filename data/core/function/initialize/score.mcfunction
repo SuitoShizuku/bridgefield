@@ -11,3 +11,11 @@ execute unless score $turn_time bf matches -2147483648..2147483647 run scoreboar
 scoreboard objectives add leave custom:leave_game
 # 行動順
 scoreboard objectives add initiative dummy "行動値"
+# 橋の耐久値
+scoreboard objectives add duravility dummy "耐久値"
+# HP値
+scoreboard objectives add status.hp dummy "HP"
+# MP値
+scoreboard objectives add status.mp dummy "MP"
+# Build値
+scoreboard objectives add status.build dummy "資源値"
