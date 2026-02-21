@@ -15,6 +15,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "enchantment/*"
+      },
+      {
+        "namespace": "minecraft",
         "path": "loot_table/*"
       },
       {
