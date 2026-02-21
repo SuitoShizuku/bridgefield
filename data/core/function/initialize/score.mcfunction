@@ -12,7 +12,7 @@ scoreboard objectives add leave custom:leave_game
 # 行動順
 scoreboard objectives add initiative dummy "行動値"
 # 橋の耐久値
-scoreboard objectives add duravility dummy "耐久値"
+scoreboard objectives add durability dummy "耐久値"
 # HP値
 scoreboard objectives add status.hp dummy "HP"
 # MP値
