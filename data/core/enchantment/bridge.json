@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "func"
+          "function": "core:ingame/item/bridge/tick"
         }
       }
     ]
