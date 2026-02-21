@@ -1,2 +1,2 @@
 tag @s remove placed
-tellraw @s [{translate:"bf.bridge.durability.fail",fallback:"橋の設置に失敗"}]
+tellraw @s [{translate:"bf.bridge.durability.fail",fallback:"資源値が足りません %1$s/%2$s",with:[{"text":"$(cost)",color:red},{score:{name:"@s","objective":"status.build"},color:"green"}]}]
