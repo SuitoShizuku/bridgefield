@@ -1,2 +1,2 @@
-execute if function core:ingame/item/bridge/costcheck run return run execute at @e[tag=game.interact.bridge,distance=..10,sort=nearest,limit=10] run particle dust{color:[0.0,1.0,0.0],scale:1.0} ~ ~2 ~ 0.3 0 0.3 0 2 normal @s
-execute at @e[tag=game.interact.bridge,distance=..10,sort=nearest,limit=10] run particle dust{color:[1.0,0.0,0.0],scale:1.0} ~ ~2 ~ 0.3 0 0.3 0 2 normal @s
+execute if function core:ingame/item/bridge/costcheck at @e[tag=game.interact.bridge,distance=..10,sort=nearest,limit=10] run particle dust{color:[0.0,1.0,0.0],scale:1.0} ~ ~2 ~ 0.3 0 0.3 0 2 normal @s
+execute unless function core:ingame/item/bridge/costcheck at @e[tag=game.interact.bridge,distance=..10,sort=nearest,limit=10] run particle dust{color:[1.0,0.0,0.0],scale:1.0} ~ ~2 ~ 0.3 0 0.3 0 2 normal @s

@@ -1,7 +1,7 @@
 $scoreboard players set $temp durability $(bridgeDurability)
 $scoreboard players set $temp status.build $(bridgeCost)
-# コストが足りなければ0を返す
-execute unless score $temp status.build <= @p[tag=placed] status.build run return run function core:bridge/place/fail
+# コストが足りなければ失敗関数を呼び出して切り返す
+$execute unless score $temp status.build <= @p[tag=placed] status.build run return run function core:bridge/place/fail {cost:$(bridgeCost)}
 # ティスプレイがなければ召喚
 execute unless entity @n[tag=game.bridge.durability,distance=..1] run function core:bridge/place/durability_summon
 # 値の演算
