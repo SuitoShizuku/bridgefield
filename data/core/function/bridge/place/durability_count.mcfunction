@@ -10,4 +10,4 @@ $scoreboard players remove @p[tag=placed] status.build $(bridgeCost)
 execute as @n[tag=game.bridge.durability,distance=..1,type=marker] run scoreboard players operation @s durability > $temp durability
 # 出力
 execute as @p[tag=placed] run tellraw @s [{translate:"bf.bridge.durability.chat",fallback:"資源値: %1$s → %2$s",with:[{score:{name:"$temp",objective:"status.build"}},{score:{name:"@s",objective:"status.build"}}]}]
-execute as @n[tag=game.bridge.durability,distance=..1,type=marker] run data modify entity @s text set value [{translate:"bf.bridge.durability",fallback:"耐久値: %s",with:[{score:{name:"@s",objective:"durability"}}]}]
+execute as @n[tag=game.bridge.durability,distance=..1,type=text_display] run data modify entity @s text set value [{translate:"bf.bridge.durability",fallback:"耐久値: %s",with:[{score:{name:"@n[tag=game.bridge.durability,type=marker]",objective:"durability"}}]}]
