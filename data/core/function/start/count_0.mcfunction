@@ -16,4 +16,7 @@ bossbar set turn_timer_my visible true
 bossbar set turn_timer_other visible true
 
 function core:stage/gen/
+scoreboard players set @a status.hp 40
+scoreboard players set @a status.mp 20
+scoreboard players set @a status.build 20
 function core:ingame/round/start
