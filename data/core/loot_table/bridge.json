@@ -21,8 +21,8 @@
                 },
                 "minecraft:custom_data": {
                   "bridgeId": "oak_log",
-                  "bridgeCost": 3,
-                  "bridgedurability": 3
+                  "bridgeCost": "3",
+                  "bridgedurability": "3"
                 },
                 "minecraft:lore": [
                   {
@@ -32,8 +32,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgedurability",
-                    "fallback": "橋の耐久値: %s",
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
                     "with": [
                       {
                         "text": "3",
@@ -44,8 +44,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgecost",
-                    "fallback": "資源値コスト: %s",
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
                     "with": [
                       {
                         "text": "3",
@@ -87,8 +87,8 @@
                 },
                 "minecraft:custom_data": {
                   "bridgeId": "pale_log",
-                  "bridgeCost": 3,
-                  "bridgedurability": 3
+                  "bridgeCost": "3",
+                  "bridgedurability": "3"
                 },
                 "minecraft:lore": [
                   {
@@ -98,8 +98,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgedurability",
-                    "fallback": "橋の耐久値: %s",
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
                     "with": [
                       {
                         "text": "3",
@@ -110,8 +110,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgecost",
-                    "fallback": "資源値コスト: %s",
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
                     "with": [
                       {
                         "text": "3",
@@ -153,8 +153,8 @@
                 },
                 "minecraft:custom_data": {
                   "bridgeId": "dark_log",
-                  "bridgeCost": 3,
-                  "bridgedurability": 3
+                  "bridgeCost": "3",
+                  "bridgedurability": "3"
                 },
                 "minecraft:lore": [
                   {
@@ -164,8 +164,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgedurability",
-                    "fallback": "橋の耐久値: %s",
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
                     "with": [
                       {
                         "text": "3",
@@ -176,8 +176,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgecost",
-                    "fallback": "資源値コスト: %s",
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
                     "with": [
                       {
                         "text": "3",
@@ -195,6 +195,72 @@
                   {
                     "translate": "bf.item.bridge.dark_log.comment",
                     "fallback": "ちょっと右に転がった",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:stripped_cherry_log",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.cherry_log",
+                  "fallback": "[橋]サクラの木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "cherry_log",
+                  "bridgeCost": "8",
+                  "bridgedurability": "3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "8",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.dark_log.comment",
+                    "fallback": "上に曲がった丸太",
                     "color": "gray"
                   }
                 ]
