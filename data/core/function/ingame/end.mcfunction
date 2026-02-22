@@ -16,6 +16,8 @@ tp @a[team=spectator] 0 1 -13 0 0
 
 execute as @a run attribute @s movement_speed modifier remove false_turn
 execute as @a run attribute @s jump_strength modifier remove false_turn
+execute as @a run attribute @s entity_interaction_range modifier remove false_turn
+execute as @a run attribute @s block_interaction_range modifier remove false_turn
 
 bossbar set turn_timer_my visible false
 bossbar set turn_timer_other visible false

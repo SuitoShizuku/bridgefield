@@ -2,6 +2,8 @@ tag @s remove turn
 tag @s remove true_turn
 attribute @s movement_speed modifier add false_turn -1 add_multiplied_total
 attribute @s jump_strength modifier add false_turn -1 add_multiplied_total
+attribute @s entity_interaction_range modifier add false_turn -1 add_multiplied_total
+attribute @s block_interaction_range modifier add false_turn -1 add_multiplied_total
 
 # アイテムのリロール
 loot give @s loot core:root
