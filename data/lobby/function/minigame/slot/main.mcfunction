@@ -1,9 +1,9 @@
 
 
 scoreboard players add @e[tag=lobby.minigame.slot,type=marker] bf 1
-execute as @n[tag=lobby.minigame.slot.1] if score @s bf matches 4.. at @s run function lobby:minigame/slot/summon {num:1}
-execute as @n[tag=lobby.minigame.slot.2] if score @s bf matches 4.. at @s run function lobby:minigame/slot/summon {num:2}
-execute as @n[tag=lobby.minigame.slot.3] if score @s bf matches 4.. at @s run function lobby:minigame/slot/summon {num:3}
+execute as @n[tag=lobby.minigame.slot.1] if score @s bf matches 3.. at @s run function lobby:minigame/slot/summon {num:1}
+execute as @n[tag=lobby.minigame.slot.2] if score @s bf matches 3.. at @s run function lobby:minigame/slot/summon {num:2}
+execute as @n[tag=lobby.minigame.slot.3] if score @s bf matches 3.. at @s run function lobby:minigame/slot/summon {num:3}
 
 execute if block -13 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.1,type=marker]
 execute if block -12 3 -6 minecraft:stone_button[facing=south,powered=true] run kill @n[tag=lobby.minigame.slot.2,type=marker]
