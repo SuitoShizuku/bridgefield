@@ -10,5 +10,8 @@ execute if score $item.id iv = $item.id.max iv run return run playsound block.no
 #上限じゃないなら次のアイテムにする
 execute unless score $item.id iv = $item.id.max iv run scoreboard players add $item.id iv 1
 
+#文字の色変える
+execute if score $button.interval.right iv matches 1 run data merge entity @n[type=text_display,tag=iv.text.next] {text:{"text":"Next",color:"green"}}
+
 #idによるアイテムの表示を設定しなおす
 function lobby:item_viewer/display/id_set

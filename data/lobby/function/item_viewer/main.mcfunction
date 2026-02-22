@@ -23,5 +23,5 @@ execute if block -24 2 -5 #minecraft:buttons[powered=false] run scoreboard playe
 scoreboard players set $item.id.max iv 12
 
 #back nextの色をインターバルが0であれば元に戻す(常時実行でいいのかは分からない)
-execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 if data entity @s {text:{"text":"Next",color:"red"}} run data merge entity @s {text:{"text":"Next",color:"white"}}
-execute as @e[type=text_display,tag=iv.text.back] if score $button.interval.left iv matches 0 if data entity @s {text:{"text":"Back",color:"red"}} run data merge entity @s {text:{"text":"Back",color:"white"}}
+execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 unless data entity @s {text:{"text":"Next"}} run data merge entity @s {text:{"text":"Next",color:"white"}}
+execute as @e[type=text_display,tag=iv.text.back] if score $button.interval.left iv matches 0 unless data entity @s {text:{"text":"Back"}} run data merge entity @s {text:{"text":"Back",color:"white"}}
