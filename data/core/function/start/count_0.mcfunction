@@ -21,4 +21,13 @@ scoreboard players set @a status.hp 40
 scoreboard players set @a status.mp 20
 scoreboard players set @a status.build 20
 scoreboard players set @a defense 0
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
+loot give @a loot core:root
 function core:ingame/round/start
