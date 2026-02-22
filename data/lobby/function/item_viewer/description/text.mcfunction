@@ -1,1 +1,1 @@
-$execute if tellraw @a[nbt={UUID:$(player)}] {"text":"a"}
+$execute if @a[nbt={UUID:$(player)}] run tellraw @s {"text":"a"}
