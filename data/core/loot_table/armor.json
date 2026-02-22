@@ -21,7 +21,7 @@
                 },
                 "minecraft:custom_data": {
                   "armorId": "leather_helmet",
-                  "armorDef": "1"
+                  "armorDefnce": "1"
                 },
                 "minecraft:lore": [
                   {
@@ -48,7 +48,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.brick_3.comment",
+                    "translate": "bf.item.armor.leather_helmet.comment",
                     "fallback": "冬にはちょうど良さそう",
                     "color": "gray"
                   }
@@ -66,15 +66,121 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:leather_helmet",
+                "minecraft:item_model": "minecraft:leather_chestplate",
                 "minecraft:item_name": {
-                  "translate": "bf.item.armor.leather_helmet",
-                  "fallback": "[護]皮の帽",
+                  "translate": "bf.item.armor.leather_chest",
+                  "fallback": "[護]皮のジャケット",
                   "color": "gray"
                 },
                 "minecraft:custom_data": {
-                  "armorId": "leather_helmet",
-                  "armorDef": "1"
+                  "armorId": "leather_chest",
+                  "armorDefence": "3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.armor",
+                    "fallback": "装備アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.armordef",
+                    "fallback": "防御力: %s",
+                    "with": [
+                      {
+                        "text": "+3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.armor.leather_chest.comment",
+                    "fallback": "ちょっぴりおしゃれさん",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:leather_leggings",
+                "minecraft:item_name": {
+                  "translate": "bf.item.armor.leather_legs",
+                  "fallback": "[護]皮のズボン",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "armorId": "leather_legs",
+                  "armorDefnce": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.armor",
+                    "fallback": "装備アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.armordef",
+                    "fallback": "防御力: %s",
+                    "with": [
+                      {
+                        "text": "+2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.armor.leather_legs.comment",
+                    "fallback": "書くことない、誰か頂戴",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:leather_boots",
+                "minecraft:item_name": {
+                  "translate": "bf.item.armor.leather_boots",
+                  "fallback": "[護]革靴",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "armorId": "leather_boots",
+                  "armorDefence": "1"
                 },
                 "minecraft:lore": [
                   {
@@ -101,8 +207,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.brick_3.comment",
-                    "fallback": "冬にはちょうど良さそう",
+                    "translate": "bf.item.armor.leather_boots.comment",
+                    "fallback": "長持ちするかも～",
                     "color": "gray"
                   }
                 ]

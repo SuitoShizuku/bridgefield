@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "core:armor"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "consume"
+    ]
+  ],
+  "rewards": {
+    "function": "core:ingame/item/armor/use"
+  }
+}

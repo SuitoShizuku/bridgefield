@@ -6,6 +6,6 @@ attribute @s entity_interaction_range modifier add false_turn -1 add_multiplied_
 attribute @s block_interaction_range modifier add false_turn -1 add_multiplied_total
 
 # 残りチーム数が勝利条件通りである場合、ゲームエンドとする。
-execute if function core:ingame/turn/gameend_check run return run function core:ingame/end
+execute if function core:ingame/gameend_check run return run function core:ingame/end
 # ゲーム終了条件を満たさない場合は次にターンに渡す
 function core:ingame/round/find_turn

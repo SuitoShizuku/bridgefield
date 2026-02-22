@@ -10,5 +10,7 @@ execute if entity @a[team=player.orange] run scoreboard players add $team_count 
 execute if entity @a[team=player.pink] run scoreboard players add $team_count bf 1
 execute if entity @a[team=player.cyan] run scoreboard players add $team_count bf 1
 execute if entity @a[team=player.white] run scoreboard players add $team_count bf 1
-execute if score $team_count bf matches 2.. run return 0
+execute unless score $team_count bf matches 1 run return 0
+
+
 return 1

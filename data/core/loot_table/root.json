@@ -63,6 +63,46 @@
               "range": 1
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:armor",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$gamemode"
+                    },
+                    "score": "bf",
+                    "scale": 1
+                  },
+                  "range": 1
+                },
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "@s"
+                    },
+                    "score": "armor_count",
+                    "scale": 1
+                  },
+                  "range": {
+                    "max": 8
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }

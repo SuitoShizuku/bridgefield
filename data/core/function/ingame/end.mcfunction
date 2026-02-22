@@ -1,3 +1,7 @@
+# 勝利チーム
+
+
+# 初期化
 team join entrant @a[team=player.dead]
 team join entrant @a[team=player.red]
 team join entrant @a[team=player.blue]
