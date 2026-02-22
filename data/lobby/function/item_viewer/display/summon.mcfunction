@@ -6,6 +6,7 @@ summon minecraft:text_display -23 3 -6 {Tags:["iv","iv.text"],teleport_duration:
 summon minecraft:text_display -22 1.5 -6 {Tags:["iv","iv.text.next"],teleport_duration:5,text:{"text":"Next"}}
 summon minecraft:text_display -23.5 1.5 -6 {Tags:["iv","iv.text.back"],teleport_duration:5,text:{"text":"Back"}}
 
+#ディスプレイが下からニョッキってなるやつ
 execute as @e[tag=iv,tag=!iv.text] at @s run tp ~ ~1.5 ~ 
 
 #itemのidを初期化
