@@ -3,13 +3,14 @@ summon minecraft:item_display -23 1 -6 {Tags:["iv","iv.item"],teleport_duration:
 
 #text_display召喚
 summon minecraft:text_display -23 3 -6 {Tags:["iv","iv.text"],teleport_duration:5}
+summon minecraft:text_display -23 4 -6 {Tags:["iv","iv.text.click_here"],teleport_duration:5,text:{"text":"アイテムを右クリックして詳細確認！"}}
 summon minecraft:text_display -22 0.8 -6 {Tags:["iv","iv.text.next"],teleport_duration:10,text:{"text":"Next"},Rotation:[20f,0f]}
 summon minecraft:text_display -23.5 0.8 -6 {Tags:["iv","iv.text.back"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
 
 #interaction召喚
 summon interaction -23 0.5 -6 {Tags:["iv","iv.interaction"]}
 #ディスプレイが下からニョッキってなるやつ
-execute as @e[tag=iv,tag=!iv.text] at @s run tp ~ ~1.5 ~ 
+execute as @e[tag=iv,tag=!iv.text,tag=!iv.text.click.here] at @s run tp ~ ~1.5 ~ 
 
 #itemのidを初期化
 execute unless score $item.id iv matches 0.. run scoreboard players set $item.id iv 1
