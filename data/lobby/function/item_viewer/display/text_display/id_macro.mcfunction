@@ -1,0 +1,1 @@
+$data merge entity @n[tag=iv.item,type=minecraft:text_display] {text:{"text":"$(name)"}}
