@@ -1,0 +1,6 @@
+data remove storage bf:iv text
+$data modify storage bf:iv text append value ["",{"text":"----","color":"gold"}," ",{"text":"「$(name)」","bold":true}," ",{"text":"----","color":"gold"},"\n",{"text":"-------------------","color":"gray"},"\n",{"text":"アイテムタイプ","bold":true,"color":"dark_green"},"  -",{"text":"「","color":"gray"}]
+$execute if data storage bf:iv resource_cost run data modify storage bf:iv text append value ["",{\n"text":"必要資源値 ","bold":true,"color":"dark_green"},"-",{"text":"「","color":"gray"},{"text":"$(resource_cost)","color":"green"},{"text":"」","color":"gray"}]
+$execute if data storage bf:iv durability run data modify storage bf:iv text append value ["",{"\ntext":"橋の耐久値 ","bold":true,"color":"dark_green"},"-",{"text":"「","color":"gray"},{"text":"$(durability)","color":"green"},{"text":"」","color":"gray"}]
+$execute if data storage bf:iv resource_add run data modify storage bf:iv text append value ["",{"\ntext":"使用者の資源地 ","bold":true,"color":"dark_green"},"-",{"text":"「+","color":"gray"},{"text":"$(resource_add)","color":"green"},{"text":"」","color":"gray"}]
+tellraw @s {"nbt":text,storage:"bf:iv",interpret:true}

@@ -1,0 +1,1 @@
+$execute as @a at @s if entity @s[nbt={UUID:$(player)}] run function lobby:item_viewer/description/show_text with storage bf:iv
