@@ -38,4 +38,4 @@ execute if score $button.interval.right iv matches 1 run setblock -22 2 -5 warpe
 execute if score $button.interval.left iv matches 1 run setblock -24 2 -5 crimson_button[face=floor,facing=north]
 
 #interactionを見ているとparticle出る
-execute as @a at @s if predicate lobby:looking_at_interaction_iv run particle minecraft:glow -23 2 -6 0 0 0 0 1 normal @s
+execute as @a at @s if predicate lobby:looking_at_interaction_iv if entity @e[type=interaction,tag=iv,distance=..5] run particle minecraft:glow -23 1.8 -6 0 0 0 0 1 normal @s
