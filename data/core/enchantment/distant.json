@@ -28,6 +28,14 @@
       {
         "effect": {
           "type": "minecraft:run_function",
+          "function": "core:ingame/item/distant/projectile"
+        },
+        "enchanted": "attacker",
+        "affected": "damaging_entity"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
           "function": "core:ingame/item/distant/victim"
         },
         "enchanted": "attacker",
