@@ -8,9 +8,9 @@ setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
 summon minecraft:text_display 4.999 4 0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.title",fallback:"チーム割当"}],"billboard":"fixed",brightness:{block:15,sky:15},"Rotation":[90,0],transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[2.0f,2.0f,2.0f]}}
 summon minecraft:text_display 7.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.join",fallback:"ゲームに参加する\nランダムチームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 summon minecraft:text_display 7.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.leave",fallback:"観戦者になる"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:block_display 9.0 4.0 -1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:11,sky:0}}
-summon minecraft:block_display 9.0 4.0 0.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:11,sky:0}}
-summon minecraft:block_display 9.0 4.0 1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:11,sky:0}}
+summon minecraft:block_display 9.0 4.0 -1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:10,sky:0}}
+summon minecraft:block_display 9.0 4.0 0.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:10,sky:0}}
+summon minecraft:block_display 9.0 4.0 1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:10,sky:0}}
 summon minecraft:block_display 25.0 4.0 -1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:0}}
 summon minecraft:block_display 25.0 4.0 0.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:0}}
 summon minecraft:block_display 25.0 4.0 1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:0}}
@@ -22,6 +22,9 @@ summon minecraft:text_display 19.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translat
 summon minecraft:text_display 19.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.pink",fallback:"桃チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 summon minecraft:text_display 23.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.cyan",fallback:"水チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 summon minecraft:text_display 23.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.white",fallback:"白チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+
+# 設定
+summon minecraft:text_display 0.5 4 -20.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[2.0f,2.0f,2.0f]}}
 
 # アスレ
 summon minecraft:happy_ghast -21 1 3 {"NoAI":true,"Silent":true,"Invulnerable":true,"Tags":["lobby","asr"],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"amplifier":0,"ambient":true,"show_particles":false}],"attributes":[{"base":0.25,"id":"minecraft:scale"}],"Passengers":[{"id":"minecraft:block_display","transformation":{"left_rotation":[0.0,0.0,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"scale":[1.0,0.1,1.0],"translation":[-0.5,-0.1,-0.92]},"block_state":{Name:"glass"},"Tags":["lobby","asr"],"brightness":{"block":15,"sky":15}}]}
