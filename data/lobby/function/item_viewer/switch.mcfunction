@@ -15,3 +15,6 @@ execute if score $toggle iv matches 0 run kill @e[tag=iv]
 
 #オフなら閉じる際の音再生
 execute if score $toggle iv matches 0 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.1 0.1
+
+#閉じるときも開くときもパーティクルは召喚
+particle minecraft:white_smoke ~ ~ ~ 0 0 0 0.1 100 normal @a
