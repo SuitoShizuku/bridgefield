@@ -1,5 +1,9 @@
 #ロビーボタンが押されるとビューワー表示のon_off
 execute unless score $button.interval iv matches 1.. if block -23 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/toggle
+#ロビーボタン右が押されると次のアイテム
+execute unless score $button.interval.right iv matches 1.. if block -22 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/display/next
+#ロビーボタン左が押されるの前のアイテム
+execute unless score $button.interval.left iv matches 1.. if block -24 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/display/back
 
 #switch実行
 execute positioned -23 2 -5 if score $switch.run iv matches 1.. run function lobby:item_viewer/switch
