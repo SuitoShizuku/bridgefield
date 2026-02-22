@@ -20,7 +20,7 @@ execute if block -24 2 -5 #minecraft:buttons[powered=false] run scoreboard playe
 
 #意味はないけど常時実行で最大値設定　何かあったら変えてもok
 # アイテムビューワーのid最大値
-scoreboard players set $item.id.max iv 11
+scoreboard players set $item.id.max iv 12
 
 #back nextの色をインターバルが0であれば元に戻す(常時実行でいいのかは分からない)
 execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 if data entity @s {text:{"text":"Next",color:"red"}} run data merge entity @s {text:{"text":"Next",color:"white"}}
