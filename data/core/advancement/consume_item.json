@@ -3,6 +3,9 @@
     "consume": {
       "trigger": "minecraft:using_item",
       "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"true_turn\"]}"
+        },
         "item": {
           "predicates": {
             "enchantments": [

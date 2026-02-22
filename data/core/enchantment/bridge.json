@@ -18,6 +18,13 @@
   "effects": {
     "minecraft:tick": [
       {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"true_turn\"]}"
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "core:ingame/item/bridge/tick"
