@@ -1,6 +1,6 @@
 data remove storage bf:iv text
 data modify storage bf:iv text append value [{"text":"---------------------------","color":"dark_gray"}]
-$data modify storage bf:iv text append value ["",{"text":"\n----","color":"gold"}," ",{"text":"「$(name)」","bold":true}," ",{"text":"----","color":"gold"},"\n",{"text":"- - - - - - - - - - - - - -","color":"gray"},"\n",{"text":"アイテムタイプ","bold":true,"color":"dark_green"},"  - ",{"text":"[","color":"gray"},$(lore),{"text":"]","color":"gray"}]
+$data modify storage bf:iv text append value ["",{"text":"\n----","color":"gold"}," ",{"text":"「$(name)」","bold":true,color:"white"}," ",{"text":"----","color":"gold"},"\n",{"text":"- - - - - - - - - - - - - -","color":"gray"},"\n",{"text":"アイテムタイプ","bold":true,"color":"dark_green"},"  - ",{"text":"[","color":"gray"},$(lore),{"text":"]","color":"gray"}]
 $execute unless data storage bf:iv {resource_cost:0} run data modify storage bf:iv text append value ["",{"text":"\n必要資源値 ","bold":true,"color":"dark_green"},"- ",{"text":"[","color":"gray"},{"text":"$(resource_cost)"},{"text":"]","color":"gray"}]
 $execute unless data storage bf:iv {durability:0} run data modify storage bf:iv text append value ["",{"text":"\n橋の耐久値 ","bold":true,"color":"dark_green"},"- ",{"text":"[","color":"gray"},{"text":"$(durability)"},{"text":"]","color":"gray"}]
 $execute unless data storage bf:iv {resource_add:0} run data modify storage bf:iv text append value ["",{"text":"\n使用者の資源値 ","bold":true,"color":"dark_green"},"- ",{"text":"[+","color":"gray"},{"text":"$(resource_add)"},{"text":"]","color":"gray"}]
