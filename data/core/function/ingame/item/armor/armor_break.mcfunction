@@ -1,0 +1,6 @@
+scoreboard players set @s defense 0
+item replace entity @s armor.head with air
+item replace entity @s armor.body with air
+item replace entity @s armor.legs with air
+item replace entity @s armor.feet with air
+function core:ingame/item/armor/armor_roll

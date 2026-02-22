@@ -1,14 +1,18 @@
+# ダメージを代入
 $scoreboard players set $temp defense $(damage)
+# ダメージが防御可能なら装備を破壊
+execute if score $temp defense matches 1.. run function core:ingame/item/armor/armor_break
+# 防御力を引く
 scoreboard players operation $temp defense -= @s defense
+execute if score $temp defense matches ..0 run scoreboard players set $temp defense 0
+# 貫通ダメージ分をダメージに加算
+$scoreboard players add $temp defense $(trueDamage)
+# 最終ダメージが0以下ならノーダメージとして処理して切り返す
 $execute if score $temp defense matches ..0 run return run function core:ingame/item/armor/no_damage {damage:"$(damage)"}
+# 体力を処理
 scoreboard players operation @s status.hp -= $temp defense
-item replace entity @s armor.head with air
-item replace entity @s armor.body with air
-item replace entity @s armor.legs with air
-item replace entity @s armor.feet with air
-$tellraw @a [{translate:"bf.game.damage",fallback:"%1$s→攻撃:%3$s 防御:%4$s = %5$s ダメージ!(%2$s:%6$sHP)",with:[{selector:"@p[tag=attacker]"},{selector:"@p[tag=victim]"},{"text":"$(damage)",color:dark_red},{"score":{"name":"@s",objective:"defense"},color:gray},{"score":{name:"$temp",objective:"defense"},color:red},{score:{name:"@s",objective:"status.hp"},color:red}]}]
-function core:ingame/deathcheck
-
-scoreboard players set @s defense 0
-function core:ingame/item/armor/armor_roll
 function core:ingame/hplink
+# 結果出力
+$tellraw @a [{translate:"bf.game.damage",fallback:"%1$s→攻撃:%3$s 防御:%4$s = %5$s ダメージ!(%2$s:%6$sHP)",with:[{selector:"@p[tag=attacker]"},{selector:"@p[tag=victim]"},{"text":"$(damage)",color:dark_red},{"score":{"name":"@s",objective:"defense"},color:gray},{"score":{name:"$temp",objective:"defense"},color:red},{score:{name:"@s",objective:"status.hp"},color:red}]}]
+# 死んでないかチェック
+function core:ingame/deathcheck

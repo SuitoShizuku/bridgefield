@@ -21,7 +21,8 @@
                 },
                 "minecraft:custom_data": {
                   "weaponId": "wood_sword",
-                  "weaponDamage": "4"
+                  "weaponDamage": "4",
+                  "weaponTrueDamage": "0"
                 },
                 "minecraft:lore": [
                   {
@@ -91,7 +92,8 @@
                 },
                 "minecraft:custom_data": {
                   "weaponId": "stick",
-                  "weaponDamage": "2"
+                  "weaponDamage": "2",
+                  "weaponTrueDamage": "0"
                 },
                 "minecraft:lore": [
                   {
