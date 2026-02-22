@@ -8,5 +8,5 @@ $execute if entity @s[tag=north] run place template core:bridge/$(bridgeId) ~ ~ 
 
 # アイテムを消してタグをリセットし、ターンを回す
 item replace entity @p[tag=placed] weapon.mainhand with air
-execute as @p[tag=placed] run function core:ingame/turn/end
+execute if score $now bf matches 2 as @p[tag=placed] run function core:ingame/turn/end
 tag @a[tag=placed] remove placed
