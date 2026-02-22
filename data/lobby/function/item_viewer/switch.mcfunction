@@ -10,11 +10,11 @@ execute if score $toggle iv matches 1 run function lobby:item_viewer/display/sum
 #オンなら開く際の音再生
 execute if score $toggle iv matches 1 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 2 0.1
 
+#開くときパーティクル召喚
+execute if score $toggle iv matches 1 run particle minecraft:white_smoke ~ ~ ~-1 0 0 0 0.1 100 normal @a
+
 #オフならdisplayを削除する
 execute if score $toggle iv matches 0 run kill @e[tag=iv]
 
 #オフなら閉じる際の音再生
 execute if score $toggle iv matches 0 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.1 0.1
-
-#閉じるときも開くときもパーティクルは召喚
-particle minecraft:white_smoke ~ ~ ~-1 0 0 0 0.1 100 normal @a
