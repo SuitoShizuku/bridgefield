@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!NotDropItem] run function core:ingame/item/drop/item_check
