@@ -28,4 +28,6 @@ execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.righ
 
 #interactionクリック検知
 execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run function lobby:item_viewer/description/text with entity @s interaction
+#ここで途中　なんかfunction lobby:item_viewer/description/text with entity @n[type=interaction,tag=iv] interactionだと動くのに↑だと動かなくて悲しい！多分↑のexecuteに問題ある！
+#NBT削除
 execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run data remove entity @s interaction
