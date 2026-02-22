@@ -4,4 +4,4 @@ $tag @p[nbt={UUID:$(Thrower)}] add itemDropped
 execute if score $now bf matches 2 as @n[tag=itemDropped] if entity @s[tag=true_turn] run return run function core:ingame/item/drop/reroll
 # でなければすぐ拾う
 $data merge entity @s {Owner:$(Thrower),PickupDelay:0}
-tag @s remove itemDropped
+tag @a remove itemDropped
