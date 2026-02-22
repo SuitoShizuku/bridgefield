@@ -6,7 +6,9 @@ $execute if entity @s[tag=south] run place template core:bridge/$(bridgeId) ~ ~ 
 $execute if entity @s[tag=west] run place template core:bridge/$(bridgeId) ~ ~ ~ 180 none
 $execute if entity @s[tag=north] run place template core:bridge/$(bridgeId) ~ ~ ~ counterclockwise_90 none
 
-# アイテムを消してタグをリセットし、ターンを回す
+# アイテムを消してギブ
 item replace entity @p[tag=placed] weapon.mainhand with air
+loot give @s loot core:root
+# タグをリセットし、ターンを回す
 execute if score $now bf matches 2 as @p[tag=placed] run function core:ingame/turn/end
 tag @a[tag=placed] remove placed
