@@ -1,1 +1,1 @@
-$execute if @a[nbt={UUID:$(player)}] run tellraw @s {"text":"a"}
+$execute if entity @a[nbt={UUID:$(player)}] run tellraw @s {"text":"a"}
