@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "attack": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [],
+            "is_direct": true
+          }
+        },
+        "entity": {
+          "type": "player",
+          "nbt": "{Tags:[\"true_turn\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "attack"
+    ]
+  ],
+  "rewards": {
+    "function": "core:ingame/punch/victim"
+  }
+}
