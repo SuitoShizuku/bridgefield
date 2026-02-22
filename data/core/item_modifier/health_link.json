@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "base",
+        "amount": -20,
+        "operation": "add_value",
+        "slot": "saddle"
+      },
+      {
+        "attribute": "minecraft:max_health",
+        "id": "scorelink",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "status.hp",
+          "scale": 0.4
+        },
+        "operation": "add_value",
+        "slot": "saddle"
+      }
+    ],
+    "replace": true
+  }
+]
