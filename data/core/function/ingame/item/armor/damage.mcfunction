@@ -11,3 +11,4 @@ function core:ingame/deathcheck
 
 scoreboard players set @s defense 0
 function core:ingame/item/armor/armor_roll
+function core:ingame/hplink
