@@ -1,3 +1,4 @@
 data remove storage bf:iv text
-data modify storage bf:iv text append value ["",{"text":"----","color":"gold"}," 「$(name)」 ",{"text":"----","color":"gold"},"\n",{"text":"-------------------","color":"gray"},"\n",{"text":"アイテムタイプ","color":"blue"},"  -",{"text":"「","color":"gray"},{"text":"$(lore)","color":"green"},{"text":"」","color":"gray"}]
+$data modify storage bf:iv text append value ["",{"text":"----","color":"gold"}," ",{"text":"「$(name)」","bold":true}," ",{"text":"----","color":"gold"},"\n",{"text":"-------------------","color":"gray"},"\n",{"text":"アイテムタイプ","bold":true,"color":"dark_green"},"  -",{"text":"「","color":"gray"},{"text":"$(lore)","color":"green"},{"text":"」","color":"gray"}]
+$execute if data storage bf:iv cost run data modify storage bf:iv text append value ["",{"text":"必要資源値 ","bold":true,"color":"dark_green"},"-",{"text":"「","color":"gray"},{"text":"$(cost)","color":"green"},{"text":"」","color":"gray"}]
 tellraw @s {"nbt":text,storage:"bf:iv",interpret:true}
