@@ -1,16 +1,15 @@
 {
   "criteria": {
     "attack": {
-      "trigger": "player_hurt_entity",
+      "trigger": "entity_hurt_player",
       "conditions": {
         "damage": {
           "type": {
             "is_direct": true
           }
         },
-        "entity": {
-          "type": "player",
-          "nbt": "{Tags:[\"true_turn\"]}"
+        "player": {
+          "type": "player"
         }
       }
     }
