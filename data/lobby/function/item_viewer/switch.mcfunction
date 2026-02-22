@@ -7,6 +7,11 @@ scoreboard players set $switch.run iv 0
 #オンならdisplayを召喚する
 execute if score $toggle iv matches 1 run function lobby:item_viewer/display/summon
 
+#オンなら開く際の音再生
+execute if score $toggle iv matches 1 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 2 0.1
+
 #オフならdisplayを削除する
 execute if score $toggle iv matches 0 run kill @e[tag=iv]
-say a
+
+#オフなら閉じる際の音再生
+execute if score $toggle iv matches 0 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.1 0.1
