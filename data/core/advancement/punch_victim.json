@@ -5,7 +5,6 @@
       "conditions": {
         "damage": {
           "type": {
-            "tags": [],
             "is_direct": true
           }
         },
