@@ -10,7 +10,7 @@ scoreboard players set $ready bf 0
 scoreboard players set @a initiative 0
 scoreboard players set $initiative_root bf 0
 function core:start/set_initiative
-function core:start/set_team_1
+function core:start/set_team
 scoreboard players set $now bf 2
 
 bossbar set turn_timer_my visible true
