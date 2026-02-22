@@ -4,7 +4,7 @@ scoreboard players set $button.interval.right iv 1
 #上限なら色変える
 execute if score $item.id iv = $item.id.max iv if score $button.interval.right iv matches 1 run data merge entity @n[type=text_display,tag=iv.text.next] {text:{"text":"Next",color:"red"}}
 
-#上限ならサウンドを鳴らす、意味ないけどreturn 負荷が変わると願う
+#上限ならサウンドを鳴らす
 execute if score $item.id iv = $item.id.max iv run return run playsound block.note_block.bass ambient @a ~ ~ ~ 1 1 0.1 
 
 #上限じゃないなら次のアイテムにする
