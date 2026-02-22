@@ -1,7 +1,7 @@
 # ダメージを代入
 $scoreboard players set $temp defense $(damage)
-# ダメージが防御可能なら装備を破壊
-execute if score $temp defense matches 1.. run function core:ingame/item/armor/armor_break
+# ダメージが防御可能かつ、攻撃者が武器持ちなら装備を破壊
+execute if score $temp defense matches 1.. unless entity @p[tag=punch.attacker] run function core:ingame/item/armor/armor_break
 # 防御力を引く
 scoreboard players operation $temp defense -= @s defense
 execute if score $temp defense matches ..0 run scoreboard players set $temp defense 0
@@ -16,6 +16,6 @@ function core:ingame/hplink
 $scoreboard players set $totalDMG bf $(damage)
 $scoreboard players add $totalDMG bf $(trueDamage)
 tellraw @a [{translate:"bf.game.damage",fallback:"%1$s攻撃:%3$s→%2$s防御:%4$s = %5$s ダメージ!(残り%6$sHP)",with:[{selector:"@p[tag=attacker]"},{selector:"@s"},{"score":{name:"$totalDMG",objective:"bf"},color:dark_red},{"score":{"name":"@s",objective:"defense"},color:gray},{"score":{name:"$temp",objective:"defense"},color:red},{score:{name:"@s[tag=victim]",objective:"status.hp"},color:red}]}]
-scoreboard players set @s defense 0
+execute unless entity @p[tag=punch.attacker] run scoreboard players set @s defense 0
 # 死んでないかチェック
 function core:ingame/deathcheck
