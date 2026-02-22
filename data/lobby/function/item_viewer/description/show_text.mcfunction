@@ -4,3 +4,4 @@ $execute if data storage bf:iv resource_cost run data modify storage bf:iv text 
 $execute if data storage bf:iv durability run data modify storage bf:iv text append value ["",{"text":"\n橋の耐久値 ","bold":true,"color":"dark_green"},"-",{"text":"[","color":"gray"},{"text":"$(durability)"},{"text":"]","color":"gray"}]
 $execute if data storage bf:iv resource_add run data modify storage bf:iv text append value ["",{"text":"\n使用者の資源地 ","bold":true,"color":"dark_green"},"-",{"text":"[+","color":"gray"},{"text":"$(resource_add)"},{"text":"]","color":"gray"}]
 tellraw @s {"nbt":text,storage:"bf:iv",interpret:true}
+say a
