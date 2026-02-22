@@ -4,3 +4,5 @@ execute if score $EF bf matches 20..50 run scoreboard players remove $EF bf 10
 execute if score $EF bf matches 75..150 run scoreboard players remove $EF bf 25
 execute if score $EF bf matches 200..400 run scoreboard players remove $EF bf 50
 execute if score $EF bf matches 500..1000 run scoreboard players remove $EF bf 100
+
+function lobby:settings/success_r
