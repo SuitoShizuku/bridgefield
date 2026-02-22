@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "attack": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_direct": true
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"lobby.interact.settings\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "attack"
+    ]
+  ],
+  "rewards": {
+    "function": "lobby:settings/lc"
+  }
+}
