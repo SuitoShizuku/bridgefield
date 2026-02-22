@@ -9,4 +9,4 @@ summon minecraft:item_display -23 3.5 -6 {Tags:["iv","iv.text"],teleport_duratio
 execute unless score $item.id iv matches 0.. run scoreboard players set $item.id iv 1
 
 #item_idから表示させるアイテムの設定
-function lobby:item_viewer/display/item_display/id_set
+function lobby:item_viewer/display/id_set
