@@ -4,12 +4,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "predicates": {
-            "minecraft:enchantments": [
-              {
-                "enchantments": "core:consume"
-              }
-            ]
+          "components": {
+            "minecraft:enchantments": {
+              "core:consume": 1
+            }
           }
         }
       }
