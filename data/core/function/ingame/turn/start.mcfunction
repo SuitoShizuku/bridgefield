@@ -8,4 +8,4 @@ attribute @s entity_interaction_range modifier remove false_turn
 attribute @s block_interaction_range modifier remove false_turn
 
 #プレイヤーごとの実行だけど@eでラウンドスタートで減少済みタグを消去
-tag @e[type=minecraft:marker,tag=durability.damaged] remove durability.damage
+tag @e[type=minecraft:marker,tag=durability.damaged] remove durability.damaged
