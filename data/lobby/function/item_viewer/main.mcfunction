@@ -2,7 +2,7 @@
 execute unless score $button.interval iv matches 1.. if block -23 2 -5 minecraft:stone_button[powered=true] run function lobby:item_viewer/toggle
 
 #switch実行
-execute if score $switch.run iv matches 1.. run function lobby:item_viewer/switch
+execute positioned -23 2 -5 if score $switch.run iv matches 1.. run function lobby:item_viewer/switch
 
 #item_displayを回転させる
 execute as @e[type=item_display,tag=iv.item] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~5 ~
