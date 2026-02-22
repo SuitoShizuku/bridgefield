@@ -1,5 +1,5 @@
 #ロビーボタンが押されるとビューワー表示のon_off
-execute unless score $button.interval iv matches 1.. if block -23 2 -5 minecraft:stone_button[powered=true] run function lobby:item_viewer/toggle
+execute unless score $button.interval iv matches 1.. if block -23 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/toggle
 
 #switch実行
 execute positioned -23 2 -5 if score $switch.run iv matches 1.. run function lobby:item_viewer/switch
