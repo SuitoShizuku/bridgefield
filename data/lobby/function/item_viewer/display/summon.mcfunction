@@ -3,7 +3,7 @@ summon minecraft:item_display -23 1 -6 {Tags:["iv","iv.item"],teleport_duration:
 
 #text_display召喚
 summon minecraft:text_display -23 3 -6 {Tags:["iv","iv.text"],teleport_duration:5}
-summon minecraft:text_display -23 4 -6 {Tags:["iv","iv.text.click_here"],teleport_duration:5,text:{"text":"アイテムを右クリックして詳細確認！"}}
+summon minecraft:text_display -23 3.3 -6 {Tags:["iv","iv.text.click_here"],teleport_duration:5,text:{"text":"アイテムを右クリックして詳細確認！",color:"gray"},transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]}}
 summon minecraft:text_display -22 0.8 -6 {Tags:["iv","iv.text.next"],teleport_duration:10,text:{"text":"Next"},Rotation:[20f,0f]}
 summon minecraft:text_display -23.5 0.8 -6 {Tags:["iv","iv.text.back"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
 
