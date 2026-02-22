@@ -1,3 +1,6 @@
+#連続してボタン判定が発生しないようスコア設定
+scoreboard players set $button.interval.right iv 1
+
 #上限ならサウンドを鳴らす
 execute if score $item.id iv = $item.id.max iv run playsound block.note_block.bass ambient @a ~ ~ ~ 1 1 0.1 
 

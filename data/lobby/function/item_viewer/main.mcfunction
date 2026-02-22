@@ -13,6 +13,10 @@ execute as @e[type=item_display,tag=iv.item] at @s if score $toggle iv matches 1
 
 #ロビーのボタンが元に戻るとインターバルがリセット
 execute if block -23 2 -5 #minecraft:buttons[powered=false] run scoreboard players set $button.interval iv 0
+#ロビーのボタンが元に戻るとインターバルがリセット
+execute if block -22 2 -5 #minecraft:buttons[powered=false] run scoreboard players set $button.interval.right iv 0
+#ロビーのボタンが元に戻るとインターバルがリセット
+execute if block -24 2 -5 #minecraft:buttons[powered=false] run scoreboard players set $button.interval iv 0
 
 #意味はないけど常時実行で最大値設定　何かあったら変えてもok
 # アイテムビューワーのid最大値
