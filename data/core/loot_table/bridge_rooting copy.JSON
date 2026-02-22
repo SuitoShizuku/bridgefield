@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:item",
+    "name": "minecraft:clay_ball",
+    "weight": 2,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:waxed_copper_block",
+                "minecraft:item_name": {
+                    "translate": "bf.item.bridge.copper",
+                    "fallback": "[橋]銅の橋",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "bridgeId": "copper",
+                    "bridgeCost": "3",
+                    "bridgeDurability": "3"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.bridge",
+                        "fallback": "建築資材",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.bridgecost",
+                        "fallback": "資源値コスト: %s",
+                        "with": [
+                            {
+                                "text": "3",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.bridgedurability",
+                        "fallback": "橋の耐久値: %s",
+                        "with": [
+                            {
+                                "text": "3",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.bridge.copper.comment",
+                        "fallback": "ぼろぼろ崩れやすい橋",
+                        "color": "gray"
+                    }
+                ]
+            }
+        }
+    ]
+}

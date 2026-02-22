@@ -267,7 +267,71 @@
               }
             }
           ]
+        },{
+    "type": "minecraft:item",
+    "name": "minecraft:clay_ball",
+    "weight": 2,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:<見た目>",
+                "minecraft:item_name": {
+                    "translate": "bf.item.bridge.<橋id>",
+                    "fallback": "[橋]<名前>",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "bridgeId": "<橋id>",
+                    "bridgeCost": "<コスト>",
+                    "bridgeDurability": "<耐久値>"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.bridge",
+                        "fallback": "建築資材",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.bridgecost",
+                        "fallback": "資源値コスト: %s",
+                        "with": [
+                            {
+                                "text": "<コスト>",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.bridgedurability",
+                        "fallback": "橋の耐久値: %s",
+                        "with": [
+                            {
+                                "text": "<たいきゅうち>",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.bridge.<橋id>.comment",
+                        "fallback": "<コメント>",
+                        "color": "gray"
+                    }
+                ]
+            }
         }
+    ]}
       ]
     }
   ],
