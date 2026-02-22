@@ -1,7 +1,7 @@
 scoreboard players operation $turn_time_count bf = $turn_time bf
 function core:initialize/bossbar
 bossbar set minecraft:turn_timer_my players @s
-execute at @p[tag=true_turn] run bossbar set minecraft:turn_timer_other players @a[distance=0.001..]
+execute at @p[tag=true_turn] run bossbar set minecraft:turn_timer_other players @a[tag=!true_turn]
 
 attribute @s movement_speed modifier remove false_turn
 attribute @s jump_strength modifier remove false_turn

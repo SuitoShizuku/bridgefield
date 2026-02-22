@@ -9,7 +9,7 @@ execute positioned 18.0 1.0 -4 as @a[dx=2,dy=1,dz=0.6,team=entrant,tag=!orange] 
 execute positioned 18.0 1.0 3.4 as @a[dx=2,dy=1,dz=0.6,team=entrant,tag=!pink] run function lobby:game/incolor {color:"pink"}
 execute positioned 22.0 1.0 -4 as @a[dx=2,dy=1,dz=0.6,team=entrant,tag=!cyan] run function lobby:game/incolor {color:"cyan"}
 execute positioned 22.0 1.0 3.4 as @a[dx=2,dy=1,dz=0.6,team=entrant,tag=!white] run function lobby:game/incolor {color:"white"}
-title @a[team=spectator] actionbar [{"translate":"bf.lobby.spectator",fallback:"あなたは今観戦者です",color:red}]
+title @a[team=spectator] actionbar [{"translate":"bf.lobby.spectator",fallback:"あなたは今観戦者です",color:gray}]
 title @a[tag=red,team=entrant] actionbar [{"translate":"bf.lobby.red",fallback:"あなたは§c赤チーム§rに入る予定です",color:gray}]
 title @a[tag=blue,team=entrant] actionbar [{"translate":"bf.lobby.blue",fallback:"あなたは§9青チーム§rに入る予定です",color:gray}]
 title @a[tag=yellow,team=entrant] actionbar [{"translate":"bf.lobby.yellow",fallback:"あなたは§e黄チーム§rに入る予定です",color:gray}]
