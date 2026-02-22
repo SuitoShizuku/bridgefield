@@ -43,14 +43,14 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.effect",
-                    "fallback": "—特殊効果————",
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
                     "color": "gray",
                     "italic": false
                   },
                   {
                     "translate": "bf.item.weapon.wood_sword.comment",
-                    "fallback": "攻撃者が%1$sの場合、\n相手に%1$sを付与する",
+                    "fallback": "攻撃者が%1$sの場合、相手に%1$sを付与する",
                     "with": [
                       {
                         "translate": "bf.effects.burn",
