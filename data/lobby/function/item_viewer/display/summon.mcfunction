@@ -1,0 +1,1 @@
+summon minecraft:item_display -23 3 -6 {item:{id:"minecraft:iron_sword"}}
