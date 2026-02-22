@@ -4,7 +4,7 @@ execute as @e[tag=iv] at @s run tp ~ ~1.5 ~
 
 #text_display召喚
 summon minecraft:text_display -23 3 -6 {Tags:["iv","iv.text"],teleport_duration:5}
-summon minecraft:text_display -22.5 2.5 -6 {Tags:["iv","iv.text.next"],teleport_duration:5,text:{"text":"Next"}}
+summon minecraft:text_display -22 2.5 -6 {Tags:["iv","iv.text.next"],teleport_duration:5,text:{"text":"Next"}}
 summon minecraft:text_display -23.5 2.5 -6 {Tags:["iv","iv.text.back"],teleport_duration:5,text:{"text":"Back"}}
 
 #itemのidを初期化
