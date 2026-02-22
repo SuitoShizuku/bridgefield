@@ -36,3 +36,6 @@ execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} 
 execute if score $button.interval iv matches 1 run setblock -23 2 -5 stone_button[face=floor,facing=north]
 execute if score $button.interval.right iv matches 1 run setblock -22 2 -5 warped_button[face=floor,facing=north]
 execute if score $button.interval.left iv matches 1 run setblock -24 2 -5 crimson_button[face=floor,facing=north]
+
+#interactionを見ているとparticle出る
+execute as @a at @s if predicate lobby:looking_at_interaction_iv run particle minecraft:glow -23 2 -6 0 0 0 0 1 normal @s
