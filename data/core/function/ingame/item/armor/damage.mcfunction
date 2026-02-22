@@ -1,6 +1,6 @@
 $scoreboard players set $temp defense $(damage)
 scoreboard players operation $temp defense -= @s defense
-$execute if score $temp defense matches ..0 run return run function core:ingame/item/armor/no_damage {damage:"$(damage)}
+$execute if score $temp defense matches ..0 run return run function core:ingame/item/armor/no_damage {damage:"$(damage)"}
 scoreboard players operation @s status.hp -= $temp defense
 item replace entity @s armor.head with air
 item replace entity @s armor.body with air
