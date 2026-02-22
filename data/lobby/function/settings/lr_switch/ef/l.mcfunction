@@ -5,4 +5,4 @@ execute if score $EF bf matches 75..150 run scoreboard players remove $EF bf 25
 execute if score $EF bf matches 200..400 run scoreboard players remove $EF bf 50
 execute if score $EF bf matches 500..1000 run scoreboard players remove $EF bf 100
 
-function lobby:settings/success_r
+execute at @n[tag=opt.interact] run function lobby:settings/success_r
