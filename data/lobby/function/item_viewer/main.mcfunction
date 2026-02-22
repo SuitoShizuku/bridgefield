@@ -28,4 +28,4 @@ execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.righ
 
 #interactionクリック検知
 execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run function lobby:item_viewer/description/text with entity @s interaction
-execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run data merge entity @s {interaction:{}}
+execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run data remove entity @s interaction
