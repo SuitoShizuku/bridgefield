@@ -13,3 +13,6 @@ execute as @a run title @s actionbar [{translate:"bf.status.actionbar",fallback:
 
 # 橋の耐久値減少
 execute as @e[tag=game.bridge.durability,type=marker,tag=!durability.damaged] at @s run function core:bridge/break/main
+
+#アイテムドロップ検知
+function core:ingame/item/drop/main
