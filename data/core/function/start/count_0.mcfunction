@@ -1,6 +1,6 @@
 title @a title ""
 title @a subtitle {translate:"bf.game.countend",fallback:"スタート"}
-playsound entity.player.levelup master @a ~ ~ ~ 1 1.2 1
+playsound entity.player.levelup master @a ~ ~ ~ 20 1.2 1
 execute as @a run attribute @s knockback_resistance modifier add bf 10 add_value
 
 setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
