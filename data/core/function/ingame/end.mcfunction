@@ -26,6 +26,8 @@ execute as @a run attribute @s block_interaction_range modifier remove false_tur
 bossbar set turn_timer_my visible false
 bossbar set turn_timer_other visible false
 
+clear @a
+
 effect clear @a
 effect give @a resistance infinite 4 true
 effect give @a saturation infinite 0 true
