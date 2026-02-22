@@ -1,0 +1,1 @@
+scoreboard players add @s status.build 10

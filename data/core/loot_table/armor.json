@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:leather_helmet",
+                "minecraft:item_name": {
+                  "translate": "bf.item.armor.leather_helmet",
+                  "fallback": "[護]皮の帽子",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "armorId": "leather_helmet",
+                  "armorDef": "1"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.armor",
+                    "fallback": "装備アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.armordef",
+                    "fallback": "防御力: %s",
+                    "with": [
+                      {
+                        "text": "+1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.brick_3.comment",
+                    "fallback": "冬にはちょうど良さそう",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:leather_helmet",
+                "minecraft:item_name": {
+                  "translate": "bf.item.armor.leather_helmet",
+                  "fallback": "[護]皮の帽",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "armorId": "leather_helmet",
+                  "armorDef": "1"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.armor",
+                    "fallback": "装備アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.armordef",
+                    "fallback": "防御力: %s",
+                    "with": [
+                      {
+                        "text": "+1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.brick_3.comment",
+                    "fallback": "冬にはちょうど良さそう",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:enchantments": {
+          "core:armor": 1
+        },
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:enchantments"
+          ]
+        }
+      }
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "core:consume"
+    }
+  ]
+}
