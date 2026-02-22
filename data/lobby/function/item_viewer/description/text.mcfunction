@@ -1,0 +1,1 @@
+$tellraw @a[nbt={UUID:[$(interaction.player)]}] {"text":""}

@@ -25,3 +25,6 @@ scoreboard players set $item.id.max iv 12
 #back nextの色をインターバルが0であれば元に戻す(常時実行でいいのかは分からない)
 execute as @e[type=text_display,tag=iv.text.back] if score $button.interval.left iv matches 0 run function lobby:item_viewer/text_color_back
 execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 run function lobby:item_viewer/text_color_back
+
+#interactionクリック検知
+execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{player:[]}} run function lobby:item_viewer/description/text with entity @s
