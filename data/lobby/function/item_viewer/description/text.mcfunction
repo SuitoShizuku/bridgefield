@@ -1,1 +1,1 @@
-$tellraw @a[nbt={UUID:[$(interaction.player)]}] {"text":""}
+$execute if tellraw @a[nbt={UUID:$(interaction.player)}] {"text":"a"}
