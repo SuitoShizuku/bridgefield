@@ -1,0 +1,1 @@
+$tellraw @a [{translate:"bf.game.damage",fallback:"%1$s→攻撃:%3$s 防御:%4$s = %5$s ノーダメージ!(%2$s:%6$sHP)",with:[{selector:"@p[tag=attacker]"},{selector:"@p[tag=victim]"},{"text":"$(damage)",color:dark_red},{"score":{"name":"@s",objective:"defense"},color:gray},{"score":{name:"$temp",objective:"defense"},color:red},{score:{name:"@s",objective:"status.hp"},color:red}]}]

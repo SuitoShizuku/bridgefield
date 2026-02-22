@@ -20,4 +20,5 @@ function core:stage/gen/
 scoreboard players set @a status.hp 40
 scoreboard players set @a status.mp 20
 scoreboard players set @a status.build 20
+scoreboard players set @a defense 0
 function core:ingame/round/start

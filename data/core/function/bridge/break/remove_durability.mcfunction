@@ -2,4 +2,4 @@
 scoreboard players remove @s durability 1
 
 #減少済みタグを与える
-tag @s remove durability.damaged
+tag @s add durability.damaged
