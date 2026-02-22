@@ -3,7 +3,7 @@ data remove storage bf:iv name
 data remove storage bf:iv lore
 data remove storage bf:iv resource_cost
 data remove storage bf:iv durability
-data remove storage bf:iv resouce_add
+data remove storage bf:iv resource_add
 data remove storage bf:iv damage
 data remove storage bf:iv special_effect
 data remove storage bf:iv defence
