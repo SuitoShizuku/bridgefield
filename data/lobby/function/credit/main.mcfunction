@@ -11,11 +11,11 @@ execute if score $lobby.credit bf matches 1 run function lobby:credit/write {tex
 
 execute if score $lobby.credit bf matches 70 run function lobby:credit/write {text:"企画",bold:false,unl:false,color:white,scale:1.4,width:0,height:0,id:"",onclick:{}}
 execute if score $lobby.credit bf matches 78 run function lobby:credit/write {text:"SuitoShizuku",bold:false,unl:false,color:white,scale:1.0,width:0.5,height:0.25,\
-    id:"show_text",onclick:[{"text":"https://links.suitomizu.com",click_event:{action:"open_url",url:"https://links.suitomizu.com"},color:blue,underlined:true}]}
+    id:"show_text",onclick:[{"text":"Minecraft: zKtn\nX: ",color:white,underlined:false},{"text":"@SuitoShizuku",click_event:{action:"open_url",url:"https://x.com/SuitoShizuku"},color:blue,underlined:true},{"text":"HP: ",color:white,underlined:false},{"text":"https://links.suitomizu.com",click_event:{action:"open_url",url:"https://links.suitomizu.com"},color:blue,underlined:true}]}
 
 execute if score $lobby.credit bf matches 120 run function lobby:credit/write {text:"コマンド",bold:false,unl:false,color:white,scale:1.4,width:0,height:0,id:"",onclick:{}}
 execute if score $lobby.credit bf matches 128 run function lobby:credit/write {text:"SuitoShizuku",bold:false,unl:false,color:white,scale:1.0,width:0.5,height:0.25,\
-    id:"show_text",onclick:[{"text":"https://links.suitomizu.com",click_event:{action:"open_url",url:"https://links.suitomizu.com"},color:blue,underlined:true}]}
+    id:"show_text",onclick:[{"text":"Minecraft: zKtn\nX: ",color:white,underlined:false},{"text":"@SuitoShizuku",click_event:{action:"open_url",url:"https://x.com/SuitoShizuku"},color:blue,underlined:true},{"text":"HP: ",color:white,underlined:false},{"text":"https://links.suitomizu.com",click_event:{action:"open_url",url:"https://links.suitomizu.com"},color:blue,underlined:true}]}
 execute if score $lobby.credit bf matches 136 run function lobby:credit/write {text:"AASAsan",bold:false,unl:false,color:white,scale:1.0,width:0,height:0,id:"",onclick:{}}
 
 execute if score $lobby.credit bf matches 170 run function lobby:credit/write {text:"建築",bold:false,unl:false,color:white,scale:1.4,width:0,height:0,id:"",onclick:{}}
