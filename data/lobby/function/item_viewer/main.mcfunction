@@ -27,4 +27,4 @@ execute as @e[type=text_display,tag=iv.text.back] if score $button.interval.left
 execute as @e[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 run function lobby:item_viewer/text_color_back
 
 #interactionクリック検知
-execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{player:[]}} run function lobby:item_viewer/description/text with entity @s
+execute as @e[type=interaction,tag=iv] at @s if data entity @s {interaction:{player:[]}} run function lobby:item_viewer/description/text with entity @s interaction
