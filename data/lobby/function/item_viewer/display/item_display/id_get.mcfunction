@@ -21,3 +21,9 @@ execute if score $item.id iv matches 10 run data merge storage bf:iv {id:"minecr
 execute if score $item.id iv matches 11 run data merge storage bf:iv {id:"minecraft:leather_leggings",name:"[護]皮のズボン",lore:{"text":"装備アイテム"},defence:2}
 execute if score $item.id iv matches 12 run data merge storage bf:iv {id:"minecraft:leather_boots",name:"[護]革靴",lore:{"text":"装備アイテム"},defence:1}
 execute if score $item.id iv matches 50.. run function lobby:item_viewer/display/item_display/id_get_50..
+execute unless data storage bf:iv resource_cost run data merge storage bf:iv {resource_cost:0}
+execute unless data storage bf:iv resource_add run data merge storage bf:iv {resource_add:0}
+execute unless data storage bf:iv durability run data merge storage bf:iv {durability:0}
+execute unless data storage bf:iv damage run data merge storage bf:iv {damage:0}
+execute unless data storage bf:iv special_effect run data merge storage bf:iv {special_effect:0}
+execute unless data storage bf:iv defence run data merge storage bf:iv {defence:0}
