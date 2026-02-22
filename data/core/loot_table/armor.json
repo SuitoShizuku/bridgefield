@@ -21,7 +21,7 @@
                 },
                 "minecraft:custom_data": {
                   "armorId": "leather_helmet",
-                  "armorDefnce": "1"
+                  "armorDefense": "1"
                 },
                 "minecraft:lore": [
                   {
@@ -74,7 +74,7 @@
                 },
                 "minecraft:custom_data": {
                   "armorId": "leather_chest",
-                  "armorDefence": "3"
+                  "armorDefense": "3"
                 },
                 "minecraft:lore": [
                   {
@@ -127,7 +127,7 @@
                 },
                 "minecraft:custom_data": {
                   "armorId": "leather_legs",
-                  "armorDefnce": "2"
+                  "armorDefense": "2"
                 },
                 "minecraft:lore": [
                   {
@@ -180,7 +180,7 @@
                 },
                 "minecraft:custom_data": {
                   "armorId": "leather_boots",
-                  "armorDefence": "1"
+                  "armorDefense": "1"
                 },
                 "minecraft:lore": [
                   {

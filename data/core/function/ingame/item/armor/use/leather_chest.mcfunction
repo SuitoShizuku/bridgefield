@@ -1,0 +1,1 @@
+item replace entity @s armor.chest with leather_chestplate[enchantments={"core:armor":1}] 1
