@@ -1,1 +1,0 @@
-$execute as @a at @s if entity @s[nbt={UUID:$(player)}] run tellraw @s {"text":"a"}
