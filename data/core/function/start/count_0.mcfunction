@@ -25,13 +25,13 @@ scoreboard players set @a status.build 20
 scoreboard players set @a defense 0
 scoreboard players set @a armor_count 0
 execute as @a run function core:ingame/hplink
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
+execute as @a run loot give @s loot core:root
 function core:ingame/round/start
