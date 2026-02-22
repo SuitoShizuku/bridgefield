@@ -6,4 +6,4 @@ execute if score $toggle iv matches 1 run return run scoreboard players set $tog
 scoreboard players set $toggle iv 1
 
 #切り替わった際のfunctionを実行
-execute if score $toggle iv matches 1 run function lobby:item_viewer/switch
+function lobby:item_viewer/switch
