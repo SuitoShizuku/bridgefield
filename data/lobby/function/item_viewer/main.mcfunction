@@ -5,5 +5,5 @@ execute unless score $button_interval iv matches 1.. if block -23 2 -5 minecraft
 execute unless score $button_interval iv matches 1.. if block -23 2 -5 minecraft:stone_button[powered=true,face=floor] run function lobby:item_viewer/switch
 
 #ロビーのボタンが元に戻るとインターバルがリセット
-execute if block -22 2 -5 minecraft:stone_button[powered=false] run scoreboard players set $button_interval iv 0
+execute if block -23 2 -5 minecraft:stone_button[powered=false] run scoreboard players set $button_interval iv 0
 
