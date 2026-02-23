@@ -18,7 +18,7 @@ bossbar set turn_timer_other visible true
 
 function core:stage/gen/
 scoreboard players set $round bf 0
-clear @a
+clear @a[tag=!noInvClear]
 scoreboard players set @a status.hp 40
 scoreboard players set @a status.mp 20
 scoreboard players set @a status.build 20
