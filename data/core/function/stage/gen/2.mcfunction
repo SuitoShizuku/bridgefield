@@ -3,11 +3,11 @@ fill 128 38 152 74 3 98 air
 clone 73 -4 97 129 -2 153 73 0 97 strict
 
 
-place template core:map/2/island_0 ~-22 ~4 ~-22
+place template core:map/2/island_r ~-18 ~4 ~-22 clockwise_90
 place template core:map/2/island_0 ~-12 ~4 ~-22
 place template core:map/2/island_0 ~-2 ~4 ~-22
 place template core:map/2/island_0 ~8 ~4 ~-22
-place template core:map/2/island_0 ~18 ~4 ~-22
+place template core:map/2/island_r ~22 ~4 ~-18 180
 
 place template core:map/2/island_0 ~-22 ~4 ~-12
 place template core:map/2/island_5 ~-12 ~4 ~-12
@@ -27,11 +27,11 @@ place template core:map/2/island_4 ~-2 ~4 ~8
 place template core:map/2/island_6 ~8 ~4 ~8
 place template core:map/2/island_0 ~18 ~4 ~8
 
-place template core:map/2/island_0 ~-22 ~4 ~18
+place template core:map/2/island_r ~-22 ~4 ~18 none
 place template core:map/2/island_0 ~-12 ~4 ~18
 place template core:map/2/island_0 ~-2 ~4 ~18
 place template core:map/2/island_0 ~8 ~4 ~18
-place template core:map/2/island_0 ~18 ~4 ~18
+place template core:map/2/island_r ~18 ~4 ~22 counterclockwise_90
 
 execute as @e[tag=game.interact.bridge] run data remove entity @s interaction
 
