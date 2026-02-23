@@ -1,5 +1,5 @@
 setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
-data modify entity @n[type=text_display,tag=lobby.text.start] text set value [{translate:"bf.interact.start",fallback:"右クリックでスタート"}]
+data modify entity @n[type=text_display,tag=lobby.text.start] text set value [{translate:"bf.interact.start",fallback:"右クリックで\nゲームスタート"}]
 scoreboard players set $ready bf 0
 schedule clear core:start/count_0
 schedule clear core:start/count_1
