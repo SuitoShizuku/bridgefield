@@ -1,5 +1,6 @@
 {
     "bf.turn": "%sターン",
+    "bf.round": "%sラウンド",
     "bf.tick": "%s/20秒",
     "bf.second": "%s秒",
     "bf.minute": "%s分",
