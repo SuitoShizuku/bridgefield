@@ -25,5 +25,6 @@ function lobby:credit/main
 function lobby:minigame/slot/main
 function lobby:item_viewer/main
 
-# プレビューエフェクト
+# マッププレビュー
 execute positioned 101 32 75 run function lobby:settings/maps/preview/effect/2
+function lobby:settings/maps/preview/return
