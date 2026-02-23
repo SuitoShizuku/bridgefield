@@ -21,6 +21,8 @@ execute unless score $stage bf matches -2147483648..2147483647 run scoreboard pl
 execute unless score $turn_time bf matches -2147483648..2147483647 run scoreboard players set $turn_time bf 400
 # ゲームモード
 execute unless score $gamemode bf matches -2147483648..2147483647 run scoreboard players set $gamemode bf 1
+# 定数
+scoreboard players set #20 bf 20
 
 # ゲーム離脱検知用
 scoreboard objectives add leave custom:leave_game
