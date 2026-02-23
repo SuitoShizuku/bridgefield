@@ -45,7 +45,8 @@ summon minecraft:text_display 23.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translat
 summon minecraft:text_display 23.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.white",fallback:"白チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 
 # 設定
-summon minecraft:text_display 0.5 4 -20.001 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
+summon minecraft:text_display 0.5 4 -20.01 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
+summon text_display 0.5 2.5 -25.5 {Tags:["lobby","lobby.text.settings.description"],text:[{translate:"bf.lobby.settings.description",fallback:"各設定のテキストを\n%1$s・%2$sで変更する。\n（F3+%3$sで当たり判定を表示）",with:[{keybind:"key.use"},{keybind:"key.attack"},{keybind:"key.debug.showHitboxes"}]}],billboard:"vertical",brightness:{block:15,sky:15}}
 ## 数値系
 summon minecraft:text_display -3.999 3.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.value",fallback:"%1$sで加算\n%2$sで減算",with:[{keybind:"key.use"},{keybind:"key.attack"}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.5f,1.5f,1.5f]}}
 summon minecraft:text_display -3.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.turn_time",fallback:"1ターン毎\nの時間"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}

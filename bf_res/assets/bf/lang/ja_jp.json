@@ -127,6 +127,7 @@
     "bf.lobby.teams.white": "白チームで予約",
 
     "bf.lobby.settings.title": "全体設定",
+    "bf.lobby.settings.description": "各設定のテキストを\n%1$s・%2$sで変更する。\n（F3+%3$sで当たり判定を表示）",
     "bf.lobby.settings.value": "%1$sで加算\n%2$sで減算",
     "bf.lobby.settings.turn_time": "1ターン毎\nの時間",
     "bf.lobby.settings.ef": "終末の時",
