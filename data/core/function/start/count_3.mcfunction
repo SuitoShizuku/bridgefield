@@ -1,3 +1,3 @@
 title @a title ""
-title @a subtitle {translate:"bf.game.countdown",with:["3"],fallback:"%s秒後に始まります。"}
+title @a subtitle {translate:"bf.title.countdown",with:["3"],fallback:"%s秒後に始まります。"}
 playsound block.note_block.harp master @a ~ ~ ~ 20 1.5 1

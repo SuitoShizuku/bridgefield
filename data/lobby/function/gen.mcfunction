@@ -1,7 +1,7 @@
 kill @e[tag=lobby]
 # ゲーム開始インタラクト
 summon minecraft:interaction 0 2 5.4999 {"height": 1,"width": 1,"Tags": ["lobby","lobby.interact.start"]}
-summon minecraft:text_display 0 2.5 4.999 {"Tags": ["lobby","lobby.text.start"],"text":[{translate:"bf.lobby.start",fallback:"右クリックでスタート"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
+summon minecraft:text_display 0 2.5 4.999 {"Tags": ["lobby","lobby.text.start"],"text":[{translate:"bf.interact.start",fallback:"右クリックでスタート"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
 setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
 
 # チーム割当
@@ -28,8 +28,11 @@ summon minecraft:text_display 0.5 4 -20.0 {"Tags": ["lobby"],"text":[{translate:
 ## 数値系
 summon minecraft:text_display -3.999 3.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.value",fallback:"%1$sで加算\n%2$sで減算",with:[{keybind:"key.use"},{keybind:"key.attack"}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.5f,1.5f,1.5f]}}
 summon minecraft:text_display -3.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.turn_time",fallback:"1ターン毎\nの時間"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
+summon minecraft:text_display -3.999 2.4 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.turn_time"],"text":[{translate:"bf.tick",fallback:"%s/20秒",with:[{score:{name:"$turn_time",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},line_width:50}
+execute as @n[tag=lobby.text.settings.turn_time,type=text_display] run function lobby:settings/lr_switch/turn_time/set_display
 summon minecraft:interaction -4.499 2.0 -25.5 {"Tags": ["lobby","lobby.interact.settings.turn_time","lobby.interact.settings"]}
 summon minecraft:text_display -3.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.ef",fallback:"終末の時"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
+summon minecraft:text_display -3.999 2.4 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.ef"],"text":[{translate:"bf.turn",fallback:"%sターン",with:[{score:{name:"$EF",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:interaction -4.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings.ef","lobby.interact.settings"]}
 
 # アスレ
