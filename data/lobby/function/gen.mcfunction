@@ -24,16 +24,17 @@ summon minecraft:text_display 23.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translat
 summon minecraft:text_display 23.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.white",fallback:"白チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 
 # 設定
-summon minecraft:text_display 0.5 4 -20.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
+summon minecraft:text_display 0.5 4 -20.001 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
 ## 数値系
 summon minecraft:text_display -3.999 3.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.value",fallback:"%1$sで加算\n%2$sで減算",with:[{keybind:"key.use"},{keybind:"key.attack"}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.5f,1.5f,1.5f]}}
 summon minecraft:text_display -3.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.turn_time",fallback:"1ターン毎\nの時間"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
-summon minecraft:text_display -3.999 2.4 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.turn_time"],"text":[{translate:"bf.tick",fallback:"%s/20秒",with:[{score:{name:"$turn_time",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},line_width:50}
+summon minecraft:text_display -3.999 2.2 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.turn_time"],"text":[{translate:"bf.tick",fallback:"%s/20秒",with:[{score:{name:"$turn_time",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},line_width:50}
 execute as @n[tag=lobby.text.settings.turn_time,type=text_display] run function lobby:settings/lr_switch/turn_time/set_display
-summon minecraft:interaction -4.499 2.0 -25.5 {"Tags": ["lobby","lobby.interact.settings.turn_time","lobby.interact.settings"]}
+summon minecraft:interaction -4.499 2.0 -25.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.turn_time"]}
+
 summon minecraft:text_display -3.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.ef",fallback:"終末の時"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display -3.999 2.4 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.ef"],"text":[{translate:"bf.turn",fallback:"%sターン",with:[{score:{name:"$EF",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
-summon minecraft:interaction -4.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings.ef","lobby.interact.settings"]}
+summon minecraft:interaction -4.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.ef"]}
 
 # アスレ
 summon minecraft:happy_ghast -21 1 3 {"NoAI":true,"Silent":true,"Invulnerable":true,"Tags":["lobby","asr"],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"amplifier":0,"ambient":true,"show_particles":false}],"attributes":[{"base":0.25,"id":"minecraft:scale"}],"Passengers":[{"id":"minecraft:block_display","transformation":{"left_rotation":[0.0,0.0,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"scale":[1.0,0.1,1.0],"translation":[-0.5,-0.1,-0.92]},"block_state":{Name:"glass"},"Tags":["lobby","asr"],"brightness":{"block":15,"sky":15}}]}
