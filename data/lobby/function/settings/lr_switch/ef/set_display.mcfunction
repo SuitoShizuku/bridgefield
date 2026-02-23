@@ -1,0 +1,1 @@
+data modify entity @s text set value [{translate:"bf.turn",fallback:"%sターン",with:[{score:{name:"$EF",objective:"bf"}}]}]
