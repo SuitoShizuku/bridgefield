@@ -57,6 +57,12 @@ summon minecraft:text_display -3.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.set
 summon minecraft:text_display -3.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.ef"],"text":[{translate:"bf.round",fallback:"%sラウンド",with:[{score:{name:"$EF",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:interaction -4.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.ef"]}
 
+summon minecraft:interaction 5.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.day"]}
+summon minecraft:text_display 4.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.day",fallback:"時間帯設定"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+summon minecraft:text_display 4.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.day"],"text":[{translate:"bf.noon",fallback:"昼"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+function lobby:settings/toggle/day/set_display
+
+
 # アスレ
 summon minecraft:happy_ghast -21 1 3 {"NoAI":true,"Silent":true,"Invulnerable":true,"Tags":["lobby","asr"],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"amplifier":0,"ambient":true,"show_particles":false}],"attributes":[{"base":0.25,"id":"minecraft:scale"}],"Passengers":[{"id":"minecraft:block_display","transformation":{"left_rotation":[0.0,0.0,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"scale":[1.0,0.1,1.0],"translation":[-0.5,-0.1,-0.92]},"block_state":{Name:"glass"},"Tags":["lobby","asr"],"brightness":{"block":15,"sky":15}}]}
 summon minecraft:happy_ghast -21 1 4 {"NoAI":true,"Silent":true,"Invulnerable":true,"Tags":["lobby","asr"],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"amplifier":0,"ambient":true,"show_particles":false}],"attributes":[{"base":0.25,"id":"minecraft:scale"}],"Passengers":[{"id":"minecraft:block_display","transformation":{"left_rotation":[0.0,0.0,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"scale":[1.0,0.1,1.0],"translation":[-0.5,-0.1,-0.92]},"block_state":{Name:"glass"},"Tags":["lobby","asr"],"brightness":{"block":15,"sky":15}}]}

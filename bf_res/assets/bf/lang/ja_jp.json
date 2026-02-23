@@ -129,6 +129,10 @@
     "bf.lobby.settings.title": "全体設定",
     "bf.lobby.settings.value": "%1$sで加算\n%2$sで減算",
     "bf.lobby.settings.turn_time": "1ターン毎\nの時間",
-    "bf.lobby.settings.ef": "終末の時"
+    "bf.lobby.settings.ef": "終末の時",
+    "bf.lobby.settings.day": "時間帯設定",
+    "bf.noon": "昼",
+    "bf.evening": "夕",
+    "bf.midnight": "夜"
 
 }
