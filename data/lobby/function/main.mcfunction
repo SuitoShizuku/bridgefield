@@ -24,3 +24,6 @@ gamemode adventure @a[gamemode=spectator]
 function lobby:credit/main
 function lobby:minigame/slot/main
 function lobby:item_viewer/main
+
+# プレビューエフェクト
+execute positioned 101 32 75 run function lobby:settings/maps/preview/effect/2

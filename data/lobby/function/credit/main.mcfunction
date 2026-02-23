@@ -14,7 +14,7 @@ execute if score $lobby.credit bf matches 78 run function lobby:credit/write_use
     id:"show_text",onclick:[{"text":"Minecraft: zKtn\nX: ",color:white,underlined:false},{"text":"@SuitoShizuku",click_event:{action:"open_url",url:"https://x.com/SuitoShizuku"},color:blue,underlined:true},{"text":"\nHP: ",color:white,underlined:false},{"text":"https://links.suitomizu.com",click_event:{action:"open_url",url:"https://links.suitomizu.com"},color:blue,underlined:true}]}
 
 execute if score $lobby.credit bf matches 120 run function lobby:credit/write {text:"コマンド",bold:false,unl:false,color:white,scale:1.4,width:0,height:0,id:"",onclick:{}}
-execute if score $lobby.credit bf matches 128 run function lobby:credit/write {text:"SuitoShizuku",bold:false,unl:false,color:white,scale:1.0,width:0.5,height:0.25,UUID:[I;1209038513,573722363,-1165139105,656062998],\
+execute if score $lobby.credit bf matches 128 run function lobby:credit/write_user {text:"SuitoShizuku",bold:false,unl:false,color:white,scale:1.0,width:0.5,height:0.25,UUID:[I;1209038513,573722363,-1165139105,656062998],\
     id:"show_text",onclick:[{"text":"Minecraft: zKtn\nX: ",color:white,underlined:false},{"text":"@SuitoShizuku",click_event:{action:"open_url",url:"https://x.com/SuitoShizuku"},color:blue,underlined:true},{"text":"\nHP: ",color:white,underlined:false},{"text":"https://links.suitomizu.com",click_event:{action:"open_url",url:"https://links.suitomizu.com"},color:blue,underlined:true}]}
 execute if score $lobby.credit bf matches 136 run function lobby:credit/write_user {text:"AASAsan",bold:false,unl:false,color:white,scale:1.0,width:0,height:0,id:"",onclick:{},UUID:[I;-234336003,-365148894,-1953141326,-1225552412]}
 
