@@ -17,6 +17,7 @@ execute unless score $now bf matches -2147483648..2147483647 run scoreboard play
 execute unless score $ready bf matches -2147483648..2147483647 run scoreboard players set $ready bf 0
 # ステージ
 execute unless score $stage bf matches -2147483648..2147483647 run scoreboard players set $stage bf 1
+execute unless score $stage.max bf matches -2147483648..2147483647 run scoreboard players set $stage.max bf 2
 # タイマー
 execute unless score $turn_time bf matches -2147483648..2147483647 run scoreboard players set $turn_time bf 400
 # ゲームモード

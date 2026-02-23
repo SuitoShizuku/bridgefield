@@ -1,8 +1,17 @@
 kill @e[tag=lobby]
 # ゲーム開始インタラクト
 summon minecraft:interaction 0 2 5.4999 {"height": 1,"width": 1,"Tags": ["lobby","lobby.interact.start"]}
-summon minecraft:text_display 0 2.5 4.999 {"Tags": ["lobby","lobby.text.start"],"text":[{translate:"bf.interact.start",fallback:"右クリックでスタート"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
+summon minecraft:text_display 0 2.25 4.999 {"Tags": ["lobby","lobby.text.start"],"text":[{translate:"bf.interact.start",fallback:"右クリックで\nゲームスタート"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
 setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
+
+# マップセレクター
+data merge storage bf:maps {list:[{monument:"grass_block",title:{translate:"bf.map.1",fallback:"「クラシック」"},credit:"SuitoShizuku"},{monument:"sandstone",title:{translate:"bf.map.2",fallback:"「ミカエルマップ」"},credit:"Michaelnear"}]}
+summon minecraft:interaction 0 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.center"]}
+summon minecraft:interaction -0.2 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.right"]}
+summon minecraft:interaction 1.2 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.left"]}
+summon minecraft:text_display 0 4.2 4.999 {"Tags": ["lobby","lobby.text.map"],"text":[{translate:"bf.interact.map",fallback:"マップ選択"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.5f,1.5f,1.5f]}}
+summon minecraft:text_display 0 3.9 4.999 {"Tags": ["lobby","lobby.text.map.title"],"text":[{translate:"bf.map.1",fallback:"「クラシック」"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
+summon block_display 0 3.15 5.3 {Tags:["lobby","lobby.monument.map"],block_state:{Name:"stone"},"transformation":{"left_rotation":[0.0,2.5,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"scale":[0.6,0.6,0.6],"translation":[0.0,0.0,0.0]},brightness:{"block":15,"sky":15}}
 
 # チーム割当
 summon minecraft:text_display 4.999 4 0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.title",fallback:"チーム割当"}],"billboard":"fixed",brightness:{block:15,sky:15},"Rotation":[90,0],transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}

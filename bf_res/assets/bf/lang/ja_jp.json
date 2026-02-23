@@ -16,8 +16,11 @@
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",
 
-    "bf.interact.start": "右クリックでスタート",
-    "bf.interact.start.cancel": "右クリックでキャンセル",
+    "bf.interact.start": "右クリックで\nゲームスタート",
+    "bf.interact.start.cancel": "右クリックで\nキャンセル",
+    "bf.interact.map": "マップ選択",
+    "bf.map.1": "「クラシック」",
+    "bf.map.2": "「ミカエルマップ」",
 
     "bf.bossbar.mytimer.title": "あなたのターン(%sラウンド目)",
     "bf.bossbar.timer.title": "%1$sのターン(%2$sラウンド目)",
