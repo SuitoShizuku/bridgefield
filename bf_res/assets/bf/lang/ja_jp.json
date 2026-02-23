@@ -19,6 +19,9 @@
     "bf.interact.start": "右クリックで\nゲームスタート",
     "bf.interact.start.cancel": "右クリックで\nキャンセル",
     "bf.interact.map": "マップ選択",
+    "bf.interact.map.sub_back": "前のマップ",
+    "bf.interact.map.sub_preview": "マップを見る",
+    "bf.interact.map.sub_next": "次のマップ",
     "bf.map.1": "「クラシック」",
     "bf.map.2": "「アポミナリア」",
 
