@@ -18,7 +18,7 @@ summon block_display 0 3.15 5.3 {Tags:["lobby","lobby.monument.map"],block_state
 function lobby:settings/maps/monument
 # マッププレビュー
 summon shulker 101 30 79 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
-summon shulker 100 30 78 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
+summon shulker 100 30 79 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
 summon shulker 100 30 78 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
 
 # チーム割当
