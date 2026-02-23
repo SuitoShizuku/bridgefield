@@ -16,6 +16,10 @@ summon minecraft:text_display 0 4.2 4.999 {"Tags": ["lobby","lobby.text.map"],"t
 summon minecraft:text_display 0 3.9 4.999 {"Tags": ["lobby","lobby.text.map.title"],"text":[{translate:"bf.map.1",fallback:"「クラシック」"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
 summon block_display 0 3.15 5.3 {Tags:["lobby","lobby.monument.map"],block_state:{Name:"stone"},"transformation":{"left_rotation":[0.0,2.5,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"scale":[0.6,0.6,0.6],"translation":[0.0,0.0,0.0]},brightness:{"block":15,"sky":15}}
 function lobby:settings/maps/monument
+# マッププレビュー
+summon shulker 101 30 79 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
+summon shulker 100 30 78 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
+summon shulker 100 30 78 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGravity":true,"attributes":[{"id":"minecraft:scale","base":0.5}],"active_effects":[{"id":"minecraft:invisibility","duration":-1,"show_particles":false}],"Silent":true,"Invulnerable":true}
 
 # チーム割当
 summon minecraft:text_display 4.999 4 0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.title",fallback:"チーム割当"}],"billboard":"fixed",brightness:{block:15,sky:15},"Rotation":[90,0],transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
