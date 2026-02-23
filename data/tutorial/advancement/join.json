@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "rewards": {
+        "function": "tutorial:join"
+    }
+}
