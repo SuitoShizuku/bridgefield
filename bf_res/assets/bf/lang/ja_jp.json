@@ -47,6 +47,7 @@
     "bf.item.consume": "消費アイテム",
     "bf.item.artifact": "アーティファクト",
     "bf.item.damage": "ダメージ: %s",
+    "bf.item.true_damage": "防御貫通ダメージ: %s",
     "bf.item.armordef": "防御力: %s",
     "bf.item.bridgecost": "資源値コスト: %s",
     "bf.item.bridgedurability": "橋の耐久値: %s",
