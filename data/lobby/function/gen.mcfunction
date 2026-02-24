@@ -27,7 +27,7 @@ summon shulker 100 30 78 {Tags:["lobby","lobby.map.preview"],"NoAI":true,"NoGrav
 
 # チーム割当
 summon minecraft:text_display 4.999 4 0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.title",fallback:"チーム割当"}],"billboard":"fixed",brightness:{block:15,sky:15},"Rotation":[90,0],transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
-summon minecraft:text_display 7.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.join",fallback:"ゲームに参加する\nランダムチームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 7.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.join",fallback:"ランダムチームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 summon minecraft:text_display 7.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.leave",fallback:"観戦者になる"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 summon minecraft:block_display 9.0 4.0 -1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:10,sky:0}}
 summon minecraft:block_display 9.0 4.0 0.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:10,sky:0}}
@@ -35,14 +35,14 @@ summon minecraft:block_display 9.0 4.0 1.0 {"block_state":{"Name":"spruce_fence"
 summon minecraft:block_display 25.0 4.0 -1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:0}}
 summon minecraft:block_display 25.0 4.0 0.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:0}}
 summon minecraft:block_display 25.0 4.0 1.0 {"block_state":{"Name":"spruce_fence",Properties:{north:"true",south:"true"}},Tags:["lobby","lobby.block_display"],brightness:{block:14,sky:0}}
-summon minecraft:text_display 11.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.red",fallback:"赤チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 11.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.blue",fallback:"青チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 15.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.yellow",fallback:"黄チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 15.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.green",fallback:"緑チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 19.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.orange",fallback:"橙チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 19.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.pink",fallback:"桃チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 23.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.cyan",fallback:"水チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
-summon minecraft:text_display 23.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.white",fallback:"白チームで予約"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 11.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.red",fallback:"赤チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 11.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.blue",fallback:"青チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 15.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.yellow",fallback:"黄チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 15.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.green",fallback:"緑チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 19.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.orange",fallback:"橙チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 19.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.pink",fallback:"桃チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 23.5 3.0 -3.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.cyan",fallback:"水チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
+summon minecraft:text_display 23.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.teams.white",fallback:"白チームで参加"}],"billboard":"vertical",brightness:{block:15,sky:15}}
 
 # 設定
 summon minecraft:text_display 0.5 4 -19.999 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}

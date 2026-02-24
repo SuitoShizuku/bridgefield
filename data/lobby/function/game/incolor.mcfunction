@@ -8,6 +8,7 @@ tag @s remove cyan
 tag @s remove white
 $tag @s add $(color)
 tag @s add setcolor
+team join entrant
 effect clear @s
 effect give @s resistance infinite 4 true
 effect give @s saturation infinite 0 true
