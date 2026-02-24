@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "rc": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"tutorial\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rc"
+    ]
+  ],
+  "rewards": {
+    "function": "tutorial:bridge/place"
+  }
+}

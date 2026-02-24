@@ -260,7 +260,7 @@
                   },
                   {
                     "translate": "bf.item.bridge.dark_log.comment",
-                    "fallback": "上に曲がった丸太",
+                    "fallback": "向上芯がある",
                     "color": "gray"
                   }
                 ]

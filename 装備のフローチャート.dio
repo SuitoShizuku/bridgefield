@@ -1,0 +1,131 @@
+<mxfile host="65bd71144e">
+    <diagram id="H74-v0VotdzbnGy0YAgm" name="ページ1">
+        <mxGraphModel dx="1403" dy="1388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1000" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" value="攻撃を&lt;div&gt;受ける&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=48;fillColor=#FFCCCC;" vertex="1" parent="1">
+                    <mxGeometry x="1848" y="42" width="209.99" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="防御力をリセット" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1783" y="628" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2113.34" y="443" as="sourcePoint"/>
+                        <mxPoint x="2371.34" y="418" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1951.3400000000001" y="548" as="sourcePoint"/>
+                        <mxPoint x="1879.67" y="478" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="防御&lt;b&gt;可能&lt;/b&gt;ダメージがある" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;fontSize=24;fillColor=#E5CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="1783" y="228" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;(防御可能)ダメージを&lt;/span&gt;&lt;div&gt;防御力で軽減&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1783" y="428" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2533.34" y="523" as="sourcePoint"/>
+                        <mxPoint x="2583" y="712" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2370" y="298"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="28" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1579.67" y="538" as="sourcePoint"/>
+                        <mxPoint x="1709.67" y="728" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="2153" y="278" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1918" y="368" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="ダメージを受ける" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="2199.67" y="428" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font&gt;(相手が)&lt;/font&gt;&lt;div&gt;&lt;font&gt;ターンエンド&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=34;fillColor=#CCE5FF;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="2264.6800000000003" y="628" width="209.99" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="40" target="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2759.34" y="420" as="sourcePoint"/>
+                        <mxPoint x="2759.34" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="防具&lt;div&gt;ゲット&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=48;fillColor=#FFCCCC;" vertex="1" parent="1">
+                    <mxGeometry x="1425" y="28" width="209.99" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="49">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1524.5300000000007" y="178" as="sourcePoint"/>
+                        <mxPoint x="1530.0100000000002" y="228" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="誰のターンでも" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1440.01" y="168" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="使用すると、&lt;br&gt;防御力を加算" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="228" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="使用した防具アイテムを消す" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="628" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;u&gt;装備の層数&lt;/u&gt;分、&lt;div&gt;アイテムをリロール&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1783" y="832" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1803" y="1008" as="sourcePoint"/>
+                        <mxPoint x="1443" y="882" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;u&gt;装備の層数&lt;/u&gt;を+1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=24;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="428" width="340" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="14" target="51">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1663" y="768" as="sourcePoint"/>
+                        <mxPoint x="1663" y="828" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="55" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1545.0100000000002" y="1038" as="sourcePoint"/>
+                        <mxPoint x="1545.0100000000002" y="1102" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;strokeWidth=4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="49" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1665.0100000000002" y="1008" as="sourcePoint"/>
+                        <mxPoint x="1665.0100000000002" y="1072" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="50" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1460" y="892" as="sourcePoint"/>
+                        <mxPoint x="1537" y="892" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1740" y="698"/>
+                            <mxPoint x="1740" y="105"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="敵のターンで" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1660" y="168" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="(つまり防御貫通ダメージのみ)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="2199.67" y="368" width="320" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

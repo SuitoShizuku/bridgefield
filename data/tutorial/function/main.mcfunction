@@ -1,0 +1,1 @@
+execute as @e[tag=tutorial,type=interaction] at @s run function tutorial:bridge/tick

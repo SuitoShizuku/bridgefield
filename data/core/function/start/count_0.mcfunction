@@ -1,16 +1,16 @@
 title @a title ""
 title @a subtitle {translate:"bf.game.countend",fallback:"スタート"}
-playsound entity.player.levelup master @a ~ ~ ~ 1 1.2 1
+playsound entity.player.levelup master @a ~ ~ ~ 20 1.2 1
 execute as @a run attribute @s knockback_resistance modifier add bf 10 add_value
 
 setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
-data modify entity @n[type=text_display,tag=lobby.text.start] text set value [{translate:"bf.lobby.start",fallback:"右クリックでスタート"}]
+data modify entity @n[type=text_display,tag=lobby.text.start] text set value [{translate:"bf.interact.start",fallback:"右クリックで\nゲームスタート"}]
 scoreboard players set $ready bf 0
 
 scoreboard players set @a initiative 0
 scoreboard players set $initiative_root bf 0
 function core:start/set_initiative
-function core:start/set_team_1
+function core:start/set_team
 scoreboard players set $now bf 2
 
 bossbar set turn_timer_my visible true
@@ -18,20 +18,20 @@ bossbar set turn_timer_other visible true
 
 function core:stage/gen/
 scoreboard players set $round bf 0
-clear @a
+clear @a[tag=!noInvClear]
 scoreboard players set @a status.hp 40
 scoreboard players set @a status.mp 20
 scoreboard players set @a status.build 20
 scoreboard players set @a defense 0
 scoreboard players set @a armor_count 0
-execute as @a run function core:ingame/hplink
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
-loot give @a loot core:root
+execute as @a[tag=!tutorial.runner] run function core:ingame/hplink
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
+execute as @a[tag=!tutorial.runner] run loot give @s loot core:root
 function core:ingame/round/start

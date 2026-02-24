@@ -15,7 +15,7 @@
               "components": {
                 "minecraft:item_model": "minecraft:nether_brick",
                 "minecraft:item_name": {
-                  "translate": "bf.item.weapon.brick_3",
+                  "translate": "bf.item.consume.brick_3",
                   "fallback": "[使]建築土台 - 3級",
                   "color": "gray"
                 },
@@ -36,7 +36,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume",
+                    "translate": "bf.item.consume.brick_3.ef",
                     "fallback": "使用者の資源値§a+5",
                     "color": "white"
                   },
@@ -66,7 +66,7 @@
               "components": {
                 "minecraft:item_model": "minecraft:brick",
                 "minecraft:item_name": {
-                  "translate": "bf.item.weapon.brick_2",
+                  "translate": "bf.item.consume.brick_2",
                   "fallback": "[使]建築土台 - 2級",
                   "color": "gray"
                 },
@@ -87,7 +87,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume",
+                    "translate": "bf.item.consume.brick_2.ef",
                     "fallback": "使用者の資源値§a+10",
                     "color": "white"
                   },
@@ -117,7 +117,7 @@
               "components": {
                 "minecraft:item_model": "minecraft:resin_brick",
                 "minecraft:item_name": {
-                  "translate": "bf.item.weapon.brick_1",
+                  "translate": "bf.item.consume.brick_1",
                   "fallback": "[使]建築土台 - 1級",
                   "color": "light_purple"
                 },
@@ -138,7 +138,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume",
+                    "translate": "bf.item.consume.brick_1.ef",
                     "fallback": "使用者の資源値§a+20",
                     "color": "white"
                   },

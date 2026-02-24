@@ -15,7 +15,7 @@
               "components": {
                 "minecraft:item_model": "minecraft:wooden_sword",
                 "minecraft:item_name": {
-                  "translate": "bf.item.weapon.wood_sword",
+                  "translate": "bf.item.melee.wood_sword",
                   "fallback": "[攻]木刀",
                   "color": "gray"
                 },
@@ -26,13 +26,13 @@
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "bf.item.weapon.melee",
+                    "translate": "bf.item.melee",
                     "fallback": "近接武器",
                     "color": "white",
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridgecost",
+                    "translate": "bf.item.damage",
                     "fallback": "ダメージ: %s",
                     "with": [
                       {
@@ -50,7 +50,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.weapon.wood_sword.comment",
+                    "translate": "bf.item.melee.wood_sword.special",
                     "fallback": "攻撃者が%1$sの場合、相手に%1$sを付与する",
                     "with": [
                       {
@@ -58,6 +58,7 @@
                         "fallback": "§c火傷"
                       }
                     ],
+                    "italic": false,
                     "color": "white"
                   },
                   {
@@ -66,7 +67,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.weapon.wood_sword.comment",
+                    "translate": "bf.item.melee.wood_sword.comment",
                     "fallback": "お土産",
                     "color": "gray"
                   }
@@ -97,7 +98,7 @@
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "bf.item.weapon.melee",
+                    "translate": "bf.item.melee",
                     "fallback": "近接武器",
                     "color": "white",
                     "italic": false

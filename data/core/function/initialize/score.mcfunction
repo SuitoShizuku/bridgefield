@@ -17,10 +17,18 @@ execute unless score $now bf matches -2147483648..2147483647 run scoreboard play
 execute unless score $ready bf matches -2147483648..2147483647 run scoreboard players set $ready bf 0
 # ステージ
 execute unless score $stage bf matches -2147483648..2147483647 run scoreboard players set $stage bf 1
+execute unless score $stage.max bf matches -2147483648..2147483647 run scoreboard players set $stage.max bf 2
 # タイマー
 execute unless score $turn_time bf matches -2147483648..2147483647 run scoreboard players set $turn_time bf 400
 # ゲームモード
 execute unless score $gamemode bf matches -2147483648..2147483647 run scoreboard players set $gamemode bf 1
+# 終末の時
+execute unless score $EF bf matches -2147483648..2147483647 run scoreboard players set $EF bf 100
+# 時間帯
+execute unless score $day bf matches -2147483648..2147483647 run scoreboard players set $day bf 1
+# 定数
+scoreboard players set #20 bf 20
+scoreboard players set #60 bf 60
 
 # ゲーム離脱検知用
 scoreboard objectives add leave custom:leave_game

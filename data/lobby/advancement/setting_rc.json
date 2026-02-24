@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "rc": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"lobby.interact.settings\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rc"
+    ]
+  ],
+  "rewards": {
+    "function": "lobby:settings/rc"
+  }
+}
