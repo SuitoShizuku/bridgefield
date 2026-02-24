@@ -20,3 +20,5 @@ execute unless entity @n[tag=lobby.minigame.slot.2,type=marker] as @e[type=item_
 execute unless entity @n[tag=lobby.minigame.slot.3,type=marker] as @e[type=item_display,tag=lobby.minigame.slot.3] at @s align y run tp @s ~ ~0.5 ~
 
 execute as @e[type=item_display,tag=lobby.minigame.slot] at @s if block ~ ~ ~ air run kill @s
+
+execute unless entity @e[type=marker,tag=lobby.minigame.slot] run function lobby:minigame/slot/check
