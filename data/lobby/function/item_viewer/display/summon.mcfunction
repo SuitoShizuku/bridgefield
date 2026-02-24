@@ -8,7 +8,7 @@ summon minecraft:text_display -22 -0 -6 {Tags:["iv","iv.text.next","lobby","up"]
 summon minecraft:text_display -23.5 -0 -6 {Tags:["iv","iv.text.back","lobby","up"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
 
 #interaction召喚
-summon interaction -23 0.5 -6 {Tags:["iv","iv.interaction",up]}
+summon interaction -23 -0.5 -6 {Tags:["iv","iv.interaction",up]}
 #ディスプレイが下からニョッキってなるやつ
 execute as @e[tag=iv,tag=up] at @s run tp ~ ~2.5 ~ 
 
