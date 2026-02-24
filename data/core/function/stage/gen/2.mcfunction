@@ -7,7 +7,7 @@ place template core:map/2/island_r90 ~-22 ~4 ~-22
 place template core:map/2/island_0 ~-12 ~4 ~-22
 place template core:map/2/island_0 ~-2 ~4 ~-22
 place template core:map/2/island_0 ~8 ~4 ~-22
-place template core:map/2/island_r180 ~18 ~4 ~-22
+place template core:map/2/island_r270 ~18 ~4 ~-22
 
 place template core:map/2/island_0 ~-22 ~4 ~-12
 place template core:map/2/island_5 ~-12 ~4 ~-12
@@ -31,7 +31,7 @@ place template core:map/2/island_r0 ~-22 ~4 ~18
 place template core:map/2/island_0 ~-12 ~4 ~18
 place template core:map/2/island_0 ~-2 ~4 ~18
 place template core:map/2/island_0 ~8 ~4 ~18
-place template core:map/2/island_r270 ~18 ~4 ~18
+place template core:map/2/island_r180 ~18 ~4 ~18
 
 execute as @e[tag=game.interact.bridge] run data remove entity @s interaction
 
