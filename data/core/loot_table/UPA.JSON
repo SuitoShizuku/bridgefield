@@ -1,0 +1,84 @@
+{
+    "type": "minecraft:item",
+    "name": "stick",
+    "weight": 4,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:blaze_rod",
+                "minecraft:item_name": {
+                    "translate": "bf.item.melee.burned_stick",
+                    "fallback": "[攻]アツイ棒",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "weaponId": "burned_stick",
+                    "weaponDamage": "2",
+                    "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.melee",
+                        "fallback": "近接武器",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.damage",
+                        "fallback": "ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "2",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.true_damage",
+                        "fallback": "防御貫通ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "0",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.special",
+                        "fallback": "—特殊効果—————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.melee.burned_stick.special",
+                        "fallback": "ダメージを1以上与えた時、相手に%1$sを付与する",
+                        "with": [
+                            {
+                                "translate": "bf.effects.frostbite",
+                                "fallback": "§c火傷"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.melee.burned_stick.comment",
+                        "fallback": "寒",
+                        "color": "gray"
+                    }
+                ]
+            }
+        }
+    ]
+}
