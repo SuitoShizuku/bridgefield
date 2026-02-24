@@ -3,7 +3,7 @@ fill 128 38 152 74 3 98 air
 clone 73 -4 97 129 -2 153 73 0 97 strict
 
 
-place template core:map/2/island_r90 ~-18 ~4 ~-22
+place template core:map/2/island_r90 ~-22 ~4 ~-22
 place template core:map/2/island_0 ~-12 ~4 ~-22
 place template core:map/2/island_0 ~-2 ~4 ~-22
 place template core:map/2/island_0 ~8 ~4 ~-22
