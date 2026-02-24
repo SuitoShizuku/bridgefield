@@ -80,10 +80,12 @@
         "minecraft:enchantments": {
           "core:distant": 1
         },
+        "unbreakable": {},
         "minecraft:enchantment_glint_override": false,
         "minecraft:tooltip_display": {
           "hidden_components": [
-            "minecraft:enchantments"
+            "minecraft:enchantments",
+            "attribute_modifiers"
           ]
         }
       }

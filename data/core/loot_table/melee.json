@@ -196,7 +196,7 @@
                 "minecraft:item_model": "minecraft:wooden_axe",
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.slowing_wooden_axe",
-                  "fallback": "[攻]`鈍化の斧 -木`",
+                  "fallback": "[攻]鈍化の斧 -木",
                   "color": "gray"
                 },
                 "minecraft:custom_data": {
@@ -262,7 +262,7 @@
                 "minecraft:item_model": "minecraft:stone_axe",
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.slowing_stone_axe",
-                  "fallback": "[攻]`鈍化の斧 -石`",
+                  "fallback": "[攻]鈍化の斧 -石",
                   "color": "gray"
                 },
                 "minecraft:custom_data": {

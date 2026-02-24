@@ -1,4 +1,5 @@
 kill @e[tag=lobby]
+
 # ゲーム開始インタラクト
 summon minecraft:interaction 0 2 5.4999 {"height": 1,"width": 1,"Tags": ["lobby","lobby.interact.start"]}
 summon minecraft:text_display 0 2.25 4.999 {"Tags": ["lobby","lobby.text.start"],"text":[{translate:"bf.interact.start",fallback:"右クリックで\nゲームスタート"}],"billboard":"fixed","Rotation":[180,0],brightness:{sky:15,block:15}}
