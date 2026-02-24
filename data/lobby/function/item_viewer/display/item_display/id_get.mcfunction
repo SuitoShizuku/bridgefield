@@ -18,7 +18,7 @@ data remove storage bf:iv defence
 #True_defence_damage 防御貫通ダメージ
 
 #
-$execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].id
+$execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_model"
 $execute positioned -20 -1 -7 run data modify storage bf:iv name set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_name"
 $execute positioned -20 -1 -7 run data modify storage bf:iv lore set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"
 

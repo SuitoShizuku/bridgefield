@@ -1,1 +1,1 @@
-tag @s remove frostbite
+tag @s remove burn
