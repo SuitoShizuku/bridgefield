@@ -30,7 +30,7 @@ data modify storage bf:iv lore6 set value {"text":"a"}
 #名前とid以外の要素が7個あるのでloreを7回取得マクロに[0]使えないのでlore0で
 $execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].id
 $execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_model"
-$execute positioned -20 -1 -7 run data modify storage bf:iv name set string block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].id 10 30
+$execute positioned -20 -1 -7 run data modify storage bf:iv name set string block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].id 10
 $execute positioned -20 -1 -7 run data modify storage bf:iv name set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_name"
 $execute positioned -20 -1 -7 run data modify storage bf:iv lore0 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"[0]
 $execute positioned -20 -1 -7 run data modify storage bf:iv lore1 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"[1]
