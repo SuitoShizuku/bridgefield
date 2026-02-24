@@ -8,8 +8,8 @@ summon minecraft:text_display -22 -0 -6 {Tags:["iv","iv.text.next","lobby","up"]
 summon minecraft:text_display -23.5 -0 -6 {Tags:["iv","iv.text.back","lobby","up"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
 
 #block_display召喚
-summon minecraft:block_display -23.5 6 -5.5 {Tags:["iv","down"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]},block_state:{Name:"minecraft:ochre_froglight"},Rotation:[-45f,0f]}
-summon minecraft:block_display -22 5.7 -5.5 {Tags:["iv","down"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f]},block_state:{Name:"minecraft:ochre_froglight"},Rotation:[-65f,0f]}
+summon minecraft:block_display -23.0 6 -5.5 {Tags:["iv","down"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[-0.5f,-0.5f,-0.5f]},block_state:{Name:"minecraft:ochre_froglight"},Rotation:[-45f,0f]}
+summon minecraft:block_display -22.0 5.7 -5.5 {Tags:["iv","down"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f],translation:[-0.5f,-0.5f,-0.5f]},block_state:{Name:"minecraft:ochre_froglight"},Rotation:[-65f,0f]}
 #interaction召喚
 summon interaction -23 -0.5 -6 {Tags:["iv","iv.interaction",up]}
 #ディスプレイが下からニョッキってなるやつ

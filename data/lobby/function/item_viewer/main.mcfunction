@@ -27,12 +27,6 @@ scoreboard players set $item.id.max iv 50
 execute as @n[type=text_display,tag=iv.text.back] if score $button.interval.left iv matches 0 run function lobby:item_viewer/text_color_back
 execute as @n[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 run function lobby:item_viewer/text_color_back
 
-#interactionクリック検知
-execute as @n[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run function lobby:item_viewer/description/executor_check with entity @s interaction
-#ここで途中　なんかfunction lobby:item_viewer/description/text with entity @n[type=interaction,tag=iv] interactionだと動くのに↑だと動かなくて悲しい！多分↑のexecuteに問題ある！
-#NBT削除
-execute as @n[type=interaction,tag=iv] at @s if data entity @s {interaction:{}} run data remove entity @s interaction
-
 #ボタン即戻し
 execute if score $button.interval iv matches 1 run setblock -23 2 -5 stone_button[face=floor,facing=north]
 execute if score $button.interval.right iv matches 1 run setblock -22 2 -5 warped_button[face=floor,facing=north]
