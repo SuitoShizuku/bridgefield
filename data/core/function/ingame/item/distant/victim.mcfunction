@@ -1,6 +1,6 @@
 tag @s add victim
 
-execute if entity @p[tag=attacker,tag=true_turn] run return run function core:ingame/item/distant/other_turn
+execute unless entity @p[tag=attacker,tag=true_turn] run return run function core:ingame/item/distant/other_turn
 
 function core:ingame/item/distant/weapon/ with entity @n[tag=projectile] item.components."minecraft:custom_data"
 loot give @p[tag=attacker] loot core:root
