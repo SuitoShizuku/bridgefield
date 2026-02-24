@@ -1,7 +1,14 @@
+#この仕組みめんどくさすぎる！泣く
 data remove storage bf:iv text
 data modify storage bf:iv text append value [{"text":"---------------------------","color":"gray"}]
-$data modify storage bf:iv text append value $(name)
-$data modify storage bf:iv text append value $(lore)
+$data modify storage bf:iv text append value [$(name)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
+$data modify storage bf:iv text append value [{"text":"\n"},$(lore)]
 #$execute unless data storage bf:iv {resource_cost:0} run data modify storage bf:iv text append value ["",{"text":"\n必要資源値 ","bold":true,"color":"dark_green"},"- ",{"text":"[","color":"gray"},{"text":"$(resource_cost)",color:"white"},{"text":"]","color":"gray"}]
 #$execute unless data storage bf:iv {durability:0} run data modify storage bf:iv text append value ["",{"text":"\n橋の耐久値 ","bold":true,"color":"dark_green"},"- ",{"text":"[","color":"gray"},{"text":"$(durability)",color:"white"},{"text":"]","color":"gray"}]
 #$execute unless data storage bf:iv {resource_add:0} run data modify storage bf:iv text append value ["",{"text":"\n使用者の資源値 ","bold":true,"color":"dark_green"},"- ",{"text":"[","color":"gray"},{"text":"+","color":"green"},{"text":"$(resource_add)",color:"white"},{"text":"]","color":"gray"}]

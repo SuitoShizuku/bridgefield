@@ -17,12 +17,17 @@ data remove storage bf:iv defence
 #defence 防御力
 #True_defence_damage 防御貫通ダメージ
 
-#
+#名前とid以外の要素が7個あるのでloreを7回取得マクロに[0]使えないのでlore0で
 $execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].id
 $execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_model"
 $execute positioned -20 -1 -7 run data modify storage bf:iv name set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_name"
-$execute positioned -20 -1 -7 run data modify storage bf:iv lore set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"
-
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore0 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"0
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore1 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"1
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore2 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"2
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore3 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"3
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore4 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"4
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore5 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"5
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore5 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"6
 
 #各アイテム追加　こっちの方が１コマンドで１つのアイテムの情報詰めれて順番も変えれるからこれにしたけどもっといいやり方があるかも、アイテムを更に大量追加となると2分探索に切り替えても良さそう,return混ぜて負荷軽減頑張るか、最後の方になると変わらないけど
 #execute if score $item.id iv matches 1 run data merge storage bf:iv {id:"minecraft:oak_log",name:"[橋]オークの木",lore:"建築資材",resource_cost:3,durability:3}
