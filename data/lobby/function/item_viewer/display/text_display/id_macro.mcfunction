@@ -1,1 +1,2 @@
-$data merge entity @n[tag=iv.text,type=minecraft:text_display] {text:$(name)}
+$execute if data storage bf:iv name.fallback run return run data merge entity @n[tag=iv.text,type=minecraft:text_display] {text:$(name)}
+$data merge entity @n[tag=iv.text,type=minecraft:text_display] {text:{"text":"$(name)"}}
