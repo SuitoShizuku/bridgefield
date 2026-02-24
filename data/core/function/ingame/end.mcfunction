@@ -28,6 +28,9 @@ bossbar set turn_timer_other visible false
 
 clear @a[tag=!noInvClear]
 
+execute as @a run function core:ingame/effect/debuff/burn/remove
+execute as @a run function core:ingame/effect/debuff/frostbite/remove
+
 effect clear @a
 effect give @a resistance infinite 4 true
 effect give @a saturation infinite 0 true

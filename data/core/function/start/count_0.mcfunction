@@ -16,6 +16,9 @@ scoreboard players set $now bf 2
 bossbar set turn_timer_my visible true
 bossbar set turn_timer_other visible true
 
+execute as @a run function core:ingame/effect/debuff/burn/remove
+execute as @a run function core:ingame/effect/debuff/frostbite/remove
+
 function core:stage/gen/
 scoreboard players set $round bf 0
 clear @a[tag=!noInvClear]

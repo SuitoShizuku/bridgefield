@@ -447,73 +447,7 @@
               }
             }
           ]
-        },
-        {
-    "type": "minecraft:item",
-    "name": "trident",
-    "weight": 4,
-    "conditions": [],
-    "functions": [
-        {
-            "function": "minecraft:set_components",
-            "components": {
-                "minecraft:item_model": "minecraft:clay_ball",
-                "minecraft:item_name": {
-                    "translate": "bf.item.distant.pebble",
-                    "fallback": "[投]小石",
-                    "color": "gray"
-                },
-                "minecraft:custom_data": {
-                    "weaponId": "pebble",
-                    "weaponDamage": "1",
-                    "weaponTrueDamage": "1"
-                },
-                "minecraft:lore": [
-                    {
-                        "translate": "bf.item.distant",
-                        "fallback": "投擲武器",
-                        "color": "white",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.damage",
-                        "fallback": "ダメージ: %s",
-                        "with": [
-                            {
-                                "text": "1",
-                                "color": "gold"
-                            }
-                        ],
-                        "color": "green",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.true_damage",
-                        "fallback": "防御貫通ダメージ: %s",
-                        "with": [
-                            {
-                                "text": "1",
-                                "color": "gold"
-                            }
-                        ],
-                        "color": "green",
-                        "italic": false
-                    },
-                    {
-                        "text": "——————————",
-                        "color": "gray",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.distant.pebble.comment",
-                        "fallback": "水切りは...できなさそう",
-                        "color": "gray"
-                    }
-                ]
-            }
         }
-    ]
-}
       ]
     }
   ],
