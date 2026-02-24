@@ -8,9 +8,9 @@ summon minecraft:text_display -22 -2.8 -6 {Tags:["iv","iv.text.next","lobby","up
 summon minecraft:text_display -23.5 -2.8 -6 {Tags:["iv","iv.text.back","lobby","up"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
 
 #interaction召喚
-summon interaction -23 2.5 -6 {Tags:["iv","iv.interaction"]}
+summon interaction -23 0.5 -6 {Tags:["iv","iv.interaction"]}
 #ディスプレイが下からニョッキってなるやつ
-execute as @e[tag=iv,tag=!iv.text,tag=!iv.text.click_here] at @s run tp ~ ~1.5 ~ 
+execute as @e[tag=iv,tag=up] at @s run tp ~ ~1.5 ~ 
 
 #itemのidを初期化
 execute unless score $item.id iv matches 0.. run scoreboard players set $item.id iv 1
