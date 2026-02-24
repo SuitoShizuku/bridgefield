@@ -7,6 +7,14 @@ data remove storage bf:iv resource_add
 data remove storage bf:iv damage
 data remove storage bf:iv special_effect
 data remove storage bf:iv defence
+#name 名前
+#lore 建築資材　等
+#resource_cost 資源値コスト
+#durability 橋の耐久値
+#resouce_add プラス資源値
+#damage ダメージ
+#special_effect 特殊効果
+#defence 防御力
 #各アイテム追加　こっちの方が１コマンドで１つのアイテムの情報詰めれて順番も変えれるからこれにしたけどもっといいやり方があるかも、アイテムを更に大量追加となると2分探索に切り替えても良さそう
 execute if score $item.id iv matches 1 run data merge storage bf:iv {id:"minecraft:oak_log",name:"[橋]オークの木",lore:"建築資材",resource_cost:3,durability:3}
 execute if score $item.id iv matches 2 run data merge storage bf:iv {id:"minecraft:pale_oak_log",name:"[橋]ペールオークの木",lore:"建築資材",resource_cost:3,durability:3}
