@@ -1,5 +1,5 @@
 function core:initialize/stage
-fill 128 38 152 74 3 98 air
+fill -54 31 278 -128 3 241 air
 clone 73 -4 97 129 -2 153 73 0 97 strict
 
 
