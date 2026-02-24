@@ -1,8 +1,7 @@
 function core:initialize/stage
 fill -54 31 278 -128 3 241 air
-clone 73 -4 97 129 -2 153 73 0 97 strict
-
-
+fill -128 3 240 -54 31 204 air
+clone -128 -3 204 -54 -2 278 -128 1 204 strict
 
 place template core:map/3/island_0 ~-32 ~11 ~-32
 place template core:map/3/island_0 ~-22 ~11 ~-32
