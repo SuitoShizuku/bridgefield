@@ -15,3 +15,6 @@ execute if score $button.interval.left iv matches 1 run data merge entity @n[typ
 
 #idによるアイテムの表示を設定しなおす
 function lobby:item_viewer/display/id_set
+
+#サウンドを鳴らす
+playsound minecraft:block.note_block.bell ambient @a ~ ~ ~ 1 2 0.1
