@@ -20,3 +20,6 @@ execute as @e[tag=game.bridge.durability,type=marker,tag=!durability.damaged] at
 
 #アイテムドロップ検知
 function core:ingame/item/drop/main
+
+# デバフとか
+function core:ingame/effect/run_tick

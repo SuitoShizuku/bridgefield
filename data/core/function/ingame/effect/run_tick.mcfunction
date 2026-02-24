@@ -1,0 +1,1 @@
+execute if entity @s[tag=frostbite] run function core:ingame/effect/debuff/frostbite/tick

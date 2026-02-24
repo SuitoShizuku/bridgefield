@@ -1,0 +1,1 @@
+particle minecraft:small_flame ~ ~1 ~ 0.2 0.4 0.2 1 1 normal @a

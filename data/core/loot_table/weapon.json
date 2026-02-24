@@ -129,7 +129,391 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:stone_sword",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.stone_sword",
+                  "fallback": "[攻]石の剣",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "stone_sword",
+                  "weaponDamage": "6",
+                  "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "6",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.stone_sword.comment",
+                    "fallback": "<コメント>",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wooden_axe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.slowing_wooden_axe",
+                  "fallback": "[攻]`鈍化の斧 -木`",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "slowing_wooden_axe",
+                  "weaponDamage": "1",
+                  "weaponTrueDamage": "1"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.slowing_wooden_axe.comment",
+                    "fallback": "重撃を与え動きにくくする",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:stone_axe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.slowing_stone_axe",
+                  "fallback": "[攻]`鈍化の斧 -石`",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "slowing_stone_axe",
+                  "weaponDamage": "2",
+                  "weaponTrueDamage": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.slowing_stone_axe.comment",
+                    "fallback": "すごい重撃を与え動きにくくする",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:copper_axe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.stun_hammer",
+                  "fallback": "[攻]スタンハンマー",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "stun_hammer",
+                  "weaponDamage": "7",
+                  "weaponTrueDamage": "3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "7",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.stun_hammer.comment",
+                    "fallback": "高火力でスタンが可能！そう強い！",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:iron_axe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.frost_hummer",
+                  "fallback": "[攻]氷結ハンマー",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "frost_hummer",
+                  "weaponDamage": "7",
+                  "weaponTrueDamage": "3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "7",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.frost_hummer.comment",
+                    "fallback": "冷たい一撃、高火力でスタンが可能！そう強い！",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+    "type": "minecraft:item",
+    "name": "trident",
+    "weight": 4,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:clay_ball",
+                "minecraft:item_name": {
+                    "translate": "bf.item.distant.pebble",
+                    "fallback": "[投]小石",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "weaponId": "pebble",
+                    "weaponDamage": "1",
+                    "weaponTrueDamage": "1"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.distant",
+                        "fallback": "投擲武器",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.damage",
+                        "fallback": "ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "1",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.true_damage",
+                        "fallback": "防御貫通ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "1",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.distant.pebble.comment",
+                        "fallback": "水切りは...できなさそう",
+                        "color": "gray"
+                    }
+                ]
+            }
         }
+    ]
+}
       ]
     }
   ],
