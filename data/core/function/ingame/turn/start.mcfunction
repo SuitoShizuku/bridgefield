@@ -9,7 +9,7 @@ execute store result score $temp bf run function core:ingame/turn/slowing/get
 function core:ingame/turn/slowing/tag_remove
 
 #設定した値割る
-scoreboard players operation $turn_time bf /= $temp bf
+scoreboard players operation $turn_time_count bf /= $temp bf
 
 #もしstun Tagがあれば
 function core:ingame/turn/stun/stun
