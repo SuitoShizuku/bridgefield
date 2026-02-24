@@ -63,12 +63,12 @@ place template core:map/3/stage_centermonument -96 18 236
 
 execute as @e[tag=game.interact.bridge] run data remove entity @s interaction
 
-tp @a[team=player.red] ~-10 ~19 ~0 facing ~ ~19 ~
-tp @a[team=player.blue] ~10 ~19 ~0 facing ~ ~19 ~
-tp @a[team=player.yellow] ~0 ~19 ~-10 facing ~ ~19 ~
-tp @a[team=player.green] ~0 ~19 ~10 facing ~ ~19 ~
-tp @a[team=player.orange] ~-10 ~19 ~-10 facing ~ ~19 ~
-tp @a[team=player.pink] ~10 ~19 ~10 facing ~ ~19 ~
-tp @a[team=player.cyan] ~10 ~19 ~-10 facing ~ ~19 ~
-tp @a[team=player.white] ~-10 ~19 ~10 facing ~ ~19 ~
-tp @a[team=spectator] ~ ~30 ~ facing ~ ~19 ~
+tp @a[team=player.red] ~-20 ~18 ~0 facing ~ ~18 ~
+tp @a[team=player.blue] ~20 ~18 ~0 facing ~ ~18 ~
+tp @a[team=player.yellow] ~0 ~18 ~-20 facing ~ ~18 ~
+tp @a[team=player.green] ~0 ~18 ~20 facing ~ ~18 ~
+tp @a[team=player.orange] ~-20 ~18 ~-20 facing ~ ~18 ~
+tp @a[team=player.pink] ~20 ~18 ~20 facing ~ ~18 ~
+tp @a[team=player.cyan] ~20 ~18 ~-20 facing ~ ~18 ~
+tp @a[team=player.white] ~-20 ~18 ~20 facing ~ ~18 ~
+tp @a[team=spectator] ~ ~30 ~ facing ~ ~18 ~
