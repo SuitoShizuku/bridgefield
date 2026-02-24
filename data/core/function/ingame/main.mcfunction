@@ -22,4 +22,4 @@ execute as @e[tag=game.bridge.durability,type=marker,tag=!durability.damaged] at
 function core:ingame/item/drop/main
 
 # デバフとか
-function core:ingame/effect/run_tick
+execute as @a at @s run function core:ingame/effect/run_tick
