@@ -78,3 +78,6 @@ summon minecraft:happy_ghast -15 1 5 {"NoAI":true,"Silent":true,"Invulnerable":t
 summon marker -12.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigame.slot.1"]}
 summon marker -11.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigame.slot.2"]}
 summon marker -10.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigame.slot.3"]}
+
+# ヒントマンサン
+summon villager 0 1 0 {Tags:["lobby"],Invulnerable:1b,Passengers:[{Tags:["lobby"],view_range:0.05f,text:{color:"black",text:"ｵﾜﾀ\n＼(^o^)／"},billboard:"vertical",id:"minecraft:text_display",background:0}],Age:-2147000000}
