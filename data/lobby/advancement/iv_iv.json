@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "item_drop": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "Tags:[iv]"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lobby:item_viewer/description/advancement"
+  }
+}
