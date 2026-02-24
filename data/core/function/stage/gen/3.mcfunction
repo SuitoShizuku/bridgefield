@@ -34,7 +34,7 @@ place template core:map/3/island_0 ~8 ~11 ~-2
 place template core:map/3/island_2 ~18 ~11 ~-2
 place template core:map/3/island_0 ~28 ~11 ~-2
 
-place template core:map/3/island_0 ~-42 ~11 ~8
+place template core:map/3/island_0 ~-32 ~11 ~8
 place template core:map/3/island_0 ~-22 ~11 ~8
 place template core:map/3/island_0 ~-12 ~11 ~8
 place template core:map/3/island_0 ~-2 ~11 ~8
