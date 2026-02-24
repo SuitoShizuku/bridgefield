@@ -14,10 +14,10 @@ summon minecraft:item_display -21.8 6.8 -5.5 {Tags:["iv","down","iv.item.grow"],
 summon minecraft:item_display -21.8 6.5 -5.5 {Tags:["iv","down","iv.item.grow"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f]},item:{id:"minecraft:end_rod"},Rotation:[-65f,0f]}
 summon minecraft:item_display -23.2 6.2 -5.5 {Tags:["iv","down","iv.item.grow"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:ochre_froglight"},Rotation:[-45f,0f]}
 summon minecraft:item_display -21.8 5.9 -5.5 {Tags:["iv","down","iv.item.grow"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f]},item:{id:"minecraft:ochre_froglight"},Rotation:[-65f,0f]}
-summon minecraft:item_display -23.5 1 -4.5 {Tags:["iv","up.1","iv.item.button.left"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1,1f]},item:{id:"minecraft:crimson_button"},Rotation:[0f,0f]}
-summon minecraft:item_display -21.5 1 -4.5 {Tags:["iv","up.1","iv.item.button.right"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1,1f]},item:{id:"minecraft:warped_button"},Rotation:[0f,0f]}
+summon minecraft:item_display -23.5 1 -4.5 {Tags:["iv","up.1","iv.item.button.left"],teleport_duration:10,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1,1f]},item:{id:"minecraft:crimson_button"},Rotation:[0f,0f]}
+summon minecraft:item_display -21.5 1 -4.5 {Tags:["iv","up.1","iv.item.button.right"],teleport_duration:10,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1,1f]},item:{id:"minecraft:warped_button"},Rotation:[0f,0f]}
 
-schedule function lobby:item_viewer/display/set_button 5t
+schedule function lobby:item_viewer/display/set_button 10t
 #interaction召喚
 summon interaction -23 -0.5 -6 {Tags:["iv","iv.interaction",up]}
 #ディスプレイが下からニョッキってなるやつ

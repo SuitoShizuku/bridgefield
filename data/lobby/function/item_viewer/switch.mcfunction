@@ -27,3 +27,7 @@ execute if score $toggle iv matches 0 run fill -22 5 -6 -24 5 -6 minecraft:redst
 
 #閉じるときパーティクル召喚
 execute if score $toggle iv matches 0 run particle minecraft:smoke ~ ~ ~-1 0 0 0 0.1 100 normal @a
+
+#buttonを消す
+setblock -24 2 -5 minecraft:air
+setblock -22 2 -5 minecraft:air
