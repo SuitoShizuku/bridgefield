@@ -42,19 +42,19 @@
         "affected": "victim"
       }
     ],
-    "minecraft:damage": [
+    "attributes":[
       {
-        "effect": {
-          "type": "minecraft:set",
-          "value": 0
-        }
+        "id": "bf:distant",
+        "amount": -1,
+        "attribute": "entity_interaction_range",
+        "operation": "add_multiplied_total"
       }
     ],
     "minecraft:trident_return_acceleration": [
       {
         "effect": {
           "type": "minecraft:set",
-          "value": 5
+          "value": 10
         }
       }
     ]
