@@ -23,7 +23,7 @@ execute if score $toggle iv matches 0 run kill @e[tag=iv]
 execute if score $toggle iv matches 0 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.1 0.1
 
 #オフなら明かり消す
-execute if score $toggle iv matches 1 run fill -22 5 -6 -24 5 -6 minecraft:redstone_lamp
+execute if score $toggle iv matches 0 run fill -22 5 -6 -24 5 -6 minecraft:redstone_lamp
 
 #閉じるときパーティクル召喚
 execute if score $toggle iv matches 0 run particle minecraft:smoke ~ ~ ~-1 0 0 0 0.1 100 normal @a
