@@ -10,7 +10,7 @@ execute positioned -23 2 -5 if score $switch.run iv matches 1.. run function lob
 
 #item_displayを回転させる
 execute as @n[type=item_display,tag=iv.item] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~1 ~
-execute as @e[type=item_display,tag=iv.item.grow] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~1 ~
+execute as @e[type=item_display,tag=iv.item.grow] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~0.5 ~
 
 #ロビーのボタンが元に戻るとインターバルがリセット
 execute if block -23 2 -5 #minecraft:buttons[powered=false] run scoreboard players set $button.interval iv 0
