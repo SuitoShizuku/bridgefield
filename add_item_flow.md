@@ -73,6 +73,77 @@
 }
 ```
 
+投擲武器の雛形
+
+```json
+{
+    "type": "minecraft:item",
+    "name": "trident",
+    "weight": 4,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:<見た目>",
+                "minecraft:item_name": {
+                    "translate": "bf.item.distant.<weaponId>",
+                    "fallback": "[投]<名前>",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "weaponId": "<weaponId>",
+                    "weaponDamage": "<ダメージ>",
+                    "weaponTrueDamage": "<防御貫通ダメージ>"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.distant",
+                        "fallback": "投擲武器",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.damage",
+                        "fallback": "ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "<ダメージ>",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.true_damage",
+                        "fallback": "防御貫通ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "<防御貫通ダメージ>",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.distant.<weaponId>.comment",
+                        "fallback": "<コメント>",
+                        "color": "gray"
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
 装備アイテムの雛形
 
 ```json
@@ -271,6 +342,22 @@
 2. ### 特殊効果を書く
 
 ``data\core\function\ingame\item\melee\weapon``
+
+の中にルートテーブルを追加する時に書いた`<weaponId>`と同じ名前の関数ファイルを作成し、特殊効果を書く。
+
+
+
+## 投擲武器の追加方法
+
+1. ### ルートテーブルを追加する
+
+``data\core\loot_table\distant.json``
+
+に雛形からコピーしたものをエントリーに追加し、`<>`で囲われた部分を置き換え、アイテムを追加する。
+
+2. ### 特殊効果を書く
+
+``data\core\function\ingame\item\distant\weapon``
 
 の中にルートテーブルを追加する時に書いた`<weaponId>`と同じ名前の関数ファイルを作成し、特殊効果を書く。
 
