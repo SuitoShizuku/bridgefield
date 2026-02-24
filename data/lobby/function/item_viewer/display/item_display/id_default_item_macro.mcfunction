@@ -1,0 +1,1 @@
+$data merge storage bf:iv {name:{color:"gray",fallback:"$(name)",translate:"bf.name.default_item"}}

@@ -38,3 +38,4 @@ $execute positioned -20 -1 -7 run data modify storage bf:iv lore3 set from block
 $execute positioned -20 -1 -7 run data modify storage bf:iv lore4 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"[4]
 $execute positioned -20 -1 -7 run data modify storage bf:iv lore5 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"[5]
 $execute positioned -20 -1 -7 run data modify storage bf:iv lore6 set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"[6]
+execute unless data storage bf:iv name.fallback run function lobby:item_viewer/display/item_display/id_default_item_macro with storage bf:iv
