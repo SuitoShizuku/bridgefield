@@ -82,3 +82,6 @@ summon marker -10.5 4.0 -8.0 {Tags:["lobby","lobby.minigame.slot","lobby.minigam
 
 # ヒントマンサン
 summon villager 0 1 0 {Tags:["lobby"],Invulnerable:1b,Passengers:[{Tags:["lobby"],view_range:0.05f,text:{color:"black",text:"ｵﾜﾀ\n＼(^o^)／"},billboard:"vertical",id:"minecraft:text_display",background:0}],Age:-2147000000}
+
+# アイテムビューワー
+summon minecraft:text_display -23 5 -4.0 {Tags:["lobby"],teleport_duration:5,text:{"text":"Item Viewer",color:"white"},transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[2f,2f,2f]}}

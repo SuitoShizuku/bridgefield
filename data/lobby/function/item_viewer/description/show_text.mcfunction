@@ -1,4 +1,3 @@
-#この仕組みめんどくさすぎる！泣く
 data remove storage bf:iv text
 data modify storage bf:iv text append value [{"text":"---------------------------","color":"gray"}]
 $data modify storage bf:iv text append value [{"text":"\n"},$(name)]
