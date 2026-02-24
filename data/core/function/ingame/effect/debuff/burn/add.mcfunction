@@ -1,1 +1,1 @@
-tag @s add frostbite
+tag @s add burn

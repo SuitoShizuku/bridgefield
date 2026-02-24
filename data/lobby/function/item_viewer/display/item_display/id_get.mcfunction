@@ -18,8 +18,9 @@ data remove storage bf:iv defence
 #True_defence_damage 防御貫通ダメージ
 
 #
-$execute positioned -20 -1 -7 run data modify storage bf:iv text.name set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_name"
-$execute positioned -20 -1 -7 run data modify storage bf:iv text.lore set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"
+$execute positioned -20 -1 -7 run data modify storage bf:iv id set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].id
+$execute positioned -20 -1 -7 run data modify storage bf:iv name set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:item_name"
+$execute positioned -20 -1 -7 run data modify storage bf:iv lore set from block ~-$(offset) ~ ~ Items[{Slot:$(slot)b}].components."minecraft:lore"
 
 
 #各アイテム追加　こっちの方が１コマンドで１つのアイテムの情報詰めれて順番も変えれるからこれにしたけどもっといいやり方があるかも、アイテムを更に大量追加となると2分探索に切り替えても良さそう,return混ぜて負荷軽減頑張るか、最後の方になると変わらないけど

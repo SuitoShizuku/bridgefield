@@ -1,5 +1,5 @@
-scoreboard players operation $offset iv = $item_id iv
-scoreboard players operation $slot iv = $item_id iv
+scoreboard players operation $offset iv = $item.id iv
+scoreboard players operation $slot iv = $item.id iv
 scoreboard players set $temp iv 27
 scoreboard players operation $offset iv /= $temp iv
 scoreboard players operation $slot iv %= $temp iv
