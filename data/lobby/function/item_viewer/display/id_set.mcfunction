@@ -16,5 +16,6 @@ function lobby:item_viewer/display/item_display/id_get with storage bf:iv barrel
 function lobby:item_viewer/display/item_display/id_macro with storage bf:iv
 
 #テキストにどう書かれてるかで通常アイテムか追加アイテムかを区別し、それに合わせた方に切り替える※なぜか一度デフォルトアイテムになると名前が追加アイテムに戻らない
-execute unless data storage bf:iv name.fallback run function lobby:item_viewer/display/text_display/id_macro_default_item with storage bf:iv
-execute if data storage bf:iv name.fallback run function lobby:item_viewer/display/text_display/id_macro with storage bf:iv name
+#execute unless data storage bf:iv name.fallback run function lobby:item_viewer/display/text_display/id_macro_default_item with storage bf:iv
+#意味ないけどfunctionのままに
+function lobby:item_viewer/display/text_display/id_macro
