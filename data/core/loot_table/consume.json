@@ -311,6 +311,165 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:stone_pickaxe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.stone_pickaxe",
+                  "fallback": "[使]普通のつるはし",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "stone_pickaxe",
+                  "bridgeBreakable": true,
+                  "bridgeDamage": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.stone_pickaxe.ef",
+                    "fallback": "使用先の橋の耐久値§c-2",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.stone_pickaxe.comment",
+                    "fallback": "まだ使える",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:iron_pickaxe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.iron_pickaxe",
+                  "fallback": "[使]つよいつるはし",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "iron_pickaxe",
+                  "bridgeBreakable": true,
+                  "bridgeDamage": "3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.iron_pickaxe.ef",
+                    "fallback": "使用先の橋の耐久値§c-3",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.iron_pickaxe.comment",
+                    "fallback": "普通に使える",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:diamond_pickaxe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.diamond_pickaxe",
+                  "fallback": "[使]わんぱんつるはし",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "diamond_pickaxe",
+                  "bridgeBreakable": true,
+                  "bridgeDamage": "999"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.diamond_pickaxe.ef",
+                    "fallback": "使用先の橋を破壊する",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.diamond_pickaxe.comment",
+                    "fallback": "めちゃ使える",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
