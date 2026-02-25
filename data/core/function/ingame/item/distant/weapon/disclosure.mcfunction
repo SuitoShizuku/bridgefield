@@ -77,7 +77,7 @@ data modify storage bf:item.disclosure inv[35].title_fallback set from storage b
 data modify storage bf:item.disclosure inv[36].title_fallback set from storage bf:item.disclosure inv[36].components."minecraft:item_name".fallback
 
 tellraw @p[tag=attacker] [{"text": "——————————","color": "gray"}]
-tellraw @p[tag=attacker] [{"translate":"bf.chat.disclosure.status","fallback": "§c体力値: %1$s §9経験値: %2$s §c資源値: %3$s\n§l防御力§r: %4$s §n装備の重ね着§r: %5$s層",with:[{score:{name:"@s",objective:"status.hp"}},{score:{name:"@s",objective:"status.mp"}},{score:{name:"@s",objective:"status.build"}},{score:{name:"@s",objective:"defense"}},{score:{name:"@s",objective:"armor_count"}}],"color": "gray"}]
+tellraw @p[tag=attacker] [{"translate":"bf.chat.disclosure.status","fallback": "§c体力値: %1$s §9経験値: %2$s §a資源値: %3$s\n§l防御力§r: %4$s §n装備の重ね着§r: %5$s層",with:[{score:{name:"@s",objective:"status.hp"}},{score:{name:"@s",objective:"status.mp"}},{score:{name:"@s",objective:"status.build"}},{score:{name:"@s",objective:"defense"}},{score:{name:"@s",objective:"armor_count"}}],"color": "gray"}]
 tellraw @p[tag=attacker] [{"translate":"bf.chat.disclosure.inventory","fallback": "■インベントリ（カーソルを合わせて詳細を見る）","color": "gray"}]
 execute if data storage bf:item.disclosure inv[0] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[0]
 execute if data storage bf:item.disclosure inv[1] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[1]

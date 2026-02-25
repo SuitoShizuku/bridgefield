@@ -224,6 +224,18 @@
                     "italic": false
                   },
                   {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.slowing_wooden_axe.special",
+                    "fallback": "被攻者の次のターン時間が1/2になる",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
                     "translate": "bf.item.true_damage",
                     "fallback": "防御貫通ダメージ: %s",
                     "with": [
@@ -300,6 +312,18 @@
                     ],
                     "color": "green",
                     "italic": false
+                  },
+                  {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.slowing_stone_axe.special",
+                    "fallback": "被攻者の次のターン時間が1/3になる",
+                    "italic": false,
+                    "color": "white"
                   },
                   {
                     "text": "——————————",
