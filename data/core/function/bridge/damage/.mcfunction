@@ -7,6 +7,8 @@ tag @s add bridge.attacker
 
 # 値の演算
 $execute as @n[tag=game.bridge.durability,distance=..1,type=marker] run scoreboard players remove @s durability $(bridgeDamage)
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{consumeId:"golden_pickaxe"}] as @n[tag=game.bridge.durability,distance=..1,type=marker] run function core:bridge/damage/gp
+
 # 出力
 execute as @n[tag=game.bridge.durability,distance=..1,type=text_display] run data modify entity @s text set value [{translate:"bf.bridge.durability",fallback:"耐久値: %s",with:[{score:{name:"@n[tag=game.bridge.durability,type=marker]",objective:"durability"}}]}]
 # アイテムを消してギブ

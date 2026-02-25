@@ -1,0 +1,3 @@
+execute store result score $temp bf run random value 1..1000
+scoreboard players operation $temp bf %= @s durability
+scoreboard players operation @s durability -= $temp bf

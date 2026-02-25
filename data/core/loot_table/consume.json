@@ -474,6 +474,59 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:golden_pickaxe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.golden_pickaxe",
+                  "fallback": "[使]もしかしたらわんぱんつるはし",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "golden_pickaxe",
+                  "bridgeBreakable": true,
+                  "bridgeDamage": "0"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.golden_pickaxe.ef",
+                    "fallback": "使用先の橋の耐久値を§cランダムな割合§rで減少する。",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.golden_pickaxe.comment",
+                    "fallback": "使えるかどうか? 使えばわかる!",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
           "weight": 2,
           "conditions": [],
           "functions": [
