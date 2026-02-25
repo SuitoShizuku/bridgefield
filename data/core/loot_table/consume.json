@@ -565,7 +565,7 @@
                   },
                   {
                     "translate": "bf.item.consume.explode_roulette.comment",
-                    "fallback": "「こいつを使うのは...追い詰められた時だけにしないか...?」",
+                    "fallback": "「こいつを使うのは\"追い詰められた時だけ\"にしないか...?」",
                     "color": "gray"
                   }
                 ]
