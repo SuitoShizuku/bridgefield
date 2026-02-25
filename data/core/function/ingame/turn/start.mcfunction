@@ -9,6 +9,7 @@ attribute @s block_interaction_range modifier remove false_turn
 
 #プレイヤーごとの実行だけど@eでラウンドスタートで減少済みタグを消去
 tag @e[type=minecraft:marker,tag=durability.damaged] remove durability.damaged
+
 # ターン初めにデバフとかを処理
 execute at @s run function core:ingame/effect/run_turn
 

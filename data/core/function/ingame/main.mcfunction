@@ -26,3 +26,6 @@ execute as @a at @s run function core:ingame/effect/run_tick
 
 # 橋破壊系アイテム
 execute as @a at @s if items entity @s weapon.mainhand *[minecraft:custom_data~{bridgeBreakable:true}] at @e[tag=game.interact.bridge,distance=..10,sort=nearest,limit=10] run particle dust{color:[1.0,0.0,0.0],scale:1.0} ~ ~2 ~ 0.3 0 0.3 0 2 normal @s
+
+# 爆発デコイの処理
+execute if entity @n[type=villager,tag=ed] run function core:ingame/item/explode_decoy/main

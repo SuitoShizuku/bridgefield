@@ -7,14 +7,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:slime_ball",
+                "minecraft:item_model": "minecraft:villager_spawn_egg",
                 "minecraft:item_name": {
-                  "translate": "bf.item.consume.slime_medicine",
-                  "fallback": "[使]ねちょちょした薬",
+                  "translate": "bf.item.consume.explode_decoy",
+                  "fallback": "[使]爆発デコイ",
                   "color": "light_purple"
                 },
                 "minecraft:custom_data": {
-                  "consumeId": "slime_medicine"
+                  "consumeId": "explode_decoy"
                 },
                 "minecraft:lore": [
                   {
@@ -30,8 +30,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.slime_medicine.ef",
-                    "fallback": "凍傷を治す",
+                    "translate": "bf.item.consume.explode_decoy.ef",
+                    "fallback": "デコイを召喚、その後数歩前進後爆発する",
                     "color": "white"
                   },
                   {
@@ -40,8 +40,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.slime_medicine.comment",
-                    "fallback": "気持ち悪いけど凍傷が治るみたい",
+                    "translate": "bf.item.consume.explode_decoy.comment",
+                    "fallback": "人の心とか無い!(断言)",
                     "color": "gray"
                   }
                 ]

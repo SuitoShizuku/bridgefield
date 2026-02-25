@@ -58,5 +58,6 @@ scoreboard objectives add blindness dummy "盲目"
 # アイテムビューワー用
 scoreboard objectives add iv dummy "アイテムビューワー"
 
-#owata用
-scoreboard objectives add owata dummy "owata"
+# explode_decoy用
+scoreboard objectives add ed dummy "爆発デコイカウンター"
+scoreboard objectives add ed_random dummy "爆発デコイランダム"
