@@ -1,0 +1,1 @@
+setblock -22 2 -5 minecraft:warped_button[face=floor,facing=north]
