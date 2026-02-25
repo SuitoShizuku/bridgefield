@@ -1,5 +1,5 @@
 advancement revoke @s only core:bridge_damage_e
-execute unless predicate core:check_bridge_attack run return run function core:bridge/damage/fail
+execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{bridgeBreakable:true}] run return run function core:bridge/damage/fail
 # ティスプレイがなければ
 execute unless entity @n[tag=game.bridge.durability,distance=..1] run return run function core:bridge/damage/fail
 

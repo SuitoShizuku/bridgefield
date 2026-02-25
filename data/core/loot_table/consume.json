@@ -276,6 +276,7 @@
                 },
                 "minecraft:custom_data": {
                   "consumeId": "wooden_pickaxe",
+                  "bridgeBreakable": true,
                   "bridgeDamage": "1"
                 },
                 "minecraft:lore": [
