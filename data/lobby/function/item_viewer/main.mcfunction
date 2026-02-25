@@ -27,7 +27,7 @@ scoreboard players set $item.id.max iv 50
 execute as @n[type=text_display,tag=iv.text.back] if score $button.interval.left iv matches 0 run function lobby:item_viewer/text_color_back
 execute as @n[type=text_display,tag=iv.text.next] if score $button.interval.right iv matches 0 run function lobby:item_viewer/text_color_back
 
-#ボタン即戻し処理
+#ボタン即戻し処理 ボタンの動きが見れないので2tickにする
 execute if score $button.interval iv matches 1 run setblock -23 2 -5 stone_button[face=floor,facing=north]
 execute if score $button.interval.right iv matches 1 run scoreboard players add $button.interval.right.timer iv 1
 execute if score $button.interval.left iv matches 1 run scoreboard players add $button.interval.left.timer iv 1
