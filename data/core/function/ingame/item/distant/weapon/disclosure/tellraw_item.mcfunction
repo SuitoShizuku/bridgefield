@@ -1,1 +1,1 @@
-$tellraw @p[tag=attacker] [{"text": "- "},{$(title),hover_event:{action:"show_item",id:$(id),components:$(components)}}]
+$tellraw @p[tag=attacker] [{"text": "- "},{$(title),hover_event:{action:"show_item",id:"$(id)",components:$(components)}}]
