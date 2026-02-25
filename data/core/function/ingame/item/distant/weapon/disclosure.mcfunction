@@ -77,7 +77,7 @@ data modify storage bf:item.disclosure inv[35].title_fallback set from storage b
 data modify storage bf:item.disclosure inv[36].title_fallback set from storage bf:item.disclosure inv[36].components."minecraft:item_name".fallback
 
 tellraw @p[tag=attacker] [{"text": "——————————","color": "gray"}]
-tellraw @p[tag=attacker] [{"text": "開示請求（カーソルを合わせて詳細を見る）","color": "gray"}]
+tellraw @p[tag=attacker] [{"translate":"bf.chat.disclosure","fallback": "開示請求（カーソルを合わせて詳細を見る）","color": "gray"}]
 execute if data storage bf:item.disclosure inv[0] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[0]
 execute if data storage bf:item.disclosure inv[1] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[1]
 execute if data storage bf:item.disclosure inv[2] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[2]

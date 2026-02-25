@@ -8,12 +8,14 @@
 
     "bf.chat.durability": "資源値: %1$s → %2$s",
     "bf.chat.durability.fail": "資源値が足りません %1$s/%2$s",
+    "bf.chat.break_bridge.fail": "[橋]のアイテムを%sで橋を設置します",
     "bf.chat.damage": "%1$s攻撃:%3$s→%2$s防御:%4$s = %5$s ダメージ!(残り%6$sHP)",
     "bf.chat.no_damage": "%1$s攻撃:%3$s→%2$s防御:%4$s = %5$s §aノーダメージ!§r(残り%6$sHP)",
     "bf.chat.damage.burn": "火傷ダメージ → 1ダメージ!(残り%sHP)",
     "bf.chat.damage.frostbite": "凍傷ダメージ → 1ダメージ!(残り%sHP)",
     "bf.chat.add_defense": "防御力%1$s → %2$s (装備%3$s層目)",
     "bf.chat.not_your_turn": "あなたのターンではありません。",
+    "bf.chat.disclosure": "開示請求（カーソルを合わせて詳細を見る）",
 
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",

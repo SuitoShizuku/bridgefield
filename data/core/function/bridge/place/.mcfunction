@@ -1,5 +1,5 @@
 # 素手で右クリックしていても大丈夫なように、初期化
-execute as @e[type=interaction,tag=game.interact.bridge,tag=east,nbt={interaction:{}}] run data remove entity @s interaction
+execute as @e[type=interaction,tag=game.interact.bridge,nbt={interaction:{}}] run data remove entity @s interaction
 
 $execute if entity @s[tag=east] run place template core:bridge/$(bridgeId) ~ ~ ~ none none
 $execute if entity @s[tag=south] run place template core:bridge/$(bridgeId) ~ ~ ~ clockwise_90 none

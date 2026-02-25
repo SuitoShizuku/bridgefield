@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"north\"]}"
+        },
+        "damage": {
+          "type": {
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interact"
+    ]
+  ],
+  "rewards": {
+    "function": "core:bridge/damage/n"
+  }
+}

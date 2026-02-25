@@ -156,6 +156,58 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:wooden_pickaxe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.wooden_pickaxe",
+                  "fallback": "[使]ぼろいつるはし",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "wooden_pickaxe",
+                  "bridgeDamage": "1"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.wooden_pickaxe.ef",
+                    "fallback": "使用先の橋の耐久値§c-1",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.wooden_pickaxe.comment",
+                    "fallback": "まだギリギリ使える",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
