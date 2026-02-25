@@ -9,3 +9,6 @@ execute unless entity @p[tag=true_turn] run return run function core:ingame/roun
 
 # 一致したターン値のプレイヤーのプレイヤーのターンを開始
 execute as @p[tag=true_turn] run function core:ingame/turn/start
+
+execute as @p[tag=true_turn] at @s run playsound block.note_block.flute master @s ~ ~ ~ 1 1.8 1
+execute as @a[tag=!true_turn,team=!spectator,tag=!tutorial.runner] at @s run playsound block.note_block.flute master @s ~ ~ ~ 1 0.8 1
