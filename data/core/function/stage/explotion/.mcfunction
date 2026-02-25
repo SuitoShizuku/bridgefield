@@ -1,0 +1,1 @@
+execute if score $stage bf matches 1 as @n[tag=game.marker.island] at @s run function core:stage/gen/1
