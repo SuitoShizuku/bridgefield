@@ -16,6 +16,7 @@
     "bf.chat.add_defense": "防御力%1$s → %2$s (装備%3$s層目)",
     "bf.chat.not_your_turn": "あなたのターンではありません。",
     "bf.chat.disclosure": "開示請求（カーソルを合わせて詳細を見る）",
+    "bf.chat.breakable_bridge": "§c赤いパーティクル§rを%sで橋を破壊",
 
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",
