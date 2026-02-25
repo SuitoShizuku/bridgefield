@@ -69,6 +69,72 @@
             }
         }
     ]
+},
+        {
+    "type": "minecraft:item",
+    "name": "trident",
+    "weight": 4,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:knowledge_book",
+                "minecraft:item_name": {
+                    "translate": "bf.item.distant.disclosure",
+                    "fallback": "[投]開示請求",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "weaponId": "disclosure",
+                    "weaponDamage": "0",
+                    "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.distant",
+                        "fallback": "投擲武器",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.damage",
+                        "fallback": "ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "0",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                  {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.disclosure.special",
+                    "fallback": "被撃者のステータス・インベントリを攻撃者に開示する。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.distant.disclosure.comment",
+                        "fallback": "「ステータス§lフルオープン」",
+                        "color": "gray"
+                    }
+                ]
+            }
+        }
+    ]
 }
       ]
     }
@@ -85,7 +151,8 @@
         "minecraft:tooltip_display": {
           "hidden_components": [
             "minecraft:enchantments",
-            "attribute_modifiers"
+            "attribute_modifiers",
+            "unbreakable"
           ]
         }
       }
