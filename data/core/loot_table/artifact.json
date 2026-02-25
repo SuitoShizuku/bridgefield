@@ -63,7 +63,7 @@
       "function": "minecraft:set_components",
       "components": {
         "minecraft:enchantments": {
-          "core:armor": 1
+          "core:artifact": 1
         },
         "minecraft:enchantment_glint_override": false,
         "minecraft:tooltip_display": {
