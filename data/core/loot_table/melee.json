@@ -368,6 +368,12 @@
                     "italic": false
                   },
                   {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
                     "translate": "bf.item.melee.stun_hummer.special",
                     "fallback": "敵の次ターンスキップされる",
                     "italic": false,
