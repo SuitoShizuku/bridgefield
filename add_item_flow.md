@@ -310,7 +310,8 @@
                     {
                         "translate": "bf.item.consume.<consumeId>.ef",
                         "fallback": "<効果の説明>",
-                        "color": "white"
+                        "color": "white",
+                        "italic": true
                     },
                     {
                         "text": "——————————",
@@ -319,6 +320,63 @@
                     },
                     {
                         "translate": "bf.item.consume.<consumeId>.comment",
+                        "fallback": "<コメント>",
+                        "color": "gray"
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
+アーティファクトの雛形
+
+```json
+{
+    "type": "minecraft:item",
+    "name": "minecraft:emerald",
+    "weight": 4,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:<見た目>",
+                "minecraft:item_name": {
+                    "translate": "bf.item.artifact.<artifactId>",
+                    "fallback": "[品]<名前>",
+                    "color": "gray"
+                },
+                "minecraft:custom_data": {
+                    "artifactId": "<artifactId>"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.artifact",
+                        "fallback": "アーティファクト",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.effect",
+                        "fallback": "—効果———————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.artifact.<artifactId>.ef",
+                        "fallback": "<効果の説明>",
+                        "color": "white",
+                        "italic": true
+                    },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.artifact.<artifactId>.comment",
                         "fallback": "<コメント>",
                         "color": "gray"
                     }

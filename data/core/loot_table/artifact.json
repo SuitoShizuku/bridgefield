@@ -38,7 +38,8 @@
                   {
                     "translate": "bf.item.consume.reinforcement.ef",
                     "fallback": "橋を設置した時、耐久値を§a+3",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",

@@ -38,7 +38,8 @@
                   {
                     "translate": "bf.item.consume.brick_3.ef",
                     "fallback": "使用者の資源値§a+5",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -89,7 +90,8 @@
                   {
                     "translate": "bf.item.consume.brick_2.ef",
                     "fallback": "使用者の資源値§a+10",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -140,7 +142,8 @@
                   {
                     "translate": "bf.item.consume.brick_1.ef",
                     "fallback": "使用者の資源値§a+20",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -191,7 +194,8 @@
                   {
                     "translate": "bf.item.consume.honey_medicine.ef",
                     "fallback": "火傷を治す",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -242,7 +246,8 @@
                   {
                     "translate": "bf.item.consume.slime_medicine.ef",
                     "fallback": "凍傷を治す",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -295,7 +300,8 @@
                   {
                     "translate": "bf.item.consume.wooden_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-1",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -348,7 +354,8 @@
                   {
                     "translate": "bf.item.consume.stone_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-2",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -401,7 +408,8 @@
                   {
                     "translate": "bf.item.consume.iron_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-3",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -454,7 +462,8 @@
                   {
                     "translate": "bf.item.consume.diamond_pickaxe.ef",
                     "fallback": "使用先の橋を破壊する",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -507,7 +516,8 @@
                   {
                     "translate": "bf.item.consume.golden_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値を§cランダムな割合§rで減少する。",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -558,7 +568,8 @@
                   {
                     "translate": "bf.item.consume.explode_decoy.ef",
                     "fallback": "デコイを召喚、その後2～10ターン後爆発し周囲に15ダメージ",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -609,7 +620,8 @@
                   {
                     "translate": "bf.item.consume.explode_roulette.ef",
                     "fallback": "ランダムに0～4島爆発する",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
