@@ -7,14 +7,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:honeycomb",
+                "minecraft:item_model": "minecraft:slime_ball",
                 "minecraft:item_name": {
-                  "translate": "bf.item.consume.honey_medicine",
-                  "fallback": "[使]はちみつ薬",
+                  "translate": "bf.item.consume.slime_medicine",
+                  "fallback": "[使]ねちょちょした薬",
                   "color": "light_purple"
                 },
                 "minecraft:custom_data": {
-                  "consumeId": "honey_medicine"
+                  "consumeId": "slime_medicine"
                 },
                 "minecraft:lore": [
                   {
@@ -30,8 +30,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.honey_medicine.ef",
-                    "fallback": "火傷を治す",
+                    "translate": "bf.item.consume.slime_medicine.ef",
+                    "fallback": "凍傷を治す",
                     "color": "white"
                   },
                   {
@@ -40,8 +40,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.honey_medicine.comment",
-                    "fallback": "実際にはちみつって軽度の火傷の治癒助けるらしい",
+                    "translate": "bf.item.consume.slime_medicine.comment",
+                    "fallback": "気持ち悪いけど凍傷が治るみたい",
                     "color": "gray"
                   }
                 ]
