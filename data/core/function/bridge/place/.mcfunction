@@ -6,6 +6,9 @@ $execute if entity @s[tag=south] run place template core:bridge/$(bridgeId) ~ ~ 
 $execute if entity @s[tag=west] run place template core:bridge/$(bridgeId) ~ ~ ~ 180 none
 $execute if entity @s[tag=north] run place template core:bridge/$(bridgeId) ~ ~ ~ counterclockwise_90 none
 
+#音テスト
+playsound minecraft:block.wood.place block @a ~ ~ ~ 1 1 0.1
+
 # アイテムを消してギブ
 item replace entity @p[tag=placed] weapon.mainhand with air
 loot give @p[tag=placed] loot core:root
