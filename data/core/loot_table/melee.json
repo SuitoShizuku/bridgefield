@@ -434,13 +434,25 @@
                     "italic": false
                   },
                   {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.frozen_stick.special",
+                    "fallback": "敵が凍傷状態なら+10ダメージ",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
                     "text": "——————————",
                     "color": "gray",
                     "italic": false
                   },
                   {
                     "translate": "bf.item.melee.frost_hummer.comment",
-                    "fallback": "冷たい一撃、高火力でスタンが可能！そう強い！敵が凍傷状態なら+10ダメージ",
+                    "fallback": "冷たい一撃、高火力でスタンが可能！そう強い！",
                     "color": "gray"
                   }
                 ]
