@@ -1,0 +1,1 @@
+setblock -24 2 -5 minecraft:crimson_button[face=floor,facing=north]

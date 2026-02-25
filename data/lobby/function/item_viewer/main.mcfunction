@@ -29,8 +29,8 @@ execute as @n[type=text_display,tag=iv.text.next] if score $button.interval.righ
 
 #ボタン即戻し
 execute if score $button.interval iv matches 1 run setblock -23 2 -5 stone_button[face=floor,facing=north]
-execute if score $button.interval.right iv matches 1 run setblock -22 2 -5 warped_button[face=floor,facing=north]
-execute if score $button.interval.left iv matches 1 run setblock -24 2 -5 crimson_button[face=floor,facing=north]
+execute if score $button.interval.right iv matches 1 run schedule function lobby:item_viewer/set_button_right 2t
+execute if score $button.interval.left iv matches 1 run schedule function lobby:item_viewer/set_button_left 2t
 
 #interactionを見ているとparticle出る
 execute as @a at @s if predicate lobby:looking_at_interaction_iv if entity @n[type=interaction,tag=iv,distance=..5] run particle minecraft:glow -23 1.8 -6 0 0 0 0 1 normal @s
