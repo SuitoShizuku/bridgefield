@@ -1,0 +1,51 @@
+{
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:slime_ball",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.slime_medicine",
+                  "fallback": "[使]ねちょちょした薬",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "slime_medicine"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.slime_medicine.ef",
+                    "fallback": "凍傷を治す",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.slime_medicine.comment",
+                    "fallback": "気持ち悪いけど凍傷が治るみたい",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
