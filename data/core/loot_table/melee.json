@@ -368,6 +368,12 @@
                     "italic": false
                   },
                   {
+                    "translate": "bf.item.melee.stun_hummer.special",
+                    "fallback": "敵の次ターンスキップされる",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
                     "text": "——————————",
                     "color": "gray",
                     "italic": false
@@ -440,7 +446,13 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.melee.frozen_stick.special",
+                    "translate": "bf.item.melee.frost_hummer.special",
+                    "fallback": "敵の次ターンスキップされる",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "bf.item.melee.frost_hummer.special",
                     "fallback": "敵が凍傷状態なら+10ダメージ",
                     "italic": false,
                     "color": "white"
