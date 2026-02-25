@@ -57,3 +57,6 @@ scoreboard objectives add blindness dummy "盲目"
 
 # アイテムビューワー用
 scoreboard objectives add iv dummy "アイテムビューワー"
+
+#owata用
+scoreboard objectives add owata dummy "owata"
