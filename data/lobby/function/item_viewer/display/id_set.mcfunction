@@ -20,4 +20,4 @@ function lobby:item_viewer/display/item_display/id_macro with storage bf:iv
 #意味ないけどfunctionのままに
 function lobby:item_viewer/display/text_display/id_macro
 #id text_display更新
-data merge entity @n[type=minecraft:text_display,tag=iv.text.id] {text:{score:{objective:"iv",name:"$item.id"}}}
+data merge entity @n[type=minecraft:text_display,tag=iv.text.id] {text:{score:{objective:"iv",name:"$item.id"},color:"dark_gray"}}
