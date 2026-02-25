@@ -555,7 +555,7 @@
                   },
                   {
                     "translate": "bf.item.consume.explode_roulette.ef",
-                    "fallback": "ランダムに0~4島爆発する",
+                    "fallback": "ランダムに0～4島爆発する",
                     "color": "white"
                   },
                   {
