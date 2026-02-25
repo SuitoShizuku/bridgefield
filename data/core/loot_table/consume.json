@@ -156,6 +156,57 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:honeycomb",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.honey_medicine",
+                  "fallback": "[使]はちみつ薬",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "honey_medicine"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.honey_medicine.ef",
+                    "fallback": "火傷を治す",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.honey_medicine.comment",
+                    "fallback": "実際にはちみつって軽度の火傷の治癒助けるらしい",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
