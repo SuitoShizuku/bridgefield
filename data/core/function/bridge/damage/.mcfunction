@@ -1,6 +1,10 @@
 # 素手で左クリックしていても大丈夫なように、初期化
 execute as @e[type=interaction,tag=game.interact.bridge,nbt={attack:{}}] run data remove entity @s attack
 
+# ティスプレイがなければ
+execute unless entity @n[tag=game.bridge.durability,distance=..1] run return run function core:bridge/damage/fail
+tag @s add bridge.attacker
+
 # 値の演算
 $execute as @n[tag=game.bridge.durability,distance=..1,type=marker] run scoreboard players remove @s durability $(bridgeDamage)
 # 出力
