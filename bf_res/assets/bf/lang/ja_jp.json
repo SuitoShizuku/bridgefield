@@ -15,7 +15,8 @@
     "bf.chat.damage.frostbite": "凍傷ダメージ → 1ダメージ!(残り%sHP)",
     "bf.chat.add_defense": "防御力%1$s → %2$s (装備%3$s層目)",
     "bf.chat.not_your_turn": "あなたのターンではありません。",
-    "bf.chat.disclosure": "開示請求（カーソルを合わせて詳細を見る）",
+    "bf.chat.disclosure.inventory": "■インベントリ（カーソルを合わせて詳細を見る）",
+    "bf.chat.disclosure.status":"§c体力値: %1$s §9経験値: %2$s §c資源値: %3$s\n§l防御力§r: %4$s §n装備の重ね着§r: %5$s層",
     "bf.chat.breakable_bridge": "§c赤いパーティクル§rを%sで橋を破壊",
 
     "bf.title.countdown": "%s秒後に始まります。",
