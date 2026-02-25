@@ -15,3 +15,5 @@ loot give @p[tag=bridge.attacker] loot core:root
 # タグをリセットし、ターンを回す
 execute if score $now bf matches 2 as @p[tag=bridge.attacker] run function core:ingame/turn/end
 tag @a[tag=bridge.attacker] remove bridge.attacker
+#playsound
+playsound minecraft:entity.zombie.attack_iron_door block @a ~ ~ ~ 1 0.1 0.1
