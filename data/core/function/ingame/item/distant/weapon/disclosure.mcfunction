@@ -37,6 +37,7 @@ data modify storage bf:item.disclosure inv[32].title_translate set from storage 
 data modify storage bf:item.disclosure inv[33].title_translate set from storage bf:item.disclosure inv[33].components."minecraft:item_name".translate
 data modify storage bf:item.disclosure inv[34].title_translate set from storage bf:item.disclosure inv[34].components."minecraft:item_name".translate
 data modify storage bf:item.disclosure inv[35].title_translate set from storage bf:item.disclosure inv[35].components."minecraft:item_name".translate
+data modify storage bf:item.disclosure inv[36].title_translate set from storage bf:item.disclosure inv[36].components."minecraft:item_name".translate
 data modify storage bf:item.disclosure inv[0].title_fallback set from storage bf:item.disclosure inv[0].components."minecraft:item_name".fallback
 data modify storage bf:item.disclosure inv[1].title_fallback set from storage bf:item.disclosure inv[1].components."minecraft:item_name".fallback
 data modify storage bf:item.disclosure inv[2].title_fallback set from storage bf:item.disclosure inv[2].components."minecraft:item_name".fallback
@@ -73,6 +74,7 @@ data modify storage bf:item.disclosure inv[32].title_fallback set from storage b
 data modify storage bf:item.disclosure inv[33].title_fallback set from storage bf:item.disclosure inv[33].components."minecraft:item_name".fallback
 data modify storage bf:item.disclosure inv[34].title_fallback set from storage bf:item.disclosure inv[34].components."minecraft:item_name".fallback
 data modify storage bf:item.disclosure inv[35].title_fallback set from storage bf:item.disclosure inv[35].components."minecraft:item_name".fallback
+data modify storage bf:item.disclosure inv[36].title_fallback set from storage bf:item.disclosure inv[36].components."minecraft:item_name".fallback
 
 tellraw @p[tag=attacker] [{"text": "——————————","color": "gray"}]
 tellraw @p[tag=attacker] [{"text": "開示請求（カーソルを合わせて詳細を見る）","color": "gray"}]
@@ -112,4 +114,5 @@ execute if data storage bf:item.disclosure inv[32] run function core:ingame/item
 execute if data storage bf:item.disclosure inv[33] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[33]
 execute if data storage bf:item.disclosure inv[34] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[34]
 execute if data storage bf:item.disclosure inv[35] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[35]
+execute if data storage bf:item.disclosure inv[36] run function core:ingame/item/distant/weapon/disclosure/tellraw_item with storage bf:item.disclosure inv[36]
 tellraw @p[tag=attacker] [{"text": "——————————","color": "gray"}]
