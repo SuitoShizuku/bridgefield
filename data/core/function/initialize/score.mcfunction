@@ -52,5 +52,8 @@ scoreboard objectives add bridge.players dummy "橋のプレイヤー数"
 # 橋のプレイヤー数差検知用
 scoreboard objectives add bridge.players.delta dummy "橋のプレイヤー数の差検知用"
 
+# デバフ用
+scoreboard objectives add blindness dummy "盲目"
+
 # アイテムビューワー用
 scoreboard objectives add iv dummy "アイテムビューワー"
