@@ -557,7 +557,7 @@
                   },
                   {
                     "translate": "bf.item.consume.explode_decoy.ef",
-                    "fallback": "デコイを召喚、その後数歩前進後爆発する",
+                    "fallback": "デコイを召喚、その後2~10ターン後爆発し周囲に15ダメージ",
                     "color": "white"
                   },
                   {
