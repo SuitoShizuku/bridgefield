@@ -220,7 +220,7 @@
                 "minecraft:item_model": "minecraft:slime_ball",
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.slime_medicine",
-                  "fallback": "[使]ねちょちょした薬",
+                  "fallback": "[使]ねちょねちょした薬",
                   "color": "light_purple"
                 },
                 "minecraft:custom_data": {
