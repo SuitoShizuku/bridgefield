@@ -1,3 +1,4 @@
+#Shift押しながらなら5つ前のアイテムにする
 execute if predicate lobby:iv_sneaking run function lobby:item_viewer/display/next_5
 #スニークしてないならそのままボタン押し
 execute unless predicate lobby:iv_sneaking run setblock -22 2 -5 warped_button[face=floor,facing=north,powered=true]
