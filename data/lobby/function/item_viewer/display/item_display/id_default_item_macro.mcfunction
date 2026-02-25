@@ -1,1 +1,1 @@
-$data merge storage bf:iv {name:{color:"gray",fallback:"$(name)",translate:"bf.name.default_item"}}
+$data merge storage bf:iv {name:{color:"gray",fallback:"$(name)",translate:"block.minecraft.$(name)"}}

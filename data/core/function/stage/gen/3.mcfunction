@@ -3,6 +3,7 @@ fill -54 31 278 -128 3 241 air
 fill -128 3 240 -54 31 204 air
 clone -128 -3 204 -54 -2 278 -128 1 204 strict
 
+place template core:map/3/island_0 ~-32 ~11 ~-32
 place template core:map/3/island_0 ~-22 ~11 ~-32
 place template core:map/3/island_0 ~-12 ~11 ~-32
 place template core:map/3/island_0 ~-2 ~11 ~-32
