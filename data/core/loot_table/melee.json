@@ -440,7 +440,7 @@
                   },
                   {
                     "translate": "bf.item.melee.frost_hummer.comment",
-                    "fallback": "冷たい一撃、高火力でスタンが可能！そう強い！",
+                    "fallback": "冷たい一撃、高火力でスタンが可能！そう強い！\n+ 敵が凍傷状態なら+10ダメージ",
                     "color": "gray"
                   }
                 ]
