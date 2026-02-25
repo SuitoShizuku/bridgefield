@@ -5,12 +5,12 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"iv.interaction\"]}"
+          "nbt": "{Tags:[\"iv.interaction.left\"]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "lobby:item_viewer/description/advancement"
+    "function": "lobby:item_viewer/display/advancement_left"
   }
 }

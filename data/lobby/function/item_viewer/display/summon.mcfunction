@@ -21,6 +21,10 @@ summon minecraft:item_display -21.5 1.5 -4.5 {Tags:["iv","up.1","iv.item.button.
 schedule function lobby:item_viewer/display/set_button 10t
 #interaction召喚
 summon interaction -23 -0.5 -6 {Tags:["iv","iv.interaction",up]}
+
+summon interaction -21.5 2.0 -4.5 {Tags:["iv","iv.interaction.right"]}
+
+summon interaction -23.5 2.0 -4.5 {Tags:["iv","iv.interaction.left"]}
 #ディスプレイが下からニョッキってなるやつ
 execute as @e[tag=iv,tag=up] at @s run tp ~ ~2.5 ~ 
 execute as @e[tag=iv,tag=up.1] at @s run tp ~ ~0.5 ~ 
