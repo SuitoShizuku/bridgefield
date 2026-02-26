@@ -16,6 +16,6 @@
     ]
   ],
   "rewards": {
-    "function": "lobby:hintman_san"
+    "function": "lobby:owata/chat"
   }
 }
