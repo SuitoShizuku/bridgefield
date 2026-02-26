@@ -1,0 +1,15 @@
+execute if score $max_teams bf matches 2..7 run tag @a[tag=white] add team.over
+execute if score $max_teams bf matches 2..6 run tag @a[tag=cyan] add team.over
+execute if score $max_teams bf matches 2..5 run tag @a[tag=pink] add team.over
+execute if score $max_teams bf matches 2..4 run tag @a[tag=orange] add team.over
+execute if score $max_teams bf matches 2..3 run tag @a[tag=green] add team.over
+execute if score $max_teams bf matches 2 run tag @a[tag=yellow] add team.over
+team join entrant @a[tag=team.over]
+tag @a[tag=team.over] remove yellow
+tag @a[tag=team.over] remove green
+tag @a[tag=team.over] remove orange
+tag @a[tag=team.over] remove pink
+tag @a[tag=team.over] remove cyan
+tag @a[tag=team.over] remove white
+tag @a[tag=team.over] remove setcolor
+tag @a[tag=team.over] remove team.over
