@@ -6,3 +6,5 @@ execute as @a at @a[distance=5..10] run function core:ingame/item/armor/damage {
 execute as @a at @a[distance=10..15] run function core:ingame/item/armor/damage {damage:"5",trueDamage:"5"}
 
 playsound entity.generic.explode block @a ~ ~ ~ 5 0.1 0.1
+
+particle explosion_emitter ~ ~ ~ 15 15 15 0 50 force @a
