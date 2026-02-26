@@ -26,4 +26,4 @@ scoreboard players operation $turn_time_count bf = $turn_time bf
 scoreboard players operation $turn_time_count bf /= $temp bf
 
 #もしstun Tagがあれば
-function core:ingame/turn/stun/stun
+execute as @p[tag=true_turn] run function core:ingame/turn/stun/stun
