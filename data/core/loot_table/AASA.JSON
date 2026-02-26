@@ -7,14 +7,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:villager_spawn_egg",
+                "minecraft:item_model": "minecraft:creeper_spawn_egg",
+                "minecraft:enchantments_glint_override":true,
                 "minecraft:item_name": {
-                  "translate": "bf.item.consume.explode_decoy",
-                  "fallback": "[使]爆発デコイ",
+                  "translate": "bf.item.consume.suicide_bomb",
+                  "fallback": "[使]自決用爆弾",
                   "color": "light_purple"
                 },
                 "minecraft:custom_data": {
-                  "consumeId": "explode_decoy"
+                  "consumeId": "suicide_bomb"
                 },
                 "minecraft:lore": [
                   {
@@ -30,8 +31,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.explode_decoy.ef",
-                    "fallback": "デコイを召喚、その後数歩前進後爆発する",
+                    "translate": "bf.item.consume.suicide_bomb.ef",
+                    "fallback": "使用すると使用者とその周囲が盛大に爆破する",
                     "color": "white"
                   },
                   {
@@ -40,8 +41,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.explode_decoy.comment",
-                    "fallback": "人の心とか無い!(断言)",
+                    "translate": "bf.item.consume.suicide_bomb.comment",
+                    "fallback": "`いけ！じばくだ！`",
                     "color": "gray"
                   }
                 ]

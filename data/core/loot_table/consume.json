@@ -590,6 +590,57 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:tnt_minecart",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.explode_roulette",
+                  "fallback": "[使]爆発ルーレット",
+                  "color": "gold"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "explode_roulette"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.explode_roulette.ef",
+                    "fallback": "ランダムに0～4島爆発する",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.explode_roulette.comment",
+                    "fallback": "「こいつを使うのは\"追い詰められた時だけ\"にしないか...?」",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
