@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "core:bommode",
+          "value": "core:normalmode",
           "weight": 1,
           "conditions": [
             {

@@ -1,3 +1,4 @@
+function lobby:settings/team/check
 
 team join player.red @a[tag=red,team=entrant]
 team join player.blue @a[tag=blue,team=entrant]

@@ -45,3 +45,4 @@ effect give @a saturation infinite 0 true
 effect give @a instant_health infinite 0 true
 effect give @a[team=spectator] invisibility infinite 0 true
 effect give @a[team=spectator] glowing infinite 0 true
+function lobby:settings/team/check

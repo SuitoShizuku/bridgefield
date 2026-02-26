@@ -8,3 +8,4 @@ schedule function core:start/count_2 3.3s
 schedule function core:start/count_3 2.3s
 schedule function core:start/count_4 1.3s
 schedule function core:start/count_5 0.3s
+function lobby:settings/team/check
