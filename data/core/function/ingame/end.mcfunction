@@ -34,8 +34,7 @@ clear @a[tag=!noInvClear]
 execute as @a run function core:ingame/effect/debuff/burn/remove
 execute as @a run function core:ingame/effect/debuff/frostbite/remove
 # プレイヤー的な初期化
-tp @a[team=entrant] 0 1 -13 0 0
-tp @a[team=spectator] 0 1 -13 0 0
+tp @a[tag=!tutorial.runner] 0 1 -13 0 0
 execute as @a run attribute @s movement_speed modifier remove false_turn
 execute as @a run attribute @s jump_strength modifier remove false_turn
 execute as @a run attribute @s entity_interaction_range modifier remove false_turn
