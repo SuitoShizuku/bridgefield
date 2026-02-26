@@ -20,7 +20,7 @@
                   "color": "gold"
                 },
                 "minecraft:custom_data": {
-                  "consumeId": "glow_ink_sac"
+                  "artifactId": "glow_ink_sac"
                 },
                 "minecraft:lore": [
                   {
