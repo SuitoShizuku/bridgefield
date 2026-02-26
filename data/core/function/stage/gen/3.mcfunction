@@ -76,6 +76,7 @@ place template core:map/3/island_0 ~28 ~11 ~18
 place template core:map/3/stage_centermonument -96 18 236
 
 execute as @e[tag=game.interact.bridge] run data remove entity @s interaction
+execute as @e[tag=game.interact.bridge] run data remove entity @s attack
 
 tp @a[team=player.red] ~-20 ~18 ~0 facing ~ ~18 ~
 tp @a[team=player.blue] ~20 ~18 ~0 facing ~ ~18 ~
