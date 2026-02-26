@@ -625,7 +625,8 @@
                   {
                     "translate": "bf.item.consume.pure_gold_apple.ef",
                     "fallback": "10回復し、その後１ターンごとに2回復(最大5ターン)",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -677,7 +678,8 @@
                   {
                     "translate": "bf.item.consume.gold_plated_apple.ef",
                     "fallback": "食べるとゲームからKick、死んだ扱いになる。",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -728,7 +730,8 @@
                   {
                     "translate": "bf.item.consume.glowglow_berries.ef",
                     "fallback": "食べると５回復し光る",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -779,7 +782,8 @@
                   {
                     "translate": "bf.item.consume.suicide_bomb.ef",
                     "fallback": "使用すると使用者とその周囲が盛大に爆破する",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -830,7 +834,8 @@
                   {
                     "translate": "bf.item.consume.ender_pearl.ef",
                     "fallback": "使用すると、ランダムな島にテレポートする",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
