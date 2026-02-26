@@ -1,0 +1,1 @@
+data modify entity @s text set value [{translate:"bf.round",fallback:"%sチーム",with:[{score:{name:"$max_teams",objective:"bf"}}]}]
