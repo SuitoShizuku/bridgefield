@@ -45,6 +45,7 @@
     "bf.lobby.pink": "あなたは§d桃チーム§rに入る予定です",
     "bf.lobby.cyan": "あなたは§3水チーム§rに入る予定です",
     "bf.lobby.white": "あなたは§f白チーム§rに入る予定です",
+    "bf.lobby.kick_team": "最大チーム数上限が%sに設定されたため、あなたはランダムなチームに入ります。",
 
 
     "bf.item.melee": "近接武器",
