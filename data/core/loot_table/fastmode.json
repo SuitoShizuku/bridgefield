@@ -26,7 +26,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "core:armor",
+          "value": "core:artifact",
           "weight": 1
         }
       ]

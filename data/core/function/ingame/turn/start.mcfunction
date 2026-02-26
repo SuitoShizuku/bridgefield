@@ -6,6 +6,8 @@ attribute @s movement_speed modifier remove false_turn
 attribute @s jump_strength modifier remove false_turn
 attribute @s entity_interaction_range modifier remove false_turn
 attribute @s block_interaction_range modifier remove false_turn
+# ゲームエンドチェック
+execute if function core:ingame/gameend_check run return run function core:ingame/end
 
 #プレイヤーごとの実行だけど@eでラウンドスタートで減少済みタグを消去
 tag @e[type=minecraft:marker,tag=durability.damaged] remove durability.damaged

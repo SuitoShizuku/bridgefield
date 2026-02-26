@@ -5,6 +5,11 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "loot_table",
+          "weight": 4,
+          "value": "core:bom"
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
           "weight": 4,
@@ -38,7 +43,8 @@
                   {
                     "translate": "bf.item.consume.brick_3.ef",
                     "fallback": "使用者の資源値§a+5",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -89,7 +95,8 @@
                   {
                     "translate": "bf.item.consume.brick_2.ef",
                     "fallback": "使用者の資源値§a+10",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -140,7 +147,8 @@
                   {
                     "translate": "bf.item.consume.brick_1.ef",
                     "fallback": "使用者の資源値§a+20",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -191,7 +199,8 @@
                   {
                     "translate": "bf.item.consume.honey_medicine.ef",
                     "fallback": "火傷を治す",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -242,7 +251,8 @@
                   {
                     "translate": "bf.item.consume.slime_medicine.ef",
                     "fallback": "凍傷を治す",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -295,7 +305,8 @@
                   {
                     "translate": "bf.item.consume.wooden_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-1",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -348,7 +359,8 @@
                   {
                     "translate": "bf.item.consume.stone_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-2",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -401,7 +413,8 @@
                   {
                     "translate": "bf.item.consume.iron_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-3",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -454,7 +467,8 @@
                   {
                     "translate": "bf.item.consume.diamond_pickaxe.ef",
                     "fallback": "使用先の橋を破壊する",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -507,7 +521,8 @@
                   {
                     "translate": "bf.item.consume.golden_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値を§cランダムな割合§rで減少する。",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -558,7 +573,8 @@
                   {
                     "translate": "bf.item.consume.explode_decoy.ef",
                     "fallback": "デコイを召喚、その後2～10ターン後爆発し周囲に15ダメージ",
-                    "color": "white"
+                    "color": "white",
+                    "italic": true
                   },
                   {
                     "text": "——————————",
@@ -619,211 +635,6 @@
                   {
                     "translate": "bf.item.consume.explode_roulette.comment",
                     "fallback": "「こいつを使うのは\"追い詰められた時だけ\"にしないか...?」",
-                    "color": "gray"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:armadillo_scute",
-          "weight": 2,
-          "conditions": [],
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "minecraft:enchanted_golden_apple",
-                "minecraft:item_name": {
-                  "translate": "bf.item.consume.pure_gold_apple",
-                  "fallback": "[使]純金リンゴ",
-                  "color": "light_purple"
-                },
-                "minecraft:custom_data": {
-                  "consumeId": "pure_gold_apple"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "bf.item.consume",
-                    "fallback": "消費アイテム",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.effect",
-                    "fallback": "—効果———————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.pure_gold_apple.ef",
-                    "fallback": "10回復し、その後１ターンごとに2回復(最大5ターン)",
-                    "color": "white"
-                  },
-                  {
-                    "text": "——————————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.pure_gold_apple.comment",
-                    "fallback": "純金なら食っても大丈夫",
-                    "color": "gray"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:armadillo_scute",
-          "weight": 2,
-          "conditions": [],
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "minecraft:enchanted_golden_apple",
-                "minecraft:enchantment_glint_override":true,
-                "minecraft:item_name": {
-                  "translate": "bf.item.consume.gold_plated_apple",
-                  "fallback": "[使]純金リンゴ",
-                  "color": "light_purple"
-                },
-                "minecraft:custom_data": {
-                  "consumeId": "gold_plated_apple"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "bf.item.consume",
-                    "fallback": "消費アイテム",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.effect",
-                    "fallback": "—効果———————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.gold_plated_apple.ef",
-                    "fallback": "食べるとゲームからKick、観戦者へGO",
-                    "color": "white"
-                  },
-                  {
-                    "text": "——————————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.gold_plated_apple.comment",
-                    "fallback": "金メッキって食えるんか？",
-                    "color": "gray"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:armadillo_scute",
-          "weight": 2,
-          "conditions": [],
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "minecraft:glow_berries",
-                "minecraft:item_name": {
-                  "translate": "bf.item.consume.glowglow_berries",
-                  "fallback": "[使]ピカピカベリー",
-                  "color": "light_purple"
-                },
-                "minecraft:custom_data": {
-                  "consumeId": "glowglow_berries"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "bf.item.consume",
-                    "fallback": "消費アイテム",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.effect",
-                    "fallback": "—効果———————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.glowglow_berries.ef",
-                    "fallback": "食べると５回復し光る",
-                    "color": "white"
-                  },
-                  {
-                    "text": "——————————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.glowglow_berries.comment",
-                    "fallback": "`ぴかぴか～`",
-                    "color": "gray"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:armadillo_scute",
-          "weight": 2,
-          "conditions": [],
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "minecraft:creeper_spawn_egg",
-                "minecraft:item_name": {
-                  "translate": "bf.item.consume.suicide_bomb",
-                  "fallback": "[使]自決用爆弾",
-                  "color": "light_purple"
-                },
-                "minecraft:custom_data": {
-                  "consumeId": "suicide_bomb"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "bf.item.consume",
-                    "fallback": "消費アイテム",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.effect",
-                    "fallback": "—効果———————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.suicide_bomb.ef",
-                    "fallback": "使用すると使用者とその周囲が盛大に爆破する",
-                    "color": "white"
-                  },
-                  {
-                    "text": "——————————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.consume.suicide_bomb.comment",
-                    "fallback": "`いけ！じばくだ！`",
                     "color": "gray"
                   }
                 ]
