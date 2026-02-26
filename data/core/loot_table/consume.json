@@ -795,6 +795,211 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:enchanted_golden_apple",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.pure_gold_apple",
+                  "fallback": "[使]純金リンゴ",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "pure_gold_apple"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.pure_gold_apple.ef",
+                    "fallback": "10回復し、その後１ターンごとに2回復(最大5ターン)",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.pure_gold_apple.comment",
+                    "fallback": "純金なら食っても大丈夫",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:enchanted_golden_apple",
+                "minecraft:enchantment_glint_override":true,
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.gold_plated_apple",
+                  "fallback": "[使]純金リンゴ",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "gold_plated_apple"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.gold_plated_apple.ef",
+                    "fallback": "食べるとゲームからKick、観戦者へGO",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.gold_plated_apple.comment",
+                    "fallback": "金メッキって食えるんか？",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:glow_berries",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.glowglow_berries",
+                  "fallback": "[使]ピカピカベリー",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "glowglow_berries"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.glowglow_berries.ef",
+                    "fallback": "食べると５回復し光る",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.glowglow_berries.comment",
+                    "fallback": "`ぴかぴか～`",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:creeper_spawn_egg",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.suicide_bomb",
+                  "fallback": "[使]自決用爆弾",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "suicide_bomb"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.suicide_bomb.ef",
+                    "fallback": "使用すると使用者とその周囲が盛大に爆破する",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.suicide_bomb.comment",
+                    "fallback": "`いけ！じばくだ！`",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
