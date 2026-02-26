@@ -7,7 +7,7 @@
         {
     "type": "minecraft:item",
     "name": "trident",
-    "weight": 4,
+    "weight": 8,
     "conditions": [],
     "functions": [
         {
@@ -73,7 +73,7 @@
         {
     "type": "minecraft:item",
     "name": "trident",
-    "weight": 4,
+    "weight": 8,
     "conditions": [],
     "functions": [
         {
@@ -83,7 +83,7 @@
                 "minecraft:item_name": {
                     "translate": "bf.item.distant.disclosure",
                     "fallback": "[投]開示請求",
-                    "color": "gray"
+                    "color": "aqua"
                 },
                 "minecraft:custom_data": {
                     "weaponId": "disclosure",
@@ -129,6 +129,72 @@
                     {
                         "translate": "bf.item.distant.disclosure.comment",
                         "fallback": "「ステータス§lフルオープン」",
+                        "color": "gray"
+                    }
+                ]
+            }
+        }
+    ]
+},
+        {
+    "type": "minecraft:item",
+    "name": "trident",
+    "weight": 4,
+    "conditions": [],
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:ender_eye",
+                "minecraft:item_name": {
+                    "translate": "bf.item.distant.ender_eye",
+                    "fallback": "[投]相互転移装置",
+                    "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                    "weaponId": "ender_eye",
+                    "weaponDamage": "0",
+                    "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                    {
+                        "translate": "bf.item.distant",
+                        "fallback": "投擲武器",
+                        "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.damage",
+                        "fallback": "ダメージ: %s",
+                        "with": [
+                            {
+                                "text": "0",
+                                "color": "gold"
+                            }
+                        ],
+                        "color": "green",
+                        "italic": false
+                    },
+                  {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.ender_eye.special",
+                    "fallback": "対象と自分の位置を入れ替える。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                    {
+                        "text": "——————————",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.distant.ender_eye.comment",
+                        "fallback": "「君を構成する全ての細胞が入れ替わる時、君は君なのか?」",
                         "color": "gray"
                     }
                 ]
