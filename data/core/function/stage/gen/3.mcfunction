@@ -65,13 +65,13 @@ place template core:map/3/island_0 ~8 ~11 ~18
 place template core:map/3/island_6 ~18 ~11 ~18
 place template core:map/3/island_0 ~28 ~11 ~18
 
-place template core:map/3/island_0 ~-32 ~11 ~18
-place template core:map/3/island_0 ~-22 ~11 ~18
-place template core:map/3/island_0 ~-12 ~11 ~18
-place template core:map/3/island_0 ~-2 ~11 ~18
-place template core:map/3/island_0 ~8 ~11 ~18
-place template core:map/3/island_0 ~18 ~11 ~18
-place template core:map/3/island_0 ~28 ~11 ~18
+place template core:map/3/island_0 ~-32 ~11 ~28
+place template core:map/3/island_0 ~-22 ~11 ~28
+place template core:map/3/island_0 ~-12 ~11 ~28
+place template core:map/3/island_0 ~-2 ~11 ~28
+place template core:map/3/island_0 ~8 ~11 ~28
+place template core:map/3/island_0 ~18 ~11 ~28
+place template core:map/3/island_0 ~28 ~11 ~28
 
 place template core:map/3/stage_centermonument -96 18 236
 

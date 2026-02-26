@@ -45,3 +45,9 @@ tp @a[team=player.pink] ~10 ~19 ~10 facing ~ ~19 ~
 tp @a[team=player.cyan] ~10 ~19 ~-10 facing ~ ~19 ~
 tp @a[team=player.white] ~-10 ~19 ~10 facing ~ ~19 ~
 tp @a[team=spectator] ~ ~30 ~ facing ~ ~19 ~
+
+execute positioned -20 18 145 run function core:stage/chest/
+execute positioned -20 18 105 run function core:stage/chest/
+execute positioned 20 18 145 run function core:stage/chest/
+execute positioned 20 18 105 run function core:stage/chest/
+execute positioned 0 21 125 run function core:stage/chest/
