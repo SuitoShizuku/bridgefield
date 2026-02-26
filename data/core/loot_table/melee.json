@@ -824,7 +824,7 @@
                   },
                   {
                     "translate": "bf.item.melee.burned_stick.comment",
-                    "fallback": "寒",
+                    "fallback": "熱",
                     "color": "gray"
                   }
                 ]
