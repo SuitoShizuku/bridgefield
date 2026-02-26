@@ -1,6 +1,7 @@
 tag @s add victim
 
 execute unless entity @p[tag=attacker,tag=true_turn] run return run function core:ingame/item/distant/other_turn
+execute as @p[tag=attacker] unless predicate core:check_on_ground run return run function core:ingame/item/distant/false_on_ground
 
 scoreboard players set $temp blindness 0
 execute if items entity @p[tag=attacker] container.* *[custom_data~{"artifactId":"glow_ink_sac"}] unless score @s blindness matches 3.. run scoreboard players set $temp blindness 2
