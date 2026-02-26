@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:root",
+          "weight": 1
+        },
+        {
+            "type": "empty",
+            "weight": 2
+        }
+    ]
+    }
+  ]
+}
