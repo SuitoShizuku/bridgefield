@@ -22,6 +22,8 @@ execute unless score $stage.max bf matches -2147483648..2147483647 run scoreboar
 execute unless score $turn_time bf matches -2147483648..2147483647 run scoreboard players set $turn_time bf 400
 # ゲームモード
 execute unless score $gamemode bf matches -2147483648..2147483647 run scoreboard players set $gamemode bf 1
+# チーム最大
+execute unless score $max_teams bf matches -2147483648..2147483647 run scoreboard players set $max_teams bf 1
 # 終末の時
 execute unless score $EF bf matches -2147483648..2147483647 run scoreboard players set $EF bf 100
 # 時間帯
