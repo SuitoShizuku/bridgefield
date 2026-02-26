@@ -6,13 +6,13 @@
       "entries": [
         {
           "type": "loot_table",
-          "weight": 4,
+          "weight": 2,
           "value": "core:bom"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -64,7 +64,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -74,7 +74,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.brick_2",
                   "fallback": "[使]建築土台 - 2級",
-                  "color": "gray"
+                  "color": "aqua"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "brick_2"
@@ -116,7 +116,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 2,
+          "weight": 4,
           "conditions": [],
           "functions": [
             {
@@ -168,7 +168,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 2,
+          "weight": 4,
           "conditions": [],
           "functions": [
             {
@@ -220,7 +220,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 2,
+          "weight": 4,
           "conditions": [],
           "functions": [
             {
@@ -272,7 +272,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -326,7 +326,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -380,7 +380,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -390,7 +390,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.iron_pickaxe",
                   "fallback": "[使]つよいつるはし",
-                  "color": "gray"
+                  "color": "aqua"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "iron_pickaxe",
@@ -444,7 +444,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.diamond_pickaxe",
                   "fallback": "[使]わんぱんつるはし",
-                  "color": "gray"
+                  "color": "light_purple"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "diamond_pickaxe",
@@ -498,7 +498,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.golden_pickaxe",
                   "fallback": "[使]もしかしたらわんぱんつるはし",
-                  "color": "gray"
+                  "color": "aqua"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "golden_pickaxe",
@@ -542,7 +542,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 2,
+          "weight": 4,
           "conditions": [],
           "functions": [
             {
@@ -604,7 +604,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.pure_gold_apple",
                   "fallback": "[使]純金リンゴ",
-                  "color": "light_purple"
+                  "color": "gold"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "pure_gold_apple"
@@ -656,7 +656,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.gold_plated_apple",
                   "fallback": "[使]メッキ金リンゴ",
-                  "color": "light_purple"
+                  "color": "gold"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "gold_plated_apple"
@@ -676,7 +676,7 @@
                   },
                   {
                     "translate": "bf.item.consume.gold_plated_apple.ef",
-                    "fallback": "食べるとゲームからKick、観戦者へGO",
+                    "fallback": "食べるとゲームからKick、死んだ扱いになる。",
                     "color": "white"
                   },
                   {
@@ -697,7 +697,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 2,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -707,7 +707,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.glowglow_berries",
                   "fallback": "[使]ピカピカベリー",
-                  "color": "light_purple"
+                  "color": "aqua"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "glowglow_berries"
@@ -748,7 +748,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
-          "weight": 2,
+          "weight": 4,
           "conditions": [],
           "functions": [
             {
@@ -789,6 +789,57 @@
                   {
                     "translate": "bf.item.consume.suicide_bomb.comment",
                     "fallback": "`いけ！じばくだ！`",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ender_pearl",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.ender_pearl",
+                  "fallback": "[使]転移装置",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "ender_pearl"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.ender_pearl.ef",
+                    "fallback": "使用すると、ランダムな島にテレポートする",
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.ender_pearl.comment",
+                    "fallback": "「君はテセウスの船についてどう思う?」",
                     "color": "gray"
                   }
                 ]
