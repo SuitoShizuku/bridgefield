@@ -29,3 +29,6 @@ execute as @a at @s if items entity @s weapon.mainhand *[minecraft:custom_data~{
 
 # 爆発デコイの処理
 execute if entity @n[type=villager,tag=ed] run function core:ingame/item/explode_decoy/main
+
+# 宝箱の破壊
+function core:stage/chest/break/

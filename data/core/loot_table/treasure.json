@@ -2,16 +2,60 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 6,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "value": "core:root",
           "weight": 1
+        }
+    ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "barrier",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_components",
+                        "components": {
+                            "max_stack_size": 1,
+                            "item_name": {
+                                "translate": "bf.treasure.break",
+                                "fallback": "この宝箱を破壊する。",
+                                "color": "red"
+                            },
+                            "lore": [
+                              {
+                                "translate": "bf.treasure.break.text",
+                                "fallback": "中身はドロップします。",
+                                "color": "white",
+                                "italic": false
+                              }
+                            ],
+                            "custom_data": {
+                              "treasure.break": true
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:root",
+          "weight": 5
         },
         {
             "type": "empty",
-            "weight": 2
+            "weight": 9
         }
     ]
     }

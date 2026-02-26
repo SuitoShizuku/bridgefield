@@ -134,6 +134,9 @@
     "bf.lobby.teams.pink": "桃チームで参加",
     "bf.lobby.teams.cyan": "水チームで参加",
     "bf.lobby.teams.white": "白チームで参加",
+    "bf.treasure": "宝箱",
+    "bf.treasure.break": "この宝箱を破壊する。",
+    "bf.treasure.break.text": "中身はドロップします。",
 
     "bf.lobby.settings.title": "全体設定",
     "bf.lobby.settings.description": "各設定のテキストを\n%1$s・%2$sで変更する。\n（F3+%3$sで当たり判定を表示）",

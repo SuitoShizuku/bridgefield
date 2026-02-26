@@ -1,0 +1,1 @@
+execute as @e[tag=game.treasure] at @s unless items block ~ ~ ~ container.* barrier[custom_data~{treasure.break:true}] run function core:stage/chest/break/kill
