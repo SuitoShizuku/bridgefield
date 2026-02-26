@@ -44,7 +44,7 @@
                     "translate": "bf.item.consume.brick_3.ef",
                     "fallback": "使用者の資源値§a+5",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -96,7 +96,7 @@
                     "translate": "bf.item.consume.brick_2.ef",
                     "fallback": "使用者の資源値§a+10",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -148,7 +148,7 @@
                     "translate": "bf.item.consume.brick_1.ef",
                     "fallback": "使用者の資源値§a+20",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -200,7 +200,7 @@
                     "translate": "bf.item.consume.honey_medicine.ef",
                     "fallback": "火傷を治す",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -252,7 +252,7 @@
                     "translate": "bf.item.consume.slime_medicine.ef",
                     "fallback": "凍傷を治す",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -306,7 +306,7 @@
                     "translate": "bf.item.consume.wooden_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-1",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -360,7 +360,7 @@
                     "translate": "bf.item.consume.stone_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-2",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -414,7 +414,7 @@
                     "translate": "bf.item.consume.iron_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値§c-3",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -468,7 +468,7 @@
                     "translate": "bf.item.consume.diamond_pickaxe.ef",
                     "fallback": "使用先の橋を破壊する",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -522,7 +522,7 @@
                     "translate": "bf.item.consume.golden_pickaxe.ef",
                     "fallback": "使用先の橋の耐久値を§cランダムな割合§rで減少する。",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -574,7 +574,7 @@
                     "translate": "bf.item.consume.explode_decoy.ef",
                     "fallback": "デコイを召喚、その後2～10ターン後爆発し周囲に15ダメージ",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -625,7 +625,8 @@
                   {
                     "translate": "bf.item.consume.pure_gold_apple.ef",
                     "fallback": "10回復し、その後１ターンごとに2回復(最大5ターン)",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -677,7 +678,8 @@
                   {
                     "translate": "bf.item.consume.gold_plated_apple.ef",
                     "fallback": "食べるとゲームからKick、死んだ扱いになる。",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -728,7 +730,8 @@
                   {
                     "translate": "bf.item.consume.glowglow_berries.ef",
                     "fallback": "食べると５回復し光る",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -779,7 +782,8 @@
                   {
                     "translate": "bf.item.consume.suicide_bomb.ef",
                     "fallback": "使用すると使用者とその周囲が盛大に爆破する",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
@@ -830,7 +834,8 @@
                   {
                     "translate": "bf.item.consume.ender_pearl.ef",
                     "fallback": "使用すると、ランダムな島にテレポートする",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",

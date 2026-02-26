@@ -33,7 +33,8 @@
                   {
                     "translate": "bf.item.consume.suicide_bomb.ef",
                     "fallback": "使用すると使用者とその周囲が盛大に爆破する",
-                    "color": "white"
+                    "color": "white",
+                    "italic": false
                   },
                   {
                     "text": "——————————",
