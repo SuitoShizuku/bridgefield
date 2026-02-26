@@ -2,6 +2,11 @@ tag @s add victim
 
 execute unless entity @p[tag=attacker,tag=true_turn] run return run function core:ingame/item/distant/other_turn
 
+scoreboard players set $temp blindness 0
+execute if items entity @p[tag=attacker] container.* *[custom_data~{"artifactId":"glow_ink_sac"}] unless score @s blindness matches 3.. run scoreboard players set $temp blindness 2
+execute if items entity @p[tag=attacker] weapon.offhand *[custom_data~{"artifactId":"glow_ink_sac"}] unless score @s blindness matches 3.. run scoreboard players set $temp blindness 2
+execute if score $temp blindness matches 1.. run function core:ingame/effect/blindness/add
+
 function core:ingame/item/distant/weapon/ with entity @n[tag=projectile] item.components."minecraft:custom_data"
 loot give @p[tag=attacker] loot core:root
 

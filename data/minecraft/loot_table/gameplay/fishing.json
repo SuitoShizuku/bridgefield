@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:generic",
+  "type": "minecraft:fishing",
   "pools": [
     {
       "rolls": 1,
@@ -7,20 +7,20 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 4,
+          "weight": 2,
           "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:netherite_scrap",
+                "minecraft:item_model": "minecraft:glow_ink_sac",
                 "minecraft:item_name": {
-                  "translate": "bf.item.artifact.reinforcement",
-                  "fallback": "[品]補強材",
-                  "color": "gray"
+                  "translate": "bf.item.artifact.glow_ink_sac",
+                  "fallback": "[使]超イカッた",
+                  "color": "gold"
                 },
                 "minecraft:custom_data": {
-                  "artifactId": "reinforcement"
+                  "consumeId": "glow_ink_sac"
                 },
                 "minecraft:lore": [
                   {
@@ -36,8 +36,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.reinforcement.ef",
-                    "fallback": "橋を設置した時、耐久値を§a+3",
+                    "translate": "bf.item.artifact.glow_ink_sac.ef",
+                    "fallback": "攻撃した時、被撃者に盲目を2ターン付与する",
                     "color": "white",
                     "italic": true
                   },
@@ -47,8 +47,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.artifact.reinforcement.comment",
-                    "fallback": "スクラップの寄せ集め",
+                    "translate": "bf.item.artifact.glow_ink_sac.comment",
+                    "fallback": "どうしてくれんだ!!💢💢",
                     "color": "gray"
                   }
                 ]

@@ -27,6 +27,7 @@ execute unless score $EF bf matches -2147483648..2147483647 run scoreboard playe
 # 時間帯
 execute unless score $day bf matches -2147483648..2147483647 run scoreboard players set $day bf 1
 # 定数
+scoreboard players set #3 bf 3
 scoreboard players set #20 bf 20
 scoreboard players set #60 bf 60
 

@@ -1,8 +1,10 @@
-$scoreboard players set $temp durability $(bridgeDurability)
 $scoreboard players set $temp status.build $(bridgeCost)
+
 # アーティファクト(補強材)
-execute if items entity @s container.* *[custom_data~{"artifactId":"reinforcement"}] run scoreboard players add $temp durability 3
-execute unless items entity @s container.* *[custom_data~{"artifactId":"reinforcement"}] if items entity @s weapon.offhand *[custom_data~{"artifactId":"reinforcement"}] run scoreboard players add $temp durability 3
+execute store result score $temp durability run clear @s *[custom_data~{"artifactId":"reinforcement"}] 0
+scoreboard players operation $temp durability *= #3 bf
+$scoreboard players add $temp durability $(bridgeDurability)
+
 # コストが足りなければ失敗関数を呼び出して切り返す
 $execute unless score $temp status.build <= @p[tag=placed] status.build run return run function core:bridge/place/fail {cost:$(bridgeCost)}
 # ティスプレイがなければ召喚
