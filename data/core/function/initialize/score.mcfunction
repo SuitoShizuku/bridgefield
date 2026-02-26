@@ -62,3 +62,6 @@ scoreboard objectives add iv dummy "アイテムビューワー"
 # explode_decoy用
 scoreboard objectives add ed dummy "爆発デコイカウンター"
 scoreboard objectives add ed_random dummy "爆発デコイランダム"
+
+# 純金リンゴ用
+scoreboard objectives add pure_gold_apple dummy "純金リンゴカウンター"

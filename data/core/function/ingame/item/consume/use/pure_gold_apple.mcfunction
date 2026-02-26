@@ -1,0 +1,1 @@
+scoreboard players add @s pure_gold_apple 5
