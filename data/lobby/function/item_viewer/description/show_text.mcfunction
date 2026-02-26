@@ -17,3 +17,5 @@ $execute unless data storage bf:iv lore6{"text":"a"} run data modify storage bf:
 #$execute unless data storage bf:iv {defence:0} run data modify storage bf:iv text append value ["",{"text":"\n防御力 ","bold":true,"color":"dark_green"},"- ",{"text":"[","color":"gray"},{"text":"$(defence)",color:"white"},{"text":"]","color":"gray"}]
 data modify storage bf:iv text append value [{"text":"\n---------------------------","color":"gray"}]
 tellraw @s {"nbt":text,storage:"bf:iv",interpret:true}
+
+playsound minecraft:entity.item.pickup ambient @s ~ ~ ~ 1 1 0.1
