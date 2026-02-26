@@ -1,4 +1,4 @@
-#score switch.runを1に(mainで実行すると常時実行でこのファイルの最後に書くとreturnされるためスコアで制御するこの形に)
+#score switch.runを1に
 scoreboard players set $switch.run iv 1
 
 #0なら1,1なら0にスコア設定
