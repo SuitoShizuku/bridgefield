@@ -1,0 +1,1 @@
+execute if score $stage bf matches 1 run function core:stage/chest/1
