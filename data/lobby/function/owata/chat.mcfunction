@@ -1,4 +1,5 @@
 advancement revoke @s only lobby:hintman_san
+playsound entity.villager.ambient ambient @a ~ ~ ~ 1 2 0
 execute store result score $hintman_san bf run random value 1..5
 
 execute if score $hintman_san bf matches 1 run tellraw @s [{translate:"bf.chat.hintman_san.1",fallback:"投擲武器は、自分以外のターンで使うと消えちゃうよ"}]

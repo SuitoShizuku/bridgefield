@@ -18,6 +18,7 @@
     "bf.chat.disclosure.inventory": "■インベントリ（カーソルを合わせて詳細を見る）",
     "bf.chat.disclosure.status":"§c体力値: %1$s §9経験値: %2$s §c資源値: %3$s\n§l防御力§r: %4$s §n装備の重ね着§r: %5$s層",
     "bf.chat.breakable_bridge": "§c赤いパーティクル§rを%sで橋を破壊",
+    "bf.chat.ender_eye.fail": "地面に触れていないと使用出来ない!!",
 
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",
