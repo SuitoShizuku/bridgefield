@@ -39,7 +39,7 @@
                     "translate": "bf.item.artifact.glow_ink_sac.ef",
                     "fallback": "攻撃した時、被撃者に盲目を2ターン付与する",
                     "color": "white",
-                    "italic": true
+                    "italic": false
                   },
                   {
                     "text": "——————————",
