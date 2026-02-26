@@ -429,7 +429,7 @@
                   },
                   {
                     "translate": "bf.item.melee.slowing_wooden_axe.special",
-                    "fallback": "被攻者の次のターン時間が1/2になる",
+                    "fallback": "相手の次のターン時間が1/2になる",
                     "italic": false,
                     "color": "white"
                   },
@@ -507,7 +507,7 @@
                   },
                   {
                     "translate": "bf.item.melee.slowing_stone_axe.special",
-                    "fallback": "被攻者の次のターン時間が1/3になる",
+                    "fallback": "相手の次のターン時間が1/3になる",
                     "italic": false,
                     "color": "white"
                   },
@@ -585,7 +585,7 @@
                   },
                   {
                     "translate": "bf.item.melee.stun_hummer.special",
-                    "fallback": "敵の次ターンスキップされる",
+                    "fallback": "相手の次ターンスキップされる",
                     "italic": false,
                     "color": "white"
                   },
@@ -663,13 +663,13 @@
                   },
                   {
                     "translate": "bf.item.melee.frost_hummer.special",
-                    "fallback": "敵の次ターンスキップされる",
+                    "fallback": "相手の次ターンスキップされる",
                     "italic": false,
                     "color": "white"
                   },
                   {
                     "translate": "bf.item.melee.frost_hummer.special",
-                    "fallback": "敵が凍傷状態なら+10ダメージ",
+                    "fallback": "相手が凍傷状態なら追加で+10ダメージ",
                     "italic": false,
                     "color": "white"
                   },
