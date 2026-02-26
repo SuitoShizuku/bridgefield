@@ -1,48 +1,18 @@
-#爆発デコイ系のkill
-kill @e[tag=ed]
+# ゲーム終了直後に実行される処理
 
-# 勝利チーム
-
-
-# 初期化
-# チーム
-team join entrant @a[team=player.dead]
-team join entrant @a[team=player.red]
-team join entrant @a[team=player.blue]
-team join entrant @a[team=player.green]
-team join entrant @a[team=player.yellow]
-team join entrant @a[team=player.cyan]
-team join entrant @a[team=player.orange]
-team join entrant @a[team=player.pink]
-team join entrant @a[team=player.white]
-## 色付きチームに戻す
-team join player.red @a[tag=red,team=entrant]
-team join player.blue @a[tag=blue,team=entrant]
-team join player.yellow @a[tag=yellow,team=entrant]
-team join player.green @a[tag=green,team=entrant]
-team join player.orange @a[tag=orange,team=entrant]
-team join player.pink @a[tag=pink,team=entrant]
-team join player.cyan @a[tag=cyan,team=entrant]
-team join player.white @a[tag=white,team=entrant]
-
-# ゲーム的な初期化
-scoreboard players set $now bf 1
-function lobby:gen
-bossbar set turn_timer_my visible false
-bossbar set turn_timer_other visible false
-clear @a[tag=!noInvClear]
-execute as @a run function core:ingame/effect/debuff/burn/remove
-execute as @a run function core:ingame/effect/debuff/frostbite/remove
-# プレイヤー的な初期化
-tp @a[tag=!tutorial.runner] 0 1 -13 0 0
 execute as @a run attribute @s movement_speed modifier remove false_turn
 execute as @a run attribute @s jump_strength modifier remove false_turn
 execute as @a run attribute @s entity_interaction_range modifier remove false_turn
 execute as @a run attribute @s block_interaction_range modifier remove false_turn
-effect clear @a
-effect give @a resistance infinite 4 true
-effect give @a saturation infinite 0 true
-effect give @a instant_health infinite 0 true
-effect give @a[team=spectator] invisibility infinite 0 true
-effect give @a[team=spectator] glowing infinite 0 true
-function lobby:settings/team/check
+
+scoreboard players set $now bf 1
+function lobby:gen
+bossbar set turn_timer_my visible false
+bossbar set turn_timer_other visible false
+
+execute as @a run function core:ingame/effect/debuff/burn/remove
+execute as @a run function core:ingame/effect/debuff/frostbite/remove
+execute as @a run function core:ingame/effect/debuff/blindness/remove
+
+#爆発デコイ系のkill
+kill @e[tag=ed]

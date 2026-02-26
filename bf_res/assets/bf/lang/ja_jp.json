@@ -22,6 +22,8 @@
 
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",
+    "bf.title.end": "%sチームの勝ち",
+    "bf.chat.winner": "■勝者",
 
     "bf.interact.start": "右クリックで\nゲームスタート",
     "bf.interact.start.cancel": "右クリックで\nキャンセル",
@@ -124,6 +126,14 @@
     "bf.team.entrant.suffix": "",
     "bf.team.spectator.prefix": "[観]",
     "bf.team.spectator.suffix": "",
+    "bf.team.red": "§c赤チーム",
+    "bf.team.blue": "§9青チーム",
+    "bf.team.yellow": "§e黄チーム",
+    "bf.team.green": "§a緑チーム",
+    "bf.team.orange": "§6橙チーム",
+    "bf.team.pink": "§d桃チーム",
+    "bf.team.cyan": "§3水チーム",
+    "bf.team.white": "§f白チーム",
 
     "bf.lobby.teams.title": "チーム割当",
     "bf.lobby.teams.join": "ランダムチームで参加",
