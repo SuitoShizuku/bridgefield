@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:bridge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:melee",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:distant",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:consume",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "core:artifact",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:max_stack_size": 1
+      }
+    }
+  ]
+}

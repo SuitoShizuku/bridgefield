@@ -64,6 +64,10 @@ summon minecraft:interaction 5.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.s
 summon minecraft:text_display 4.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.day",fallback:"時間帯設定"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display 4.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.day"],"text":[{translate:"bf.noon",fallback:"昼"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 function lobby:settings/toggle/day/set_display
+# ゲームモード
+summon minecraft:interaction -0.5 2.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.fast"]}
+summon minecraft:interaction 0.5 2.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.normal"]}
+summon minecraft:interaction 1.5 2.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.bom"]}
 
 
 # アスレ

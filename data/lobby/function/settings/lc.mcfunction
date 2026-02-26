@@ -4,5 +4,6 @@ tag @n[type=interaction,nbt={attack:{}},tag=lobby.interact.settings] add opt.int
 execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.turn_time] run function lobby:settings/lr_switch/turn_time/l
 execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.ef] run function lobby:settings/lr_switch/ef/l
 execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.day] run function lobby:settings/toggle/day/
+execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.gamemode] run function lobby:settings/toggle/gamemode/
 
 execute as @n[tag=opt.interact] run function lobby:settings/init
