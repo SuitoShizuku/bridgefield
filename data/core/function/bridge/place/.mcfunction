@@ -10,8 +10,8 @@ $execute if entity @s[tag=north] run place template core:bridge/$(bridgeId) ~ ~ 
 execute as @a[distance=..16] at @s run playsound minecraft:block.bamboo_wood_door.open block @s ~ ~ ~ 1 0.1 0.1
 
 # アイテムを消してギブ
-item replace entity @p[tag=placed] weapon.mainhand with air
 loot give @p[tag=placed] loot core:root
+item replace entity @p[tag=placed] weapon.mainhand with air
 # タグをリセットし、ターンを回す
 execute if score $now bf matches 2 as @p[tag=placed] run function core:ingame/turn/end
 tag @a[tag=placed] remove placed

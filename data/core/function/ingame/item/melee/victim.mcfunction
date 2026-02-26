@@ -6,8 +6,8 @@ execute if items entity @p[tag=attacker] weapon.offhand *[custom_data~{"artifact
 execute if score $temp blindness matches 1.. run function core:ingame/effect/debuff/blindness/add
 
 function core:ingame/item/melee/weapon/ with entity @p[tag=attacker] SelectedItem.components."minecraft:custom_data"
-item replace entity @p[tag=attacker] weapon.mainhand with air
 loot give @p[tag=attacker] loot core:root
+item replace entity @p[tag=attacker] weapon.mainhand with air
 
 execute as @p[tag=attacker] run function core:ingame/turn/end
 tag @s remove victim
