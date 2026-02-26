@@ -740,7 +740,7 @@
                   },
                   {
                     "translate": "bf.item.consume.glowglow_berries.comment",
-                    "fallback": "`ぴかぴか～`",
+                    "fallback": "ぴかぴか～",
                     "color": "gray"
                   }
                 ]
@@ -792,7 +792,7 @@
                   },
                   {
                     "translate": "bf.item.consume.suicide_bomb.comment",
-                    "fallback": "`いけ！じばくだ！`",
+                    "fallback": "いけ！じばくだ！",
                     "color": "gray"
                   }
                 ]
