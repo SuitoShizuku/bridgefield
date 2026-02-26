@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "fishing": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "requirements": [
+    [
+      "fishing"
+    ]
+  ]
+}
