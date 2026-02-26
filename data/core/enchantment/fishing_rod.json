@@ -1,0 +1,28 @@
+{
+  "anvil_cost": 1,
+  "description": "釣り竿用",
+  "effects": {
+    "minecraft:fishing_time_reduction": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 29.99
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:fishing_rod",
+  "weight": 1
+}
