@@ -17,7 +17,7 @@ execute as @a[tag=!true_turn,team=!spectator,tag=!tutorial.runner] at @s run pla
 scoreboard players add @e[type=villager,tag=ed] ed 1
 
 #純金リンゴの回復
-scoreboard players add @a[scores={pure_gold_apple=1..}] status.hp 1
+scoreboard players add @a[scores={pure_gold_apple=1..}] status.hp 2
 
 #純金リンゴの使用音
 execute as @a[scores={pure_gold_apple=1..}] at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.1
