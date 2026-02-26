@@ -16,3 +16,5 @@ execute as @a run function core:ingame/effect/debuff/blindness/remove
 
 #爆発デコイ系のkill
 kill @e[tag=ed]
+
+function core:ingame/end/endroll
