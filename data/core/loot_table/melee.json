@@ -615,12 +615,12 @@
               "components": {
                 "minecraft:item_model": "minecraft:iron_axe",
                 "minecraft:item_name": {
-                  "translate": "bf.item.melee.frost_hummer",
+                  "translate": "bf.item.melee.frost_hammer",
                   "fallback": "[攻]氷結ハンマー",
                   "color": "gold"
                 },
                 "minecraft:custom_data": {
-                  "weaponId": "frost_hummer",
+                  "weaponId": "frost_hammer",
                   "weaponDamage": "7",
                   "weaponTrueDamage": "3"
                 },
@@ -662,13 +662,13 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.melee.frost_hummer.special",
+                    "translate": "bf.item.melee.frost_hammer.special",
                     "fallback": "相手の次ターンスキップされる",
                     "italic": false,
                     "color": "white"
                   },
                   {
-                    "translate": "bf.item.melee.frost_hummer.special",
+                    "translate": "bf.item.melee.frost_hammer.special2",
                     "fallback": "相手が凍傷状態なら追加で+10ダメージ",
                     "italic": false,
                     "color": "white"
@@ -679,7 +679,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.melee.frost_hummer.comment",
+                    "translate": "bf.item.melee.frost_hammer.comment",
                     "fallback": "冷たい一撃、高火力でスタンが可能！そう強い！",
                     "color": "gray"
                   }
