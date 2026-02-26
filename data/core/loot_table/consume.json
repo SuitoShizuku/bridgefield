@@ -604,7 +604,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.pure_gold_apple",
                   "fallback": "[使]純金リンゴ",
-                  "color": "gold"
+                  "color": "light_purple"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "pure_gold_apple"
