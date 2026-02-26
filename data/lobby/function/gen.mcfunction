@@ -9,7 +9,8 @@ setblock 0 2 5 minecraft:waxed_copper_bulb[lit=false]
 data merge storage bf:maps {list:[\
     {monument:"grass_block",title:{translate:"bf.map.1",fallback:"「クラシック」"},credit:"SuitoShizuku"},\
     {monument:"sandstone",title:{translate:"bf.map.2",fallback:"「アポミナリア」"},credit:"Michaelnear"},\
-    {monument:"polished_tuff",title:{translate:"bf.map.3",fallback:"「シンフォニア」"},credit:"Michaelnear"}\
+    {monument:"polished_tuff",title:{translate:"bf.map.3",fallback:"「シンフォニア」"},credit:"Michaelnear"},\
+    {monument:"end_stone",title:{translate:"bf.map.4",fallback:"「ジ・エンド」"},credit:"SuitoShizuku, Michaelnear"}\
 ]}
 summon minecraft:interaction 0.5 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.center"]}
 summon minecraft:interaction -0.2 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.right"]}
