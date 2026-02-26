@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "stick",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -79,7 +79,7 @@
         {
           "type": "minecraft:item",
           "name": "stick",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -133,7 +133,7 @@
         {
           "type": "minecraft:item",
           "name": "stick",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -187,7 +187,193 @@
         {
           "type": "minecraft:item",
           "name": "stick",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:iron_sword",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.iron_sword",
+                  "fallback": "[攻]鉄の剣",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "iron_sword",
+                  "weaponDamage": "8",
+                  "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "8",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.iron_sword.comment",
+                    "fallback": "<コメント>",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
           "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:diamond_sword",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.diamond_sword",
+                  "fallback": "[攻]ダイヤの剣",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "diamond_sword",
+                  "weaponDamage": "8",
+                  "weaponTrueDamage": "4"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "8",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "4",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.diamond_sword.comment",
+                    "fallback": "<コメント>",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:netherite_sword",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.netherite_sword",
+                  "fallback": "[攻]黒剣",
+                  "color": "gold"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "netherite_sword",
+                  "weaponDamage": "12",
+                  "weaponTrueDamage": "8"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "12",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "8",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.netherite_sword.comment",
+                    "fallback": "<コメント>",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -197,7 +383,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.slowing_wooden_axe",
                   "fallback": "[攻]鈍化の斧 -木",
-                  "color": "gray"
+                  "color": "aqua"
                 },
                 "minecraft:custom_data": {
                   "weaponId": "slowing_wooden_axe",
@@ -265,7 +451,7 @@
         {
           "type": "minecraft:item",
           "name": "stick",
-          "weight": 4,
+          "weight": 8,
           "conditions": [],
           "functions": [
             {
@@ -275,7 +461,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.slowing_stone_axe",
                   "fallback": "[攻]鈍化の斧 -石",
-                  "color": "gray"
+                  "color": "aqua"
                 },
                 "minecraft:custom_data": {
                   "weaponId": "slowing_stone_axe",
@@ -353,7 +539,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.stun_hammer",
                   "fallback": "[攻]スタンハンマー",
-                  "color": "gray"
+                  "color": "light_purple"
                 },
                 "minecraft:custom_data": {
                   "weaponId": "stun_hammer",
@@ -421,7 +607,7 @@
         {
           "type": "minecraft:item",
           "name": "stick",
-          "weight": 4,
+          "weight": 2,
           "conditions": [],
           "functions": [
             {
@@ -431,7 +617,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.frost_hummer",
                   "fallback": "[攻]氷結ハンマー",
-                  "color": "gray"
+                  "color": "gold"
                 },
                 "minecraft:custom_data": {
                   "weaponId": "frost_hummer",
@@ -515,7 +701,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.frozen_stick",
                   "fallback": "[攻]サムイ棒",
-                  "color": "gray"
+                  "color": "light_purple"
                 },
                 "minecraft:custom_data": {
                   "weaponId": "frozen_stick",
@@ -587,7 +773,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.melee.burned_stick",
                   "fallback": "[攻]アツイ棒",
-                  "color": "gray"
+                  "color": "light_purple"
                 },
                 "minecraft:custom_data": {
                   "weaponId": "burned_stick",
