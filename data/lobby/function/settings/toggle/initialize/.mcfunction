@@ -1,0 +1,6 @@
+tellraw @s [{translate:"bf.chat.initialize.alert",fallback:"本当に初期化しますか?",color:red,bold:true}]
+tellraw @s [{translate:"bf.chat.initialize.description.1",fallback:"ゲームやロビーに不具合があった場合に使用してください。",color:gray}]
+tellraw @s [{translate:"bf.chat.initialize.description.2",fallback:"- プレイヤーの進捗などはリセットされません。",color:gray}]
+tellraw @s [{translate:"bf.chat.initialize.description.3",fallback:"- 全てのプレイヤーがチームから離脱します。",color:gray}]
+tellraw @s [{translate:"bf.chat.initialize.description.4",fallback:"- 初期化には管理者権限が必要です。",color:gray}]
+tellraw @s [{translate:"bf.chat.initialize.button",fallback:"[ それでも初期化する ]",color:"dark_red",bold:true,underlined:true,click_event:{action:"suggest_command",command:"/function core:initialize/run"}}]

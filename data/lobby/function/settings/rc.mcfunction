@@ -6,5 +6,7 @@ execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.turn_time] run
 execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.ef] run function lobby:settings/lr_switch/ef/r
 execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.day] run function lobby:settings/toggle/day/
 execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.gamemode] run function lobby:settings/toggle/gamemode/
+execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.treasure] run function lobby:settings/toggle/treasure/
+execute if entity @n[tag=opt.interact,tag=lobby.interact.settings.init] run function lobby:settings/toggle/initialize/
 
 execute as @n[tag=opt.interact] run function lobby:settings/init
