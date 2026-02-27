@@ -23,8 +23,21 @@ function tutorial:gen
 tag @a remove tutorial.runner
 tag @a remove attacker
 tag @a remove victim
-tag @a add punch.attacker
+tag @a remove punch.attacker
 tag @a remove punch.victim
+tag @a remove noInvClear
+tag @a remove turn
+tag @a remove true_turn
+execute as @a run function core:ingame/effect/debuff/blindness/remove
+execute as @a run function core:ingame/effect/debuff/burn/remove
+execute as @a run function core:ingame/effect/debuff/frostbite/remove
+## エフェクト
+effect clear @a
+effect give @a resistance infinite 4 true
+effect give @a saturation infinite 0 true
+effect give @a instant_health infinite 0 true
+## インベントリ
+clear @a
 ## 進捗
 advancement revoke @a only core:armor_used
 advancement revoke @a only core:bridge_damage_e
