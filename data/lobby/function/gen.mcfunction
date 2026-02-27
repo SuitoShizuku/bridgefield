@@ -75,6 +75,18 @@ summon minecraft:interaction 5.499 1.0 -26.5 {"Tags": ["lobby","lobby.interact.s
 summon minecraft:text_display 4.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.day",fallback:"時間帯設定"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display 4.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.day"],"text":[{translate:"bf.noon",fallback:"昼"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 execute at @n[tag=lobby.interact.settings.day,type=interaction] run function lobby:settings/toggle/day/set_display
+summon item_display 4.99 1.5 -26.5 {Tags:["lobby"],Rotation:[-90,0],item:{id:"clock"}}
+## 宝箱
+summon minecraft:interaction 5.499 1.0 -25.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.treasure"],height:3}
+summon item_display 4.99 1.5 -25.5 {Tags:["lobby"],Rotation:[-90,0],item:{id:"chest"},transformation:{left_rotation:[0.0,0.0,0.0,1.0],right_rotation:[0.0,0.0,0.0,1.0],translation:[0.0,0.0,0.0],scale:[1.0,1.0,0.05]}}
+summon minecraft:text_display 4.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.treasure",fallback:"島の宝箱"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+summon minecraft:text_display 4.999 2.2 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.treasure"],"text":[{translate:"bf.on",fallback:"オフ"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+execute at @n[tag=lobby.interact.settings.treasure,type=interaction] run function lobby:settings/toggle/treasure/set_display
+## 初期化
+# summon minecraft:interaction 5.499 1.0 -25.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.treasure"],height:3}
+# summon minecraft:text_display 4.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.treasure",fallback:"島の宝箱"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+# summon minecraft:text_display 4.999 2.2 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.treasure"],"text":[{translate:"bf.on",fallback:"オフ"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+# execute at @n[tag=lobby.interact.settings.treasure,type=interaction] run function lobby:settings/toggle/treasure/set_display
 # ゲームモード
 summon minecraft:interaction -0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.fast"],height:3}
 summon minecraft:interaction 0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.normal"],height:3}

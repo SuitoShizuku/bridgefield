@@ -28,6 +28,8 @@ execute unless score $max_teams bf matches -2147483648..2147483647 run scoreboar
 execute unless score $EF bf matches -2147483648..2147483647 run scoreboard players set $EF bf 100
 # 時間帯
 execute unless score $day bf matches -2147483648..2147483647 run scoreboard players set $day bf 1
+# 宝箱
+execute unless score $treasure bf matches -2147483648..2147483647 run scoreboard players set $treasure bf 1
 # 定数
 scoreboard players set #3 bf 3
 scoreboard players set #20 bf 20
