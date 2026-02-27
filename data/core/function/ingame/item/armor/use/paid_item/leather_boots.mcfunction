@@ -1,0 +1,1 @@
+item replace entity @s armor.feet with golden_boots[enchantments={"core:armor":1}] 1
