@@ -76,9 +76,9 @@ summon minecraft:text_display 4.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.sett
 summon minecraft:text_display 4.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.day"],"text":[{translate:"bf.noon",fallback:"昼"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 function lobby:settings/toggle/day/set_display
 # ゲームモード
-summon minecraft:interaction -0.5 2.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.fast"]}
-summon minecraft:interaction 0.5 2.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.normal"]}
-summon minecraft:interaction 1.5 2.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.bom"]}
+summon minecraft:interaction -0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.fast"],height:3}
+summon minecraft:interaction 0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.normal"],height:3}
+summon minecraft:interaction 1.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.bom"],height:3}
 summon minecraft:text_display 0.5 4 -29.999 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.gamemode",fallback:"ゲームモード設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[2.0f,2.0f,2.0f]}}
 summon minecraft:text_display -0.5 2.7 -29.999 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.gamemode.fast",fallback:"ファスト"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f]}}
 summon minecraft:text_display 0.5 2.7 -29.999 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.gamemode.normal",fallback:"ノーマル"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f]}}
