@@ -572,7 +572,7 @@
                   },
                   {
                     "translate": "bf.item.consume.explode_decoy.ef",
-                    "fallback": "デコイを召喚、その後2～10ターン後爆発し周囲に15ダメージ",
+                    "fallback": "デコイを召喚、その後\n2～10ターン後爆発し\n周囲に15ダメージ",
                     "color": "white",
                     "italic": false
                   },
@@ -885,7 +885,7 @@
                   },
                   {
                     "translate": "bf.item.consume.paid.ef",
-                    "fallback": "使用すると防具の見た目が金装備になる",
+                    "fallback": "使用すると防具の見た\n目が金装備になる",
                     "color": "white",
                     "italic": false
                   },
