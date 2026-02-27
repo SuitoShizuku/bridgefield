@@ -1,10 +1,3 @@
-#ロビーボタン右が押されると次のアイテム
-execute if score $toggle iv matches 1 positioned -23 2 -5 unless score $button.interval.right iv matches 1.. if block -22 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/display/next
-#ロビーボタン左が押されるの前のアイテム
-execute if score $toggle iv matches 1 positioned -23 2 -5 unless score $button.interval.left iv matches 1.. if block -24 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/display/back
-
-
-
 #item_displayを回転させる
 execute as @n[type=item_display,tag=iv.item] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~1 ~
 execute as @e[type=item_display,tag=iv.item.grow] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~0.5 ~
