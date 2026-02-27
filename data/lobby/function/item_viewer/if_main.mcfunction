@@ -18,11 +18,11 @@ execute as @n[type=text_display,tag=iv.text.next] if score $button.interval.righ
 execute if score $button.interval.right iv matches 1 run scoreboard players add $button.interval.right.timer iv 1
 execute if score $button.interval.left iv matches 1 run scoreboard players add $button.interval.left.timer iv 1
 
-execute if score $button.interval.right.timer iv matches 1.. run setblock -22 2 -5 warped_button[face=floor,facing=north]
-execute if score $button.interval.left.timer iv matches 1.. run setblock -24 2 -5 crimson_button[face=floor,facing=north]
+execute if score $button.interval.right.timer iv matches 2.. run setblock -22 2 -5 warped_button[face=floor,facing=north]
+execute if score $button.interval.left.timer iv matches 2.. run setblock -24 2 -5 crimson_button[face=floor,facing=north]
 
-execute if score $button.interval.right.timer iv matches 1.. run scoreboard players set $button.interval.right.timer iv 0
-execute if score $button.interval.left.timer iv matches 1.. run scoreboard players set $button.interval.left.timer iv 0
+execute if score $button.interval.right.timer iv matches 2.. run scoreboard players set $button.interval.right.timer iv 0
+execute if score $button.interval.left.timer iv matches 2.. run scoreboard players set $button.interval.left.timer iv 0
 
 #interactionを見ているとparticle出る
 execute as @a at @s if predicate lobby:looking_at_interaction_iv if entity @n[type=interaction,tag=iv,distance=..5] run particle minecraft:glow -23 1.8 -6 0 0 0 0 1 normal @s
