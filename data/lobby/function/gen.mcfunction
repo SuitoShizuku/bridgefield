@@ -83,8 +83,8 @@ summon minecraft:text_display 4.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.sett
 summon minecraft:text_display 4.999 2.2 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.treasure"],"text":[{translate:"bf.on",fallback:"オフ"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 execute at @n[tag=lobby.interact.settings.treasure,type=interaction] run function lobby:settings/toggle/treasure/set_display
 ## 初期化
-summon minecraft:interaction 5.499 1.0 -25.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.init"],height:3}
-summon minecraft:text_display 4.999 2.35 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.init",fallback:"初期化"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
+summon minecraft:interaction 5.499 1.0 -24.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.init"],height:3}
+summon minecraft:text_display 4.999 2.35 -24.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.init",fallback:"初期化"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 # ゲームモード
 summon minecraft:interaction -0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.fast"],height:3}
 summon minecraft:interaction 0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.normal"],height:3}
