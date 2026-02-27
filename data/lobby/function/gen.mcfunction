@@ -58,18 +58,18 @@ summon minecraft:text_display -3.999 3.7 -25.5 {"Tags": ["lobby","lobby.text.set
 ## 最大チーム数
 summon minecraft:text_display -3.999 2.7 -24.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.teams",fallback:"チーム数"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display -3.999 2.2 -24.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.teams"],"text":[{translate:"bf.round",fallback:"%sチーム",with:[{score:{name:"$max_teams",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
-summon minecraft:interaction -4.499 2.0 -24.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.teams"]}
+summon minecraft:interaction -4.499 1.0 -24.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.teams"],height:3}
 ### 最大チームのフェンスモーション用
 function lobby:settings/team/fence/init
 ## 1ターン毎の時間
 summon minecraft:text_display -3.999 2.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.turn_time",fallback:"1ターン毎\nの時間"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display -3.999 2.2 -25.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.turn_time"],"text":[{translate:"bf.tick",fallback:"%s/20秒",with:[{score:{name:"$turn_time",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},line_width:50}
 execute as @n[tag=lobby.text.settings.turn_time,type=text_display] run function lobby:settings/lr_switch/turn_time/set_display
-summon minecraft:interaction -4.499 2.0 -25.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.turn_time"]}
+summon minecraft:interaction -4.499 1.0 -25.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.turn_time"],height:3}
 ## 終末の時
 summon minecraft:text_display -3.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.ef",fallback:"終末の時"}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display -3.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.ef"],"text":[{translate:"bf.round",fallback:"%sラウンド",with:[{score:{name:"$EF",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
-summon minecraft:interaction -4.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.ef"]}
+summon minecraft:interaction -4.499 1.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.ef"],height:3}
 ## 時間帯設定
 summon minecraft:interaction 5.499 1.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.day"],height:3}
 summon minecraft:text_display 4.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.day",fallback:"時間帯設定"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
