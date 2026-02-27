@@ -52,7 +52,7 @@ summon minecraft:text_display 23.5 3.0 4.0 {"Tags": ["lobby"],"text":[{translate
 
 # 設定
 summon minecraft:text_display 0.5 4 -19.999 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.settings.title",fallback:"全体設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]}}
-summon text_display 0.5 2.5 -25.5 {Tags:["lobby","lobby.text.settings.description"],text:[{translate:"bf.lobby.settings.description",fallback:"各設定のテキストを\n%1$s・%2$sで変更する。\n（F3+%3$sで当たり判定を表示）",with:[{keybind:"key.use"},{keybind:"key.attack"},{keybind:"key.debug.showHitboxes"}]}],billboard:"vertical",brightness:{block:15,sky:15}}
+summon text_display 0.5 2.5 -22.0 {Tags:["lobby","lobby.text.settings.description"],text:[{translate:"bf.lobby.settings.description",fallback:"各設定のテキストを\n%1$s・%2$sで変更する。\n（F3+%3$sで当たり判定を表示）",with:[{keybind:"key.use"},{keybind:"key.attack"},{keybind:"key.debug.showHitboxes"}]}],billboard:"vertical",brightness:{block:15,sky:15}}
 ## 数値系
 summon minecraft:text_display -3.999 3.7 -25.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.value",fallback:"%1$sで加算\n%2$sで減算",with:[{keybind:"key.use"},{keybind:"key.attack"}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.5f,1.5f,1.5f]}}
 ## 最大チーム数
@@ -71,7 +71,7 @@ summon minecraft:text_display -3.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.set
 summon minecraft:text_display -3.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.ef"],"text":[{translate:"bf.round",fallback:"%sラウンド",with:[{score:{name:"$EF",objective:"bf"}}]}],"billboard":"fixed","Rotation":[-90,0],brightness:{sky:15,block:15}}
 summon minecraft:interaction -4.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.ef"]}
 ## 時間帯設定
-summon minecraft:interaction 5.499 2.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.day"]}
+summon minecraft:interaction 5.499 1.0 -26.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.day"],height:3}
 summon minecraft:text_display 4.999 2.7 -26.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.day",fallback:"時間帯設定"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 summon minecraft:text_display 4.999 2.2 -26.5 {"Tags": ["lobby","lobby.text.settings","lobby.text.settings.day"],"text":[{translate:"bf.noon",fallback:"昼"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
 function lobby:settings/toggle/day/set_display
