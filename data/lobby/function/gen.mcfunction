@@ -85,7 +85,7 @@ execute at @n[tag=lobby.interact.settings.treasure,type=interaction] run functio
 ## 初期化
 summon minecraft:interaction 5.499 1.0 -24.5 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.init"],height:3}
 summon minecraft:text_display 4.999 2.35 -24.5 {"Tags": ["lobby","lobby.text.settings"],"text":[{translate:"bf.lobby.settings.init",fallback:"初期化"}],"billboard":"fixed","Rotation":[90,0],brightness:{sky:15,block:15}}
-summon item_display 4.99 1.56 -24.5 {Tags:["lobby"],Rotation:[-90,0],item:{id:"command_block"},transformation:{left_rotation:[0.0,0.0,0.0,1.0],right_rotation:[0.0,0.0,0.0,1.0],translation:[0.0,0.0,0.0],scale:[1.0,1.0,0.05]}}
+summon item_display 4.99 1.56 -24.5 {Tags:["lobby"],Rotation:[-90,0],item:{id:"command_block"},transformation:{left_rotation:[0.0,0.0,0.0,1.0],right_rotation:[0.0,0.0,0.0,1.0],translation:[0.0,0.0,0.0],scale:[0.88,0.88,0.05]}}
 # ゲームモード
 summon minecraft:interaction -0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.fast"],height:3}
 summon minecraft:interaction 0.5 1.0 -30.499 {"Tags": ["lobby","lobby.interact.settings","lobby.interact.settings.gamemode","lobby.interact.settings.gamemode.normal"],height:3}
