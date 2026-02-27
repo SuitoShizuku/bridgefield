@@ -53,5 +53,5 @@ advancement revoke @a only tutorial:join
 ## 最後に全員tp
 tp @a 0.5 15.0 -62.5
 # 最後に通知
-playsound minecraft:block.ender_chest.open master @a ~ ~ ~ 1 0
+playsound minecraft:block.ender_chest.open master @a 0 15 -63 1 0
 tellraw @a {translate:"bf.chat.initialize.run",fallback:"初期化しました",color:red,bold:true}
