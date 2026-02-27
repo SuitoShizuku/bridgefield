@@ -3,8 +3,7 @@ execute if score $toggle iv matches 1 positioned -23 2 -5 unless score $button.i
 #ロビーボタン左が押されるの前のアイテム
 execute if score $toggle iv matches 1 positioned -23 2 -5 unless score $button.interval.left iv matches 1.. if block -24 2 -5 #minecraft:buttons[powered=true] run function lobby:item_viewer/display/back
 
-#switch実行
-execute positioned -23 2 -5 if score $switch.run iv matches 1.. run function lobby:item_viewer/switch
+
 
 #item_displayを回転させる
 execute as @n[type=item_display,tag=iv.item] at @s if score $toggle iv matches 1 run tp @s ~ ~ ~ ~1 ~
