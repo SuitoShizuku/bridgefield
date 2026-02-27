@@ -28,6 +28,15 @@ tag @a remove punch.victim
 tag @a remove noInvClear
 tag @a remove turn
 tag @a remove true_turn
+tag @a remove setcolor
+tag @a remove red
+tag @a remove blue
+tag @a remove yellow
+tag @a remove green
+tag @a remove orange
+tag @a remove pink
+tag @a remove cyan
+tag @a remove white
 execute as @a run function core:ingame/effect/debuff/blindness/remove
 execute as @a run function core:ingame/effect/debuff/burn/remove
 execute as @a run function core:ingame/effect/debuff/frostbite/remove
