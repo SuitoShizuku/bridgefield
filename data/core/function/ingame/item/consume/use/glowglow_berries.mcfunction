@@ -4,4 +4,6 @@ effect give @s minecraft:glowing 30 1 true
 
 scoreboard players add @s status.hp 5
 
+tag @s add glowglow_berries
+
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.1
