@@ -14,7 +14,7 @@ execute as @a run function core:ingame/effect/debuff/burn/remove
 execute as @a run function core:ingame/effect/debuff/frostbite/remove
 execute as @a run function core:ingame/effect/debuff/blindness/remove
 
-#爆発デコイ系のkill
-kill @e[tag=ed]
-
 function core:ingame/end/endroll
+
+#各アイテムで付与した物のリセット
+function core:ingame/item_reset

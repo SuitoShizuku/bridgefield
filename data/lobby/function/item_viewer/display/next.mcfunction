@@ -1,3 +1,5 @@
+setblock -22 2 -5 minecraft:warped_button[face=floor,facing=north,powered=true]
+
 #連続してボタン判定が発生しないようスコア設定
 scoreboard players set $button.interval.right iv 1
 

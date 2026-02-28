@@ -1,3 +1,5 @@
+setblock -24 2 -5 minecraft:crimson_button[face=floor,facing=north,powered=true]
+
 #連続してボタン判定が発生しないようスコア設定
 scoreboard players set $button.interval.left iv 1
 
@@ -22,3 +24,5 @@ function lobby:item_viewer/display/id_set
 
 #サウンドを鳴らす
 playsound minecraft:block.note_block.bell ambient @a ~ ~ ~ 1 2 0.1
+
+#

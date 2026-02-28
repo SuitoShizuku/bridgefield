@@ -1,14 +1,5 @@
 #item_display召喚
 summon minecraft:item_display -23 0 -6 {Tags:["iv","iv.item","lobby","up"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]}}
-
-#text_display召喚
-summon minecraft:text_display -23 0.5 -5.499 {Tags:["iv","iv.text","lobby","up"],teleport_duration:5}
-summon minecraft:text_display -23 0.25 -5.5 {Tags:["iv","iv.text.id","lobby","up"],teleport_duration:5}
-summon minecraft:text_display -23 0.8 -6 {Tags:["iv","iv.text.click_here","lobby","up"],teleport_duration:5,text:{"text":"アイテムを右クリックして詳細確認！",color:"gray"},transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]}}
-summon minecraft:text_display -22 -0 -6 {Tags:["iv","iv.text.next","lobby","up"],teleport_duration:10,text:{"text":"Next"},Rotation:[20f,0f]}
-summon minecraft:text_display -23.5 -0 -6 {Tags:["iv","iv.text.back","lobby","up"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
-
-#item_display召喚
 summon minecraft:item_display -23.2 6.7 -5.5 {Tags:["iv","down","iv.item.grow","lobby"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:end_rod"},Rotation:[-45f,0f]}
 summon minecraft:item_display -21.8 6.2 -5.5 {Tags:["iv","down","iv.item.grow","lobby"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f]},item:{id:"minecraft:end_rod"},Rotation:[-65f,0f]}
 summon minecraft:item_display -21.8 6.8 -5.5 {Tags:["iv","down","iv.item.grow","lobby"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f]},item:{id:"minecraft:end_rod"},Rotation:[-65f,0f]}
@@ -17,6 +8,14 @@ summon minecraft:item_display -23.2 6.2 -5.5 {Tags:["iv","down","iv.item.grow","
 summon minecraft:item_display -21.8 5.9 -5.5 {Tags:["iv","down","iv.item.grow","lobby"],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.3f,0.3f,0.3f]},item:{id:"minecraft:ochre_froglight"},Rotation:[-65f,0f]}
 summon minecraft:item_display -23.5 1.5 -4.5 {Tags:["iv","up.1","iv.item.button.left","lobby"],teleport_duration:10,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1,1f]},item:{id:"minecraft:crimson_button"},Rotation:[0f,0f]}
 summon minecraft:item_display -21.5 1.5 -4.5 {Tags:["iv","up.1","iv.item.button.right","lobby"],teleport_duration:10,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1,1f]},item:{id:"minecraft:warped_button"},Rotation:[0f,0f]}
+
+#text_display召喚
+summon minecraft:text_display -23 0.5 -5.499 {Tags:["iv","iv.text","lobby","up"],teleport_duration:5}
+summon minecraft:text_display -23 -0.5 -5.2 {Tags:["iv","iv.text.click.discription","lobby","up"],text:[{"text":"Click :",color:"dark_gray"},{"text":" +-1",color:"gray"},{"text":" | Shift + Click :",color:"dark_gray"},{"text":" +-5",color:"gray"}],teleport_duration:5,transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]}}
+summon minecraft:text_display -23 0.25 -5.5 {Tags:["iv","iv.text.id","lobby","up"],teleport_duration:5}
+summon minecraft:text_display -23 0.8 -6 {Tags:["iv","iv.text.click_here","lobby","up"],teleport_duration:5,text:{"text":"アイテムを右クリックして詳細確認！",color:"gray"},transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f]}}
+summon minecraft:text_display -22 -0.3 -6 {Tags:["iv","iv.text.next","lobby","up"],teleport_duration:10,text:{"text":"Next"},Rotation:[20f,0f]}
+summon minecraft:text_display -23.5 -0.3 -6 {Tags:["iv","iv.text.back","lobby","up"],teleport_duration:10,text:{"text":"Back"},Rotation:[-20f,0f]}
 
 schedule function lobby:item_viewer/display/set_button 10t
 #interaction召喚
