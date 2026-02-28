@@ -27,4 +27,6 @@ tp @a[team=player.white] ~-10 ~19 ~10 facing ~ ~19 ~
 tp @a[team=spectator] ~ ~30 ~ facing ~ ~19 ~
 
 
+# 宝箱生成
+execute if score $treasure bf matches 0 run return 0
 execute positioned 25 18 226 run function core:stage/chest/
