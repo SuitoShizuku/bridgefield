@@ -4,5 +4,6 @@ execute if score $EF bf matches 400..900 run scoreboard players add $EF bf 100
 execute if score $EF bf matches 150..350 run scoreboard players add $EF bf 50
 execute if score $EF bf matches 50..125 run scoreboard players add $EF bf 25
 execute if score $EF bf matches 10..40 run scoreboard players add $EF bf 10
+execute if score $EF bf matches 1..9 run scoreboard players add $EF bf 1
 execute as @n[tag=lobby.text.settings.ef,type=text_display] run function lobby:settings/lr_switch/ef/set_display
 execute at @n[tag=opt.interact] at @n[type=text_display] run function lobby:settings/success_b
