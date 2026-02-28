@@ -8,6 +8,8 @@ team join entrant @a[team=player.cyan]
 team join entrant @a[team=player.orange]
 team join entrant @a[team=player.pink]
 team join entrant @a[team=player.white]
+team join entrant @a[tag=consume_plated_apple]
+tag @a[tag=consume_plated_apple] remove consume_plated_apple
 team join player.red @a[tag=red,team=entrant]
 team join player.blue @a[tag=blue,team=entrant]
 team join player.yellow @a[tag=yellow,team=entrant]

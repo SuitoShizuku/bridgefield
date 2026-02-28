@@ -865,7 +865,7 @@
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.paid",
                   "fallback": "[使]課金",
-                  "color": "aqua"
+                  "color": "gray"
                 },
                 "minecraft:custom_data": {
                   "consumeId": "paid"
