@@ -1,3 +1,4 @@
+execute at @n[tag=lobby.text.map.subtext.2,type=text_display] run function lobby:settings/success_b
 tellraw @s ""
 $tellraw @s [{translate:"a",fallback:"%1$s\n制作者: %2$s",with:[$(title),"$(credit)"]}]
 tellraw @s ""
