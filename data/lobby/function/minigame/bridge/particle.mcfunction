@@ -1,1 +1,1 @@
-particle dust{color:[0.0,1.0,0.0],scale:1.0} -17.5 0.0 -7.5 0.3 0 0.3 0 2 normal @a[tag=tutorial.runner]
+particle dust{color:[0.0,1.0,0.0],scale:1.0} -17.5 0.0 -7.5 0.3 0 0.3 0 2 normal @a
