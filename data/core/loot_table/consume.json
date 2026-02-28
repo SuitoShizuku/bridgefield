@@ -903,6 +903,59 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:compass",
+                "lodestone_tracker":{},
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.rand_compass",
+                  "fallback": "[使]混乱のコンパス",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "rand_compass"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.rand_compass.ef",
+                    "fallback": "全てのプレイヤーがランダムな島にテレポート",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.rand_compass.comment",
+                    "fallback": "逃げ切る際の、イチかバチか",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
