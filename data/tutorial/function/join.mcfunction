@@ -1,4 +1,5 @@
 tag @s add tutorial.runner
+scoreboard players set @s leave 0
 function tutorial:gen
 gamemode adventure @s
 clear @s
