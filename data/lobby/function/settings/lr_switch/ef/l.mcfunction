@@ -1,6 +1,6 @@
 # EFターン(最小設定1T)
 execute if score $EF bf matches 1 run return run execute at @n[tag=opt.interact] at @n[type=text_display] run function lobby:settings/failed
-execute if score $EF bf matches 10 run scoreboard players remove $EF bf 1
+execute if score $EF bf matches 2..10 run scoreboard players remove $EF bf 1
 execute if score $EF bf matches 20..50 run scoreboard players remove $EF bf 10
 execute if score $EF bf matches 75..150 run scoreboard players remove $EF bf 25
 execute if score $EF bf matches 200..400 run scoreboard players remove $EF bf 50
