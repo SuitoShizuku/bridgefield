@@ -24,6 +24,7 @@ gamemode spectator @a[team=player.dead]
 
 function lobby:credit/main
 function lobby:minigame/slot/main
+function lobby:minigame/bridge/particle
 function lobby:item_viewer/main
 
 # マッププレビュー
