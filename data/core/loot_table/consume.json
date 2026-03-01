@@ -598,7 +598,7 @@
           "conditions": [
             {
               "condition": "value_check",
-              "range": 2,
+              "range": 1,
               "value": {
                 "type": "score",
                 "score": "bf",
@@ -717,7 +717,7 @@
           "conditions": [
             {
               "condition": "value_check",
-              "range": 2,
+              "range": 1,
               "value": {
                 "type": "score",
                 "score": "bf",
