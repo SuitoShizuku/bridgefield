@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "steal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:flower_pots"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "steal"
+    ]
+  ],
+  "rewards": {
+    "function": "core:ingame/flower_steal"
+  }
+}
