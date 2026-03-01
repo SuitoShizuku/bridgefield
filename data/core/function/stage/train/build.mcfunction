@@ -1,0 +1,2 @@
+summon minecraft:block_display 40.5 8.4 342.5 {"block_state":{Name:"black_concrete"},"transformation":{"left_rotation":[0.0,0.0,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"translation":[0.0,0.0,-64.5],"scale":[0.05,0.05,129]},"Tags":["game"]}
+summon minecraft:block_display 40.5 7.8 342.5 {"block_state":{Name:"black_concrete"},"transformation":{"left_rotation":[0.0,0.0,0.0,1.0],"right_rotation":[0.0,0.0,0.0,1.0],"translation":[0.0,0.0,-64.5],"scale":[0.05,0.05,129]},"Tags":["game"]}

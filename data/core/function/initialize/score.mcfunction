@@ -18,6 +18,9 @@ execute unless score $ready bf matches -2147483648..2147483647 run scoreboard pl
 # ステージ
 execute unless score $stage bf matches -2147483648..2147483647 run scoreboard players set $stage bf 1
 execute unless score $stage.max bf matches -2147483648..2147483647 run scoreboard players set $stage.max bf 4
+## 電車
+execute unless score $train.move bf matches -2147483648..2147483647 run scoreboard players set $train.move bf 0
+execute unless score $train.ct bf matches -2147483648..2147483647 run scoreboard players set $train.ct bf 200
 # タイマー
 execute unless score $turn_time bf matches -2147483648..2147483647 run scoreboard players set $turn_time bf 400
 # ゲームモード
