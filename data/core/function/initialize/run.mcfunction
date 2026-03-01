@@ -26,6 +26,7 @@ tag @a remove victim
 tag @a remove punch.attacker
 tag @a remove punch.victim
 tag @a remove noInvClear
+tag @a remove itemDropped
 tag @a remove turn
 tag @a remove true_turn
 tag @a remove setcolor

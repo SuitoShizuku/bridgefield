@@ -22,6 +22,7 @@ execute as @a run function core:ingame/effect/debuff/frostbite/remove
 function core:stage/gen/
 scoreboard players set $round bf 0
 clear @a[tag=!noInvClear]
+tag @a remove itemDropped
 scoreboard players set @a status.hp 40
 scoreboard players set @a status.mp 20
 scoreboard players set @a status.build 20

@@ -10,4 +10,5 @@ attribute @s block_interaction_range modifier remove false_turn
 clear @s[tag=!noInvClear]
 tag @s remove turn
 tag @s remove true_turn
+tag @a remove itemDropped
 function lobby:settings/team/check
