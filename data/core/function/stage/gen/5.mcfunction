@@ -1,5 +1,5 @@
 function core:initialize/stage
-fill 119 33 260 103 3 192 air
+fill 119 33 260 103 3 192 light[level=10]
 
 place template core:map/5/island_8 ~-2 ~16 ~-29 none
 place template core:map/5/island_6 ~-2 ~16 ~-21 none
