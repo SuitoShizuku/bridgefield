@@ -997,7 +997,6 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:ink_sac",
-                "lodestone_tracker":{},
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.ikatta",
                   "fallback": "[使]イカッた",
