@@ -1,0 +1,32 @@
+{
+    "entity.train.passing": {
+        "subtitle": "bf.sounds.train.1",
+        "sounds": [
+            {
+                "name": "bf:custom/train_1",
+                "volume": 0.6,
+                "pitch": 1.0,
+                "stream": true,
+                "weight": 1,
+                "attenuation_distance": 16,
+                "preload": false,
+                "type": "file"
+            }
+        ]
+    },
+    "entity.train.horn": {
+        "subtitle": "bf.sounds.train.2",
+        "sounds": [
+            {
+                "name": "bf:custom/train_2",
+                "volume": 0.6,
+                "pitch": 1.0,
+                "stream": true,
+                "weight": 1,
+                "attenuation_distance": 16,
+                "preload": false,
+                "type": "file"
+            }
+        ]
+    }
+}

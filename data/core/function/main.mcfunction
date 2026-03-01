@@ -6,6 +6,9 @@ execute if score $now bf matches 1 run function lobby:main
 # ゲーム中であれば
 execute if score $now bf matches 2 run function core:ingame/main
 
+# 電車召喚
+execute positioned 85 18 342 if entity @a[distance=..75] run function core:stage/train/tick
+
 # チュートリアル
 execute if entity @p[tag=tutorial.runner] run function tutorial:main
 # チーム無所属のチュートリアル後のプレイヤーを参加予定者に追加する。
