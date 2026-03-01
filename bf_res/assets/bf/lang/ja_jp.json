@@ -19,7 +19,8 @@
     "bf.chat.disclosure.inventory": "■インベントリ（カーソルを合わせて詳細を見る）",
     "bf.chat.disclosure.status":"§c体力値: %1$s §9経験値: %2$s §c資源値: %3$s\n§l防御力§r: %4$s §n装備の重ね着§r: %5$s層",
     "bf.chat.breakable_bridge": "§c赤いパーティクル§rを%sで橋を破壊",
-    "bf.chat.ender_eye.fail": "地面に触れていないと使用出来ない!!",
+    "bf.chat.ender_eye.fail": "地面に触れていないと使用できません",
+    "bf.chat.ikatta.use": "%sがイカッた!! 戦況がわからなくなった!!",
 
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",
@@ -145,6 +146,9 @@
     "bf.item.consume.rand_compass": "[使]混乱のコンパス",
     "bf.item.consume.rand_compass.ef": "全てのプレイヤーがランダムな島にテレポート",
     "bf.item.consume.rand_compass.comment": "逃げ切る際の、イチかバチか",
+    "bf.item.consume.ikatta": "[使]イカッた",
+    "bf.item.consume.ikatta.ef": "全てのプレイヤーに盲目を3ターン付与",
+    "bf.item.consume.ikatta.comment": "怒ったイカの墨",
 
     "bf.game.visual_armor.name": "装備は一度着ると外せません。",
     "bf.game.visual_armor.lore": "装備アイテムを右クリックで更に重ね着できます。",

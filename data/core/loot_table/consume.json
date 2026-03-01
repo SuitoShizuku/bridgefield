@@ -986,6 +986,59 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:ink_sac",
+                "lodestone_tracker":{},
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.ikatta",
+                  "fallback": "[使]イカッた",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "ikatta"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.ikatta.ef",
+                    "fallback": "全てのプレイヤーに盲目を3ターン付与",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.ikatta.comment",
+                    "fallback": "怒ったイカの墨",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
