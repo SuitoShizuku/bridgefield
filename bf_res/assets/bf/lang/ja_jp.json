@@ -22,6 +22,7 @@
     "bf.chat.breakable_bridge": "§c赤いパーティクル§rを%sで橋を破壊",
     "bf.chat.ender_eye.fail": "地面に触れていないと使用できません",
     "bf.chat.ikatta.use": "%sがイカッた!! 戦況がわからなくなった!!",
+    "bf.chat.suicide_bomb": "Bomb!\n§l§c%sが自決用爆弾を使用した！",
     "bf.chat.EF": "終末の時が来た",
     "bf.chat.EF.prefix": "終末の時: ",
     "bf.chat.EF.1": "%sのHP§a+10",

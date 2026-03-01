@@ -25,7 +25,7 @@ scoreboard players operation $turn_time_count bf = $turn_time bf
 scoreboard players operation $turn_time_count bf /= $temp bf
 
 # 終末の時
-execute if score $round bf <= $EF bf run function core:ingame/turn/ef/
+execute if score $round bf >= $EF bf run function core:ingame/turn/ef/
 
 # もしstun Tagがあれば
 execute as @p[tag=true_turn] run function core:ingame/turn/stun/stun

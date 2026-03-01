@@ -1,5 +1,4 @@
-tellraw @a {"text":"Bomb!"}
-tellraw @a [{"selector":"@s"},{"text":"が自決用爆弾を使用した！",bold:true,color:red}]
+tellraw @a [{translate:"bf.chat.suicide_bomb",fallback:"Bomb!\n§l§c%sが自決用爆弾を使用した！",with:[{selector:"@s"}]}]
 
 playsound entity.generic.explode block @a ~ ~ ~ 5 0.1 0.1
 
