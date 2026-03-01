@@ -624,7 +624,7 @@
                   },
                   {
                     "translate": "bf.item.consume.pure_gold_apple.ef",
-                    "fallback": "10回復し、その後１ターンごとに2回復(最大5ターン)",
+                    "fallback": "HPを10回復し、その後1ターンごとに2回復(最大5ターン)",
                     "color": "white",
                     "italic": false
                   },
@@ -639,7 +639,22 @@
                     "color": "gray"
                   }
                 ]
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "value_check",
+                  "range": 2,
+                  "value": {
+                    "type": "score",
+                    "score": "bf",
+                    "target": {
+                      "type": "fixed",
+                      "name": "$gamemode"
+                    },
+                    "scale": 1
+                  }
+                }
+              ]
             }
           ]
         },
@@ -677,7 +692,7 @@
                   },
                   {
                     "translate": "bf.item.consume.gold_plated_apple.ef",
-                    "fallback": "食べるとゲームからKick、死んだ扱いになる。",
+                    "fallback": "食べると観戦者になる。",
                     "color": "white",
                     "italic": false
                   },
@@ -729,7 +744,7 @@
                   },
                   {
                     "translate": "bf.item.consume.glowglow_berries.ef",
-                    "fallback": "食べると５回復し光る",
+                    "fallback": "食べるとHPを5回復し光る",
                     "color": "white",
                     "italic": false
                   },
@@ -744,7 +759,22 @@
                     "color": "gray"
                   }
                 ]
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "value_check",
+                  "range": 2,
+                  "value": {
+                    "type": "score",
+                    "score": "bf",
+                    "target": {
+                      "type": "fixed",
+                      "name": "$gamemode"
+                    },
+                    "scale": 1
+                  }
+                }
+              ]
             }
           ]
         },
@@ -844,7 +874,7 @@
                   },
                   {
                     "translate": "bf.item.consume.ender_pearl.comment",
-                    "fallback": "「君はテセウスの船についてどう思う?」",
+                    "fallback": "原理不明の技術",
                     "color": "gray"
                   }
                 ]
