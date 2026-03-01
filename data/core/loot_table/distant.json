@@ -1,227 +1,347 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-    "type": "minecraft:item",
-    "name": "trident",
-    "weight": 8,
-    "conditions": [],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "trident",
+                    "weight": 8,
+                    "conditions": [],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:clay_ball",
+                                "minecraft:item_name": {
+                                    "translate": "bf.item.distant.pebble",
+                                    "fallback": "[投]小石",
+                                    "color": "gray"
+                                },
+                                "minecraft:custom_data": {
+                                    "weaponId": "pebble",
+                                    "weaponDamage": "1",
+                                    "weaponTrueDamage": "1"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "bf.item.distant",
+                                        "fallback": "投擲武器",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.damage",
+                                        "fallback": "ダメージ: %s",
+                                        "with": [
+                                            {
+                                                "text": "1",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.true_damage",
+                                        "fallback": "防御貫通ダメージ: %s",
+                                        "with": [
+                                            {
+                                                "text": "1",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "——————————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.pebble.comment",
+                                        "fallback": "水切りは...できなさそう",
+                                        "color": "gray"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "trident",
+                    "weight": 4,
+                    "conditions": [],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:gold_nugget",
+                                "minecraft:item_name": {
+                                    "translate": "bf.item.distant.golden_pebble",
+                                    "fallback": "[投]金の小石",
+                                    "color": "light_purple"
+                                },
+                                "minecraft:custom_data": {
+                                    "weaponId": "golden_pebble",
+                                    "weaponDamage": "0",
+                                    "weaponTrueDamage": "0"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "bf.item.distant",
+                                        "fallback": "投擲武器",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.true_damage",
+                                        "fallback": "防御貫通ダメージ: %s",
+                                        "with": [
+                                            {
+                                                "text": "3",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.special",
+                                        "fallback": "—特殊効果—————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.melee.golden_pebble.special",
+                                        "fallback": "相手の防御力§c-3",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "——————————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.golden_pebble.comment",
+                                        "fallback": "有り金を出す!",
+                                        "color": "gray"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "trident",
+                    "weight": 8,
+                    "conditions": [],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:knowledge_book",
+                                "minecraft:item_name": {
+                                    "translate": "bf.item.distant.disclosure",
+                                    "fallback": "[投]開示請求",
+                                    "color": "aqua"
+                                },
+                                "minecraft:custom_data": {
+                                    "weaponId": "disclosure",
+                                    "weaponDamage": "0",
+                                    "weaponTrueDamage": "0"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "bf.item.distant",
+                                        "fallback": "投擲武器",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.damage",
+                                        "fallback": "ダメージ: %s",
+                                        "with": [
+                                            {
+                                                "text": "0",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.special",
+                                        "fallback": "—特殊効果—————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.melee.disclosure.special",
+                                        "fallback": "被撃者のステータス・インベントリを攻撃者に開示する。",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "——————————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.disclosure.comment",
+                                        "fallback": "「ステータス§lフルオープン§r」",
+                                        "color": "gray"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "trident",
+                    "weight": 4,
+                    "conditions": [],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:ender_eye",
+                                "minecraft:item_name": {
+                                    "translate": "bf.item.distant.ender_eye",
+                                    "fallback": "[投]相互転移装置",
+                                    "color": "light_purple"
+                                },
+                                "minecraft:custom_data": {
+                                    "weaponId": "ender_eye",
+                                    "weaponDamage": "0",
+                                    "weaponTrueDamage": "0"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "bf.item.distant",
+                                        "fallback": "投擲武器",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.damage",
+                                        "fallback": "ダメージ: %s",
+                                        "with": [
+                                            {
+                                                "text": "0",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.special",
+                                        "fallback": "—特殊効果—————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.melee.ender_eye.special",
+                                        "fallback": "対象と自分の位置を入れ替える。",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": "——————————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.ender_eye.comment",
+                                        "fallback": "すれ違い",
+                                        "color": "gray"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "trident",
+                    "weight": 2,
+                    "conditions": [],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:trident",
+                                "minecraft:item_name": {
+                                    "translate": "bf.item.distant.cutlery",
+                                    "fallback": "[投]暗殺カトラリー",
+                                    "color": "gold"
+                                },
+                                "minecraft:custom_data": {
+                                    "weaponId": "cutlery",
+                                    "weaponDamage": "14",
+                                    "weaponTrueDamage": "0"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "bf.item.distant",
+                                        "fallback": "投擲武器",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.damage",
+                                        "fallback": "ダメージ: %s",
+                                        "with": [
+                                            {
+                                                "text": "14",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "——————————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.cutlery.comment",
+                                        "fallback": "毒を食らわばフォークまで",
+                                        "color": "gray"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "functions": [
         {
             "function": "minecraft:set_components",
             "components": {
-                "minecraft:item_model": "minecraft:clay_ball",
-                "minecraft:item_name": {
-                    "translate": "bf.item.distant.pebble",
-                    "fallback": "[投]小石",
-                    "color": "gray"
+                "minecraft:enchantments": {
+                    "core:distant": 1
                 },
-                "minecraft:custom_data": {
-                    "weaponId": "pebble",
-                    "weaponDamage": "1",
-                    "weaponTrueDamage": "1"
-                },
-                "minecraft:lore": [
-                    {
-                        "translate": "bf.item.distant",
-                        "fallback": "投擲武器",
-                        "color": "white",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.damage",
-                        "fallback": "ダメージ: %s",
-                        "with": [
-                            {
-                                "text": "1",
-                                "color": "gold"
-                            }
-                        ],
-                        "color": "green",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.true_damage",
-                        "fallback": "防御貫通ダメージ: %s",
-                        "with": [
-                            {
-                                "text": "1",
-                                "color": "gold"
-                            }
-                        ],
-                        "color": "green",
-                        "italic": false
-                    },
-                    {
-                        "text": "——————————",
-                        "color": "gray",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.distant.pebble.comment",
-                        "fallback": "水切りは...できなさそう",
-                        "color": "gray"
-                    }
-                ]
+                "unbreakable": {},
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:enchantments",
+                        "attribute_modifiers",
+                        "unbreakable"
+                    ]
+                }
             }
         }
     ]
-},
-        {
-    "type": "minecraft:item",
-    "name": "trident",
-    "weight": 8,
-    "conditions": [],
-    "functions": [
-        {
-            "function": "minecraft:set_components",
-            "components": {
-                "minecraft:item_model": "minecraft:knowledge_book",
-                "minecraft:item_name": {
-                    "translate": "bf.item.distant.disclosure",
-                    "fallback": "[投]開示請求",
-                    "color": "aqua"
-                },
-                "minecraft:custom_data": {
-                    "weaponId": "disclosure",
-                    "weaponDamage": "0",
-                    "weaponTrueDamage": "0"
-                },
-                "minecraft:lore": [
-                    {
-                        "translate": "bf.item.distant",
-                        "fallback": "投擲武器",
-                        "color": "white",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.damage",
-                        "fallback": "ダメージ: %s",
-                        "with": [
-                            {
-                                "text": "0",
-                                "color": "gold"
-                            }
-                        ],
-                        "color": "green",
-                        "italic": false
-                    },
-                  {
-                    "translate": "bf.item.special",
-                    "fallback": "—特殊効果—————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.melee.disclosure.special",
-                    "fallback": "被撃者のステータス・インベントリを攻撃者に開示する。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                    {
-                        "text": "——————————",
-                        "color": "gray",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.distant.disclosure.comment",
-                        "fallback": "「ステータス§lフルオープン」",
-                        "color": "gray"
-                    }
-                ]
-            }
-        }
-    ]
-},
-        {
-    "type": "minecraft:item",
-    "name": "trident",
-    "weight": 4,
-    "conditions": [],
-    "functions": [
-        {
-            "function": "minecraft:set_components",
-            "components": {
-                "minecraft:item_model": "minecraft:ender_eye",
-                "minecraft:item_name": {
-                    "translate": "bf.item.distant.ender_eye",
-                    "fallback": "[投]相互転移装置",
-                    "color": "light_purple"
-                },
-                "minecraft:custom_data": {
-                    "weaponId": "ender_eye",
-                    "weaponDamage": "0",
-                    "weaponTrueDamage": "0"
-                },
-                "minecraft:lore": [
-                    {
-                        "translate": "bf.item.distant",
-                        "fallback": "投擲武器",
-                        "color": "white",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.damage",
-                        "fallback": "ダメージ: %s",
-                        "with": [
-                            {
-                                "text": "0",
-                                "color": "gold"
-                            }
-                        ],
-                        "color": "green",
-                        "italic": false
-                    },
-                  {
-                    "translate": "bf.item.special",
-                    "fallback": "—特殊効果—————",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "bf.item.melee.ender_eye.special",
-                    "fallback": "対象と自分の位置を入れ替える。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                    {
-                        "text": "——————————",
-                        "color": "gray",
-                        "italic": false
-                    },
-                    {
-                        "translate": "bf.item.distant.ender_eye.comment",
-                        "fallback": "「君を構成する全ての細胞が入れ替わる時、君は君なのか?」",
-                        "color": "gray"
-                    }
-                ]
-            }
-        }
-    ]
-}
-      ]
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:enchantments": {
-          "core:distant": 1
-        },
-        "unbreakable": {},
-        "minecraft:enchantment_glint_override": false,
-        "minecraft:tooltip_display": {
-          "hidden_components": [
-            "minecraft:enchantments",
-            "attribute_modifiers",
-            "unbreakable"
-          ]
-        }
-      }
-    }
-  ]
 }

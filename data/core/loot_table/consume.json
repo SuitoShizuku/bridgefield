@@ -1036,6 +1036,58 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:oak_chest_boat",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.fishing_kit",
+                  "fallback": "[使]釣りキット",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "fishing_kit"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.fishing_kit.ef",
+                    "fallback": "釣り竿と餌を獲得する",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.fishing_kit.comment",
+                    "fallback": "海は入っていない。",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
