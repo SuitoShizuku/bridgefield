@@ -14,7 +14,8 @@ data merge storage bf:maps {list:[\
     {monument:"sandstone",title:{translate:"bf.map.2",fallback:"「アポミナリア」"},credit:"Michaelnear"},\
     {monument:"polished_tuff",title:{translate:"bf.map.3",fallback:"「シンフォニア」"},credit:"Michaelnear"},\
     {monument:"end_stone",title:{translate:"bf.map.4",fallback:"「ジ・エンド」"},credit:"SuitoShizuku, Michaelnear"},\
-    {monument:"netherrack",title:{translate:"bf.map.5",fallback:"「ネザーデュエル」"},credit:"SuitoShizuku"}\
+    {monument:"netherrack",title:{translate:"bf.map.5",fallback:"「ネザーデュエル」"},credit:"SuitoShizuku"},\
+    {monument:"andesite",title:{translate:"bf.map.6",fallback:"「アポカリプスィ」"},credit:"Michaelnear"}\
 ]}
 summon minecraft:interaction 0.5 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.center"]}
 summon minecraft:interaction -0.2 3.1 5.3 {"height": 0.7,"width": 0.7,"Tags": ["lobby","lobby.interact.map","lobby.interact.map.right"]}

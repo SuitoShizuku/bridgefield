@@ -8,3 +8,5 @@ execute positioned 81.0 29.0 226.0 run tp @a[dy=0] 0 1 0 0 0
 particle enchant 81.5 29.0 226.5 0 0.5 0 0.5 10 normal @a
 execute positioned 88.0 29.0 226.0 run tp @a[dy=0] 0 1 0 0 0
 particle enchant 88.5 29.5 226.5 0 0.5 0 0.5 10 normal @a
+execute positioned 85.0 35.0 274.0 run tp @a[dy=0] 0 1 0 0 0
+particle enchant 85.5 35.0 274.5 0 0.5 0 0.5 10 normal @a
