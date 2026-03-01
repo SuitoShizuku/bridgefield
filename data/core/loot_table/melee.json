@@ -897,6 +897,72 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:bamboo",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.bamboo_spear",
+                  "fallback": "[攻]竹槍",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "bamboo_spear",
+                  "weaponDamage": "0",
+                  "weaponTrueDamage": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.bamboo_spear.special",
+                    "fallback": "相手が全プレイヤーの平均値以下の体力の場合、ダメージを5与える",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.bamboo_spear.comment",
+                    "fallback": "上質な竹でできた槍",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
