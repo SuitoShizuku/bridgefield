@@ -1,4 +1,4 @@
-scoreboard players set $train.move bf 140
+scoreboard players set $train.move bf 160
 scoreboard players set $train.ct bf 300
 summon block_display 85.5 2.9 410.0 {Passengers:[\
 {id:"minecraft:item_display",item:{id:"minecraft:grindstone",count:1},item_display:"none",transformation:[-1f,0f,0f,1f,0f,0f,-1f,0f,0f,-1f,0f,0.5f,0f,0f,0f,1f],Tags:["game","game.train"]},\
