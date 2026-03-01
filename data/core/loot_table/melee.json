@@ -831,6 +831,72 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 4,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:copper_hoe",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.lifeline_blade",
+                  "fallback": "[攻]命脈の刃",
+                  "color": "light_purple"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "lifeline_blade",
+                  "weaponDamage": "0",
+                  "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: ?",
+                    "with": [
+                      {
+                        "text": "0",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.lifeline_blade.special",
+                    "fallback": "相手の体力によってダメージが変化する、体力が多いほどダメージが上がる",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.lifeline_blade.comment",
+                    "fallback": "仕留めるのには向いてないのかも",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
