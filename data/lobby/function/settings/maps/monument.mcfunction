@@ -2,3 +2,5 @@ execute if score $stage bf matches 1 run function lobby:settings/maps/set_monume
 execute if score $stage bf matches 2 run function lobby:settings/maps/set_monument with storage bf:maps list[1]
 execute if score $stage bf matches 3 run function lobby:settings/maps/set_monument with storage bf:maps list[2]
 execute if score $stage bf matches 4 run function lobby:settings/maps/set_monument with storage bf:maps list[3]
+execute if score $stage bf matches 5 run function lobby:settings/maps/set_monument with storage bf:maps list[4]
+execute if score $stage bf matches 6 run function lobby:settings/maps/set_monument with storage bf:maps list[5]
