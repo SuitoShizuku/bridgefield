@@ -40,6 +40,8 @@ scoreboard players set #60 bf 60
 
 # ゲーム離脱検知用
 scoreboard objectives add leave custom:leave_game
+## これを未定にしてしまうとプレイヤーが初期化される
+scoreboard players set @a leave 0
 
 # 行動順
 scoreboard objectives add initiative dummy "行動値"
