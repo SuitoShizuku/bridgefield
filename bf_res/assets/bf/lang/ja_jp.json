@@ -149,6 +149,13 @@
     "bf.item.consume.ikatta": "[使]イカッた",
     "bf.item.consume.ikatta.ef": "全てのプレイヤーに盲目を3ターン付与",
     "bf.item.consume.ikatta.comment": "怒ったイカの墨",
+    
+    "bf.item.artifact.reinforcement": "[品]補強材",
+    "bf.item.artifact.reinforcement.ef": "橋を設置した時、耐久値を§a+3",
+    "bf.item.artifact.reinforcement.comment": "スクラップの寄せ集め",
+    "bf.item.artifact.glow_ikatta": "[品]超イカッた",
+    "bf.item.artifact.glow_ikatta.ef": "攻撃した時、被撃者に盲目を2ターン付与する",
+    "bf.item.artifact.glow_ikatta.comment": "どうしてくれんだ!!💢💢",
 
     "bf.game.visual_armor.name": "装備は一度着ると外せません。",
     "bf.game.visual_armor.lore": "装備アイテムを右クリックで更に重ね着できます。",
