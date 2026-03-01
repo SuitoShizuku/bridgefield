@@ -595,7 +595,21 @@
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
           "weight": 2,
-          "conditions": [],
+          "conditions": [
+            {
+              "condition": "value_check",
+              "range": 2,
+              "value": {
+                "type": "score",
+                "score": "bf",
+                "target": {
+                  "type": "fixed",
+                  "name": "$gamemode"
+                },
+                "scale": 1
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -639,22 +653,7 @@
                     "color": "gray"
                   }
                 ]
-              },
-              "conditions": [
-                {
-                  "condition": "value_check",
-                  "range": 2,
-                  "value": {
-                    "type": "score",
-                    "score": "bf",
-                    "target": {
-                      "type": "fixed",
-                      "name": "$gamemode"
-                    },
-                    "scale": 1
-                  }
-                }
-              ]
+              }
             }
           ]
         },
@@ -668,7 +667,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:golden_apple",
-                "minecraft:enchantment_glint_override":true,
+                "minecraft:enchantment_glint_override": true,
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.gold_plated_apple",
                   "fallback": "[使]メッキ金リンゴ",
@@ -715,7 +714,21 @@
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
           "weight": 8,
-          "conditions": [],
+          "conditions": [
+            {
+              "condition": "value_check",
+              "range": 2,
+              "value": {
+                "type": "score",
+                "score": "bf",
+                "target": {
+                  "type": "fixed",
+                  "name": "$gamemode"
+                },
+                "scale": 1
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -759,22 +772,7 @@
                     "color": "gray"
                   }
                 ]
-              },
-              "conditions": [
-                {
-                  "condition": "value_check",
-                  "range": 2,
-                  "value": {
-                    "type": "score",
-                    "score": "bf",
-                    "target": {
-                      "type": "fixed",
-                      "name": "$gamemode"
-                    },
-                    "scale": 1
-                  }
-                }
-              ]
+              }
             }
           ]
         },
@@ -944,7 +942,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:compass",
-                "lodestone_tracker":{},
+                "lodestone_tracker": {},
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.rand_compass",
                   "fallback": "[使]混乱のコンパス",
