@@ -87,7 +87,7 @@
               "components": {
                 "minecraft:item_model": "minecraft:stick",
                 "minecraft:item_name": {
-                  "translate": "bf.item.weapon.stick",
+                  "translate": "bf.item.melee.stick",
                   "fallback": "[攻]タダノ棒",
                   "color": "gray"
                 },
@@ -121,7 +121,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.weapon.wood_sword.comment",
+                    "translate": "bf.item.melee.wood_sword.comment",
                     "fallback": "棒だ。",
                     "color": "gray"
                   }
