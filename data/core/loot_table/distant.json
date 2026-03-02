@@ -335,7 +335,7 @@
                                 "minecraft:item_name": {
                                     "translate": "bf.item.distant.fire_ball",
                                     "fallback": "[投]火の玉",
-                                    "color": "aqua"
+                                    "color": "red"
                                 },
                                 "minecraft:custom_data": {
                                     "weaponId": "fire_ball",
@@ -389,7 +389,7 @@
                                 "minecraft:item_name": {
                                     "translate": "bf.item.distant.snow_ball",
                                     "fallback": "[投]氷の塊",
-                                    "color": "red"
+                                    "color": "aqua"
                                 },
                                 "minecraft:custom_data": {
                                     "weaponId": "snow_ball",
