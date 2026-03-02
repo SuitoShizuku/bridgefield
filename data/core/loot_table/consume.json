@@ -1262,7 +1262,20 @@
           "type": "minecraft:item",
           "name": "minecraft:armadillo_scute",
           "weight": 8,
-          "conditions": [],
+          "conditions": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "core:reroll_trader": false
+                  }
+                }
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:set_components",
