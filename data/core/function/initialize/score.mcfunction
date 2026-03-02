@@ -8,6 +8,7 @@ scoreboard objectives remove defense
 scoreboard objectives remove armor_count
 scoreboard objectives remove bridge.players
 scoreboard objectives remove bridge.players.delta
+scoreboard objectives remove rc_ct
 scoreboard objectives remove iv
 
 scoreboard objectives add bf dummy
@@ -61,6 +62,8 @@ scoreboard objectives add armor_count dummy "装備の重ね着数"
 scoreboard objectives add bridge.players dummy "橋のプレイヤー数"
 # 橋のプレイヤー数差検知用
 scoreboard objectives add bridge.players.delta dummy "橋のプレイヤー数の差検知用"
+# 右クリックで出るメッセージのクールタイム
+scoreboard objectives add rc_ct dummy "右クリッククールタイム"
 
 # デバフ用
 scoreboard objectives add blindness dummy "盲目"

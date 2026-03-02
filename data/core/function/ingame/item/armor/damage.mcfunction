@@ -1,5 +1,11 @@
 # ダメージを代入
 $scoreboard players set $temp defense $(damage)
+# 竹槍
+execute if items entity @p[tag=attacker,tag=true_turn] weapon.mainhand *[custom_data~{"weaponId":"bamboo_spear"}] store result score $temp bf run function core:ingame/item/melee/weapon/bamboo_spear/
+scoreboard players operation $temp defense += $temp bf
+# 金剣
+execute if items entity @p[tag=attacker,tag=true_turn] weapon.mainhand *[custom_data~{"weaponId":"golden_sword"}] store result score $temp bf run random value 0..7
+scoreboard players operation $temp defense += $temp bf
 # ダメージが防御可能かつ、攻撃者が武器持ちなら装備を破壊
 execute if score $temp defense matches 1.. unless entity @p[tag=punch.attacker] run function core:ingame/item/armor/armor_break
 # 防御力を引く

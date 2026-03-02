@@ -14,6 +14,8 @@ execute if entity @p[tag=tutorial.runner] run function tutorial:main
 # チーム無所属のチュートリアル後のプレイヤーを参加予定者に追加する。
 execute if entity @p[tag=tutorial.runner] positioned -2.0 7.0 -15.0 as @a[dx=4,dy=4,dz=4] run function core:leave_tutorial
 
+execute as @a if score @s rc_ct matches 1.. run scoreboard players remove @s rc_ct 1
+
 # 入った時
 execute as @a[scores={leave=1..}] run function core:leave
 execute as @a unless score @s leave matches -2147483648..2147483647 run function tutorial:join
