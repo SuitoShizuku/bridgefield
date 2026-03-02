@@ -14,6 +14,8 @@ execute as @a run function core:ingame/effect/debuff/burn/remove
 execute as @a run function core:ingame/effect/debuff/frostbite/remove
 execute as @a run function core:ingame/effect/debuff/blindness/remove
 
+scoreboard objectives setdisplay list
+
 function core:ingame/end/endroll
 
 #各アイテムで付与した物のリセット
