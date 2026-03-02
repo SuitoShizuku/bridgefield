@@ -1017,6 +1017,72 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:book",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.dictionary",
+                  "fallback": "[攻]万科事典",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "dictionary",
+                  "weaponDamage": "0",
+                  "weaponTrueDamage": "5"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.true_damage",
+                    "fallback": "防御貫通ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "5",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.special",
+                    "fallback": "—特殊効果—————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.dictionary.special",
+                    "fallback": "相手にスタン効果を付与する。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.dictionary.comment",
+                    "fallback": "ずっしりと重く、この中にすべてが詰まっている。",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
