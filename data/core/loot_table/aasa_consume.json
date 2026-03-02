@@ -1,0 +1,52 @@
+{
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:goat_horn",
+                "minecraft:item_name": {
+                  "translate": "bf.item.consume.slow_horn",
+                  "fallback": "[使]鈍化の角笛",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "consumeId": "slow_horn"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.consume",
+                    "fallback": "消費アイテム",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.effect",
+                    "fallback": "—効果———————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.slow_horn.ef",
+                    "fallback": "周囲16マスの味方以外の人の次のターン時間が1/5になる",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.slow_horn.comment",
+                    "fallback": "この音が聞こえてしまったら最後",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
