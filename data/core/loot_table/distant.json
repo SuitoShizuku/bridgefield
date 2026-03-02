@@ -362,6 +362,24 @@
                                         "italic": false
                                     },
                                     {
+                                        "translate": "bf.item.special",
+                                        "fallback": "—特殊効果—————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.fire.special",
+                                        "fallback": "相手に%1$sを付与する",
+                                        "with": [
+                                            {
+                                                "translate": "bf.effects.burn",
+                                                "fallback": "§c火傷"
+                                            }
+                                        ],
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
                                         "text": "——————————",
                                         "color": "gray",
                                         "italic": false
@@ -414,6 +432,24 @@
                                         ],
                                         "color": "green",
                                         "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.special",
+                                        "fallback": "—特殊効果—————",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.distant.snow_ball.special",
+                                        "fallback": "相手に%1$sを付与する",
+                                        "with": [
+                                            {
+                                                "translate": "bf.effects.frost",
+                                                "fallback": "§b凍傷"
+                                            }
+                                        ],
+                                        "italic": false,
+                                        "color": "white"
                                     },
                                     {
                                         "text": "——————————",
