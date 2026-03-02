@@ -89,18 +89,18 @@
                                         "color": "white",
                                         "italic": false
                                     },
-                  {
-                    "translate": "bf.item.mpcost",
-                    "fallback": "経験値コスト: %s",
-                    "with": [
-                      {
-                        "text": "10",
-                        "color": "gold"
-                      }
-                    ],
-                    "color": "green",
-                    "italic": false
-                  },
+                                    {
+                                        "translate": "bf.item.mpcost",
+                                        "fallback": "経験値コスト: %s",
+                                        "with": [
+                                            {
+                                                "text": "10",
+                                                "color": "gold"
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    },
                                     {
                                         "translate": "bf.item.effect",
                                         "fallback": "—効果———————",
