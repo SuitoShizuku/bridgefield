@@ -39,7 +39,13 @@
                                     },
                                     {
                                         "translate": "bf.item.consume.fishing_rod.ef",
-                                        "fallback": "釣ることが出来る",
+                                        "fallback": "釣ることが出来る。",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "bf.item.consume.fishing_rod.ef2",
+                                        "fallback": "自身のターン外で使用した場合スタン効果が付与される",
                                         "color": "white",
                                         "italic": false
                                     },
@@ -109,7 +115,7 @@
                                     },
                                     {
                                         "translate": "bf.item.consume.nether_wart.ef",
-                                        "fallback": "使用した5R後、使用した場所に宝箱が設置される",
+                                        "fallback": "使用した5ラウンド後、使用した場所に宝箱が設置される",
                                         "color": "white",
                                         "italic": false
                                     },
