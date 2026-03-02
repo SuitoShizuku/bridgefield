@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "fishing": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "requirements": [
+    [
+      "fishing"
+    ]
+  ],
+  "rewards": {
+    "function": "core:ingame/item/consume/use/fishing_rod"
+  }
+}
