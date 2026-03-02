@@ -31,6 +31,8 @@
     "bf.chat.EF.4": "%sのHP§c-30",
     "bf.chat.EF.5": "%sの防御力§a+6",
     "bf.chat.EF.6": "%sに「§6[攻][使]神のいたずら§r」を授けた",
+    "bf.chat.prank.death": "%1$sは神のいたずらに耐えられなかった",
+    "bf.chat.prank": "%1$sが神のいたずらに耐えた!(HP+%2$s)",
 
     "bf.title.countdown": "%s秒後に始まります。",
     "bf.title.start": "スタート",
