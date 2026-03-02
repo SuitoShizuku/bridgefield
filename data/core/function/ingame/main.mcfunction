@@ -32,6 +32,3 @@ execute if entity @n[type=villager,tag=ed] run function core:ingame/item/explode
 
 # 宝箱の破壊
 function core:stage/chest/break/
-
-# リロール商人がこっち向くように
-execute if entity @n[tag=reroll_trader] run function core:ingame/item/consume/use/reroll_trader/main
