@@ -18,5 +18,7 @@ execute as @a[tag=turn] run attribute @s jump_strength modifier add false_turn -
 execute as @a[tag=turn] run attribute @s entity_interaction_range modifier add false_turn -1 add_multiplied_total
 execute as @a[tag=turn] run attribute @s block_interaction_range modifier add false_turn -1 add_multiplied_total
 
+execute if score $round bf = $EF bf run tellraw @a ["\n",{translate:"bf.chat.EF",fallback:"終末の時が来た",color:dark_red},"\n"]
+
 scoreboard players set $now initiative 0
 function core:ingame/round/find_turn
