@@ -7,14 +7,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:goat_horn",
+                "minecraft:item_model": "minecraft:wondering_trader_spawn_egg",
                 "minecraft:item_name": {
-                  "translate": "bf.item.consume.slow_horn",
-                  "fallback": "[使]鈍化の角笛",
+                  "translate": "bf.item.consume.reroll_trader",
+                  "fallback": "[使]リロール商人",
                   "color": "aqua"
                 },
                 "minecraft:custom_data": {
-                  "consumeId": "slow_horn"
+                  "consumeId": "reroll_trader"
                 },
                 "minecraft:lore": [
                   {
@@ -30,8 +30,8 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.slow_horn.ef",
-                    "fallback": "周囲16マスの味方以外の人の次のターン時間が1/5になる",
+                    "translate": "bf.item.consume.reroll_trader.ef",
+                    "fallback": "上限１体のリロール商人を召喚、商人に使用したアイテムはターン関係無しにリロール出来る",
                     "color": "white",
                     "italic": false
                   },
@@ -41,7 +41,7 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.consume.slow_horn.comment",
+                    "translate": "bf.item.consume.reroll_trader.comment",
                     "fallback": "この音が聞こえてしまったら最後",
                     "color": "gray"
                   }
