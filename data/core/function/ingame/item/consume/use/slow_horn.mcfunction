@@ -8,6 +8,9 @@ execute as @p[tag=attacker,team=player.orange] at @s run tag @a[team=!player.ora
 execute as @p[tag=attacker,team=player.pink] at @s run tag @a[team=!player.pink,distance=..16] add slow_norn_now
 execute as @p[tag=attacker,team=player.cyan] at @s run tag @a[team=!player.cyan,distance=..16] add slow_norn_now
 
+#ホーンの音
+execute as @a[tag=slow_norn_now] at @s run playsound minecraft:item.goat_horn.sound.6 master @s ~ ~ ~ 1 2 0.1
+
 #メッセージ
 tellraw @a[tag=slow_norn_now] {"text":"スロー効果を喰らってしまった！","color":"aqua",bold:true}
 tellraw @p[tag=attacker] {"text":"相手にスロー効果を付与した！","color":"aqua",bold:true}
