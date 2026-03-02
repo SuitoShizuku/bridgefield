@@ -1,0 +1,2 @@
+setblock ~ ~ ~ chest{LootTable:"core:treasure",CustomName:{translate:"bf.treasure",fallback:"宝箱"}}
+execute align xyz run summon text_display ~0.5 ~0.99 ~0.5 {text:{translate:"bf.treasure",fallback:"宝箱"},billboard:"vertical",brightness:{block:15,sky:15},Tags:["game","game.treasure"],see_through:true}
