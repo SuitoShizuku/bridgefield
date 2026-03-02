@@ -20,7 +20,8 @@
                   "color": "gold"
                 },
                 "minecraft:custom_data": {
-                  "consumeId": "explode_roulette"
+                  "consumeId": "explode_roulette",
+                  "consumeMp": "0"
                 },
                 "minecraft:lore": [
                   {

@@ -21,7 +21,8 @@
                                 },
                                 "max_damage": 1,
                                 "minecraft:custom_data": {
-                                    "consumeId": "fishing_rod"
+                                    "consumeId": "fishing_rod",
+                                    "consumeMp": "0"
                                 },
                                 "minecraft:lore": [
                                     {
@@ -78,7 +79,8 @@
                                     "color": "aqua"
                                 },
                                 "minecraft:custom_data": {
-                                    "consumeId": "nether_wart"
+                                    "consumeId": "nether_wart",
+                                    "consumeMp": "10"
                                 },
                                 "minecraft:lore": [
                                     {
@@ -87,6 +89,18 @@
                                         "color": "white",
                                         "italic": false
                                     },
+                  {
+                    "translate": "bf.item.mpcost",
+                    "fallback": "経験値コスト: %s",
+                    "with": [
+                      {
+                        "text": "10",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
                                     {
                                         "translate": "bf.item.effect",
                                         "fallback": "—効果———————",
