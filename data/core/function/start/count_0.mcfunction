@@ -28,6 +28,7 @@ scoreboard players set @a status.mp 20
 scoreboard players set @a status.build 20
 scoreboard players set @a defense 0
 scoreboard players set @a armor_count 0
+scoreboard objectives setdisplay list initiative
 execute as @a[tag=!tutorial.runner,team=!spectator] run function core:ingame/hplink
 execute as @a[tag=!tutorial.runner,team=!spectator] run loot give @s loot core:root
 execute as @a[tag=!tutorial.runner,team=!spectator] run loot give @s loot core:root
