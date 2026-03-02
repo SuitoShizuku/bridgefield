@@ -1267,7 +1267,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:wondering_trader_spawn_egg",
+                "minecraft:item_model": "minecraft:wandering_trader_spawn_egg",
                 "minecraft:item_name": {
                   "translate": "bf.item.consume.reroll_trader",
                   "fallback": "[使]リロール商人",
