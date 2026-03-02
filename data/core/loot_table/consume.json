@@ -1291,7 +1291,13 @@
                   },
                   {
                     "translate": "bf.item.consume.reroll_trader.ef",
-                    "fallback": "上限１体のリロール商人を召喚、商人に使用したアイテムはターン関係無しにリロール出来る",
+                    "fallback": "上限１体のリロール商人を召喚",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.consume.reroll_trader.ef2",
+                    "fallback": "商人に使用したアイテムはターン関係無しにリロール出来る",
                     "color": "white",
                     "italic": false
                   },
