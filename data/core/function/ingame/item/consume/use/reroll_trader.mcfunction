@@ -2,4 +2,4 @@ execute if entity @n[tag=reroll_trader] run tellraw @a {"text":"別のリロー�
 
 kill @s[tag=reroll_trader]
 
-summon minecraft:wandering_trader ~ ~ ~ {attributes:[{id:"minecraft:scale",base:0.5}],NoAI:1b,Passengers:[{id:"minecraft:text_display",text:{"text":"リロール商人"},billboard:"vertical",Tags:["reroll_trader","game"]}],Invulnerable:true,Offers:{Recipes:[]},Silent:true}
+summon minecraft:wandering_trader ~ ~ ~ {attributes:[{id:"minecraft:scale",base:0.5}],NoAI:1b,Passengers:[{id:"minecraft:text_display",text:{"text":"リロール商人"},billboard:"vertical",Tags:["reroll_trader","game"]}],Invulnerable:true,Offers:{Recipes:[]},Silent:true,Tags:["game"]}
