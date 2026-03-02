@@ -24,5 +24,3 @@ execute as @a[scores={pure_gold_apple=1..}] at @s run playsound minecraft:entity
 
 #純金リンゴのカウントを1減らす
 scoreboard players remove @a[scores={pure_gold_apple=1..}] pure_gold_apple 1
-
-#
