@@ -259,8 +259,470 @@
                     "italic": false
                   },
                   {
-                    "translate": "bf.item.bridge.dark_log.comment",
+                    "translate": "bf.item.bridge.cherry_log.comment",
                     "fallback": "向上芯がある",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:spruce_log",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.spruce_log",
+                  "fallback": "[橋]トウヒの木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "spruce_log",
+                  "bridgeCost": "12",
+                  "bridgeDurability": "3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "12",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "3",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.spruce_log.comment",
+                    "fallback": "一般的な橋",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:crimson_stem",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.crimson_log",
+                  "fallback": "[橋]真紅の木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "crimson_log",
+                  "bridgeCost": "6",
+                  "bridgeDurability": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "6",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.crimson_log.comment",
+                    "fallback": "紅とか関係ない",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:warped_stem",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.warped_log",
+                  "fallback": "[橋]歪な木",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "warped_log",
+                  "bridgeCost": "6",
+                  "bridgeDurability": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "6",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.warped_log.comment",
+                    "fallback": "橋として歪",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:slime_block",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.slime",
+                  "fallback": "[橋]スライムブロック",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "slime",
+                  "bridgeCost": "1",
+                  "bridgeDurability": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "1",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.slime.comment",
+                    "fallback": "橋(超広義)",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:beacon",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.beacon",
+                  "fallback": "[橋]ビーコン",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "beacon",
+                  "bridgeCost": "5",
+                  "bridgeDurability": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "5",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.beacon.comment",
+                    "fallback": "足が速くなった気がする。",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:moss_block",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.moss_oak",
+                  "fallback": "[橋]青々とした苔",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "moss_oak",
+                  "bridgeCost": "2",
+                  "bridgeDurability": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.moss_oak.comment",
+                    "fallback": "自然",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:pale_moss_block",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.moss_pale",
+                  "fallback": "[橋]青々とした苔",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "moss_pale",
+                  "bridgeCost": "2",
+                  "bridgeDurability": "2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "2",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.moss_pale.comment",
+                    "fallback": "枯れた...?",
                     "color": "gray"
                   }
                 ]
@@ -327,6 +789,72 @@
                   {
                     "translate": "bf.item.bridge.copper.comment",
                     "fallback": "ぼろぼろ崩れやすい橋",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:waxed_copper_bars",
+                "minecraft:item_name": {
+                  "translate": "bf.item.bridge.copper_bars",
+                  "fallback": "[橋]銅格子",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "bridgeId": "copper_bars",
+                  "bridgeCost": "4",
+                  "bridgeDurability": "6"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.bridge",
+                    "fallback": "建築資材",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgecost",
+                    "fallback": "資源値コスト: %s",
+                    "with": [
+                      {
+                        "text": "4",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridgedurability",
+                    "fallback": "橋の耐久値: %s",
+                    "with": [
+                      {
+                        "text": "6",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.bridge.copper_bars.comment",
+                    "fallback": "崩れた後。",
                     "color": "gray"
                   }
                 ]
