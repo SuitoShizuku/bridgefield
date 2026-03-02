@@ -393,10 +393,7 @@
     
     "bf.chat.explode_decoy.1":"ぼくはしにましぇーん",
 
-    "bf.chat.gold_plated_apple":"%sは金メッキのリンゴを食べた!",
-    
-    "bf.chat.explode_roulette.fail":"%sが島を爆破しようとして失敗した。",
-    "bf.chat.explode_roulette":"%1$sが%2$s島爆破した。"
+    "bf.chat.gold_plated_apple":"%sは金メッキのリンゴを食べた!"
 
 
 }
