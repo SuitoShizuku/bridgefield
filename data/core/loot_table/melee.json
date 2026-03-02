@@ -176,7 +176,7 @@
                   },
                   {
                     "translate": "bf.item.melee.stone_sword.comment",
-                    "fallback": "<コメント>",
+                    "fallback": "石器時代",
                     "color": "gray"
                   }
                 ]
@@ -230,7 +230,61 @@
                   },
                   {
                     "translate": "bf.item.melee.iron_sword.comment",
-                    "fallback": "<コメント>",
+                    "fallback": "騎士の剣",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "weight": 8,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:golden_sword",
+                "minecraft:item_name": {
+                  "translate": "bf.item.melee.golden_sword",
+                  "fallback": "[攻]金の剣",
+                  "color": "aqua"
+                },
+                "minecraft:custom_data": {
+                  "weaponId": "golden_sword",
+                  "weaponDamage": "8",
+                  "weaponTrueDamage": "0"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "bf.item.melee",
+                    "fallback": "近接武器",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.damage",
+                    "fallback": "ダメージ: %s",
+                    "with": [
+                      {
+                        "text": "1~8",
+                        "color": "gold"
+                      }
+                    ],
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "——————————",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "bf.item.melee.golden_sword.comment",
+                    "fallback": "力加減に注意",
                     "color": "gray"
                   }
                 ]
@@ -296,7 +350,7 @@
                   },
                   {
                     "translate": "bf.item.melee.diamond_sword.comment",
-                    "fallback": "<コメント>",
+                    "fallback": "キラキラしてるが欠けやすい",
                     "color": "gray"
                   }
                 ]
@@ -362,7 +416,7 @@
                   },
                   {
                     "translate": "bf.item.melee.netherite_sword.comment",
-                    "fallback": "<コメント>",
+                    "fallback": "未知の鉱石で出来ている",
                     "color": "gray"
                   }
                 ]
