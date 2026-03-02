@@ -1,5 +1,5 @@
 execute if entity @n[tag=reroll_trader] run tellraw @a {"text":"別のリロール商人が消えてしまった",color:gold,bold:true}
 
-kill @s[tag=reroll_trader]
+execute if entity @n[tag=reroll_trader] run kill @e[tag=reroll_trader]
 
-summon minecraft:wandering_trader ~ ~ ~ {attributes:[{id:"minecraft:scale",base:0.5}],NoAI:1b,Passengers:[{id:"minecraft:text_display",text:{"text":"リロール商人"},billboard:"vertical",Tags:["reroll_trader","game"]}],Invulnerable:true,Offers:{Recipes:[]},Silent:true,Tags:["game"]}
+summon minecraft:wandering_trader ~ ~ ~ {attributes:[{id:"minecraft:scale",base:0.5}],NoAI:1b,Passengers:[{id:"minecraft:text_display",text:{"text":"リロール商人"},billboard:"vertical",Tags:["reroll_trader","game"]}],Invulnerable:true,Offers:{Recipes:[]},Silent:true,Tags:["game","reroll_trader"]}
