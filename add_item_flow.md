@@ -292,13 +292,25 @@
                     "color": "gray"
                 },
                 "minecraft:custom_data": {
-                    "consumeId": "<consumeId>"
+                    "consumeId": "<consumeId>",
+                    "consumeMp": "<消費MP>"
                 },
                 "minecraft:lore": [
                     {
                         "translate": "bf.item.consume",
                         "fallback": "消費アイテム",
                         "color": "white",
+                        "italic": false
+                    },
+                    {
+                        "translate": "bf.item.mpcost",
+                        "fallback": "経験値コスト: %s",
+                        "with": [{
+                            "text": "<消費MP>",
+                            "color": "gold"
+                            }
+                        ],
+                        "color": "green",
                         "italic": false
                     },
                     {
