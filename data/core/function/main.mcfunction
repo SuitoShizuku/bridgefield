@@ -7,7 +7,7 @@ execute if score $now bf matches 1 run function lobby:main
 execute if score $now bf matches 2 run function core:ingame/main
 
 # 電車召喚
-execute positioned 85 18 342 if entity @a[distance=..75] run function core:stage/train/tick
+execute positioned 85 18 342 if entity @a[distance=..75] unless score $train.onRail bf matches 2 run function core:stage/train/tick
 
 # チュートリアル
 execute if entity @p[tag=tutorial.runner] run function tutorial:main
@@ -19,6 +19,3 @@ execute as @a if score @s rc_ct matches 1.. run scoreboard players remove @s rc_
 # 入った時
 execute as @a[scores={leave=1..}] run function core:leave
 execute as @a unless score @s leave matches -2147483648..2147483647 run function tutorial:join
-
-# リロール商人がこっち向くように
-execute if entity @n[tag=reroll_trader] run function core:ingame/item/consume/use/reroll_trader/main

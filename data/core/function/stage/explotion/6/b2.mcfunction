@@ -8,3 +8,4 @@ particle explosion_emitter ~ ~-9 ~ 0 0 0 0 1 force @a
 execute positioned ~12 ~ ~ run kill @e[tag=game.interact.bridge,sort=nearest,limit=2,distance=..5,type=interaction]
 execute positioned ~-12 ~ ~ run kill @e[tag=game.interact.bridge,sort=nearest,limit=2,distance=..5,type=interaction]
 kill @s[tag=game.marker.island]
+scoreboard players set $train.onRail bf 1
