@@ -5,5 +5,6 @@ playsound entity.generic.explode block @a ~ ~ ~ 2 0.9 0.5
 particle explosion_emitter ~ ~2 ~ 0 0 0 0 1 force @a
 particle explosion_emitter ~ ~-3 ~ 0 0 0 0 1 force @a
 particle explosion_emitter ~ ~-9 ~ 0 0 0 0 1 force @a
-kill @e[tag=game.interact.bridge,sort=nearest,limit=4,distance=..5]
+execute positioned ~12 ~ ~ run kill @e[tag=game.interact.bridge,sort=nearest,limit=2,distance=..5,type=interaction]
+execute positioned ~ ~ ~12 run kill @e[tag=game.interact.bridge,sort=nearest,limit=2,distance=..5,type=interaction]
 kill @s[tag=game.marker.island]

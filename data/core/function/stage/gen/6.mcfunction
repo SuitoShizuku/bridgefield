@@ -30,3 +30,4 @@ execute positioned 51 18 308 run function core:stage/chest/
 execute positioned 51 18 376 run function core:stage/chest/
 execute positioned 119 18 376 run function core:stage/chest/
 execute positioned 119 18 308 run function core:stage/chest/
+execute positioned 85 18 342 run function core:stage/chest/
