@@ -19,3 +19,6 @@ execute as @a if score @s rc_ct matches 1.. run scoreboard players remove @s rc_
 # 入った時
 execute as @a[scores={leave=1..}] run function core:leave
 execute as @a unless score @s leave matches -2147483648..2147483647 run function tutorial:join
+
+# リロール商人がこっち向くように
+execute if entity @n[tag=reroll_trader] run function core:ingame/item/consume/use/reroll_trader/main

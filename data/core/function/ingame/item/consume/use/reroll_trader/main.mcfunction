@@ -1,0 +1,1 @@
+execute as @e[tag=reroll_trader] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
