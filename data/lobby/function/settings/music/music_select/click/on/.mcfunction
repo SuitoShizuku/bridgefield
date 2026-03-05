@@ -1,3 +1,4 @@
+execute if predicate lobby:looking_at_interaction_ms_0 run function lobby:settings/music/music_select/click/on/ms_0
 execute if predicate lobby:looking_at_interaction_ms_1 run function lobby:settings/music/music_select/click/on/ms_1
 execute if predicate lobby:looking_at_interaction_ms_2 run function lobby:settings/music/music_select/click/on/ms_2
 execute if predicate lobby:looking_at_interaction_ms_3 run function lobby:settings/music/music_select/click/on/ms_3
