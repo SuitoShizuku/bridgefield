@@ -1,1 +1,1 @@
-kill @e[tag=ms,tag=lobby,tag=display]
+kill @e[tag=ms,tag=lobby,type=!marker]
