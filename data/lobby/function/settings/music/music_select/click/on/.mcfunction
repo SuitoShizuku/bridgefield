@@ -9,3 +9,4 @@ execute if predicate lobby:looking_at_interaction_ms_8 run function lobby:settin
 execute if predicate lobby:looking_at_interaction_ms_9 run function lobby:settings/music/music_select/click/on/ms_9
 execute if predicate lobby:looking_at_interaction_ms_10 run function lobby:settings/music/music_select/click/on/ms_10
 execute if predicate lobby:looking_at_interaction_ms_11 run function lobby:settings/music/music_select/click/on/ms_11
+execute if predicate lobby:looking_at_interaction_ms_12 run function lobby:settings/music/music_select/click/on/ms_12
