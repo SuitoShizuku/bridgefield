@@ -4,3 +4,6 @@ team join spectator @s
 tag @s remove turn
 tag @s remove true_turn
 tag @s add consume_plated_apple
+function core:ingame/effect/debuff/burn/remove
+function core:ingame/effect/debuff/frostbite/remove
+function core:ingame/effect/debuff/blindness/remove
