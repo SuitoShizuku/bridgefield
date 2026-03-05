@@ -399,5 +399,7 @@
     "bf.chat.gold_plated_apple":"%sは金メッキのリンゴを食べた!",
 
     "bf.item.distant.snow_ball.use":"%1$sになってしまった！",
-    "bf.item.distant.fire_ball.use":"%1$sになってしまった！"
+    "bf.item.distant.fire_ball.use":"%1$sになってしまった！",
+    
+    "bf.music.play":"[ %s ]を再生♪"
 }
