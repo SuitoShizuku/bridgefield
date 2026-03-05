@@ -136,7 +136,3 @@ summon minecraft:text_display -23 5 -4.0 {Tags:["lobby"],teleport_duration:5,tex
 # music_selector
 summon minecraft:marker 17.5 2 -12.5 {Tags:[music_selector,lobby]}
 summon minecraft:text_display 7.999 4 -12.5 {"Tags": ["lobby"],"text":[{translate:"bf.lobby.bgmsettings.title",fallback:"BGM設定"}],"billboard":"fixed",brightness:{block:15,sky:15},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[3.0f,3.0f,3.0f]},"Rotation":[90,0]}
-
-#game_discription
-summon minecraft:marker -6.5 1 -12.5 {Tags:[game_discription,lobby]}
-execute as @n[tag=game_discription,type=marker] at @s run function lobby:game_discription/summon

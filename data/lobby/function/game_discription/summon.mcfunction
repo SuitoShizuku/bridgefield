@@ -1,1 +1,0 @@
-summon text_display ~ ~0.5 ~ {Tags:["lobby","gd","main"],text:{"text":"aaaaaaaaaaaaaaaaaaaa\n\n\n\n\n\n\n\n\n\n\n\n\naaaaaaaaaaaaaaaaaaaa"},Rotation:[-90,0],transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[1,1,1],translation:[0,0,0]}}
