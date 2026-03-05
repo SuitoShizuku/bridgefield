@@ -1,0 +1,2 @@
+tellraw @s [{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\nSneak + Right Click で設定",color:gray}]
+tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nランダム再生 : ",color:"dark_green"},{"text":"\n____________________"}]
