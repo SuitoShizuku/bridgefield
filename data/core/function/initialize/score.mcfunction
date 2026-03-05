@@ -88,3 +88,4 @@ scoreboard objectives add bgm_id dummy "BGM_ID"
 scoreboard objectives add music_select dummy "music_select"
 
 scoreboard players set $id music_select 1
+scoreboard players set $max_id music_select 10
