@@ -32,4 +32,4 @@ execute positioned 101 32 75 run function lobby:settings/maps/preview/effect/2
 function lobby:settings/maps/preview/return
 
 #music_selector
-function core:ingame/music/main
+function lobby:settings/music/main
