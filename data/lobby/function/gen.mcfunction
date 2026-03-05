@@ -132,3 +132,6 @@ function lobby:owata/spawn
 
 # アイテムビューワー
 summon minecraft:text_display -23 5 -4.0 {Tags:["lobby"],teleport_duration:5,text:{"text":"Item Viewer",color:"white"},transformation:{translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[2f,2f,2f]}}
+
+# music_selector
+summon minecraft:marker 17.5 2 -12.5 {Tags:[music_selector,lobby]}

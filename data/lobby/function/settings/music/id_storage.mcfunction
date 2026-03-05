@@ -1,0 +1,10 @@
+execute if score $id music_select matches 1 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 2 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 3 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 4 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 5 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 6 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 7 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 8 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 9 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
+execute if score $id music_select matches 10 run data merge storage bf:ms {author:{"text":"Lena Raine"},name:{"text":"otherside"},id:"minecraft:music_disc_otherside"}
