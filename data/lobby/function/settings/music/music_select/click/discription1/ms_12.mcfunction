@@ -1,0 +1,2 @@
+tellraw @s [{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"}]
+tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nBGM 無し ",color:red},{"text":"\n____________________"}]
