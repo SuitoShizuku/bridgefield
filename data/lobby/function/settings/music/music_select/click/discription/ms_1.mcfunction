@@ -1,2 +1,2 @@
-tellraw @s [{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"}]
+tellraw @s [{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\nSneak + Right Click で設定",color:gray}]
 tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nAuthor : ",color:gold},{"text":"[Lena Raine]",color:dark_green,bold:true},{"text":"\nTitle : ",color:"dark_aqua"},{"text":"[otherside]",color:red,bold:true},{"text":"\n____________________"}]
