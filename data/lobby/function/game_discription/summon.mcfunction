@@ -1,1 +1,1 @@
-summon text_display ~ ~1 ~ {Tags:["lobby","gd","main"],text:{"text":"\n\n\n\n\na"}}
+summon text_display ~ ~1 ~ {Tags:["lobby","gd","main"],text:{"text":"\n\n\n\n\na"},Rotation:[-90,0]}
