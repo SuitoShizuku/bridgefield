@@ -8,4 +8,4 @@ execute if predicate lobby:looking_at_interaction_ms_7 at @n[tag=ms,tag=7] run p
 execute if predicate lobby:looking_at_interaction_ms_8 at @n[tag=ms,tag=8] run particle minecraft:glow ~ ~-0.4 ~ 0 0 0 0 1 normal @s
 execute if predicate lobby:looking_at_interaction_ms_9 at @n[tag=ms,tag=9] run particle minecraft:glow ~ ~-0.4 ~ 0 0 0 0 1 normal @s
 execute if predicate lobby:looking_at_interaction_ms_10 at @n[tag=ms,tag=10] run particle minecraft:glow ~ ~-0.4 ~ 0 0 0 0 1 normal @s
-execute if predicate lobby:looking_at_interaction_ms_11 at @n[tag=ms,tag=11] run particle minecraft:glow ~ ~-0.4 ~ 0 0 01 0 1 normal @s
+execute if predicate lobby:looking_at_interaction_ms_11 at @n[tag=ms,tag=11] run particle minecraft:glow ~ ~-0.4 ~ 0 0 0 0 1 normal @s
