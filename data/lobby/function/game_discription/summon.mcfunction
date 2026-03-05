@@ -1,0 +1,1 @@
+summon text_display ~ ~5 ~ {Tags:["lobby","gd","main"],text:{"text":"\n\n\n\n\n"}}
