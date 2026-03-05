@@ -1,1 +1,2 @@
+tellraw @s [{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"}]
 tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nAuthor : ",color:gold},{"text":"[Amos Robby]",color:dark_green,bold:true},{"text":"\nTitle : ",color:"dark_aqua"},{"text":"[Tears]",color:red,bold:true},{"text":"\n____________________"}]

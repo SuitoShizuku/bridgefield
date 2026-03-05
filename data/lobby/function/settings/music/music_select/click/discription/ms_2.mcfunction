@@ -1,1 +1,2 @@
+tellraw @s [{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"},{"text":"\n"}]
 tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nAuthor : ",color:gold},{"text":"[C418]",color:dark_green,bold:true},{"text":"\nTitle : ",color:"dark_aqua"},{"text":"[13]",color:red,bold:true},{"text":"\n____________________"}]
