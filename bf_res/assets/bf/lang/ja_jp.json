@@ -282,6 +282,8 @@
 
     "bf.game.visual_armor.name": "装備は一度着ると外せません。",
     "bf.game.visual_armor.lore": "装備アイテムを右クリックで更に重ね着できます。",
+    
+    "bf.item.consume.reroll_trader.name":"リロール商人",
 
     "bf.effects.burn": "§c火傷",
     "bf.effects.frostbite": "§9凍傷",
@@ -393,7 +395,8 @@
     
     "bf.chat.explode_decoy.1":"ぼくはしにましぇーん",
 
-    "bf.chat.gold_plated_apple":"%sは金メッキのリンゴを食べた!"
+    "bf.chat.gold_plated_apple":"%sは金メッキのリンゴを食べた!",
 
-
+    "bf.item.distant.snow_ball.use":"%1$sになってしまった！",
+    "bf.item.distant.fire_ball.use":"%1$sになってしまった！"
 }
