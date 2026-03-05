@@ -77,3 +77,9 @@ scoreboard objectives add ed_random dummy "爆発デコイランダム"
 
 # 純金リンゴ用
 scoreboard objectives add pure_gold_apple dummy "純金リンゴカウンター"
+
+#BGM再生用
+scoreboard objectives add bgm dummy "BGM"
+
+#BGMID用
+scoreboard objectives add bgm_id dummy "BGM_ID"

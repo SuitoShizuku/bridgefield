@@ -1,0 +1,1 @@
+execute if score @s bgm_id matches 1 run function core:ingame/music/loop/otherside
