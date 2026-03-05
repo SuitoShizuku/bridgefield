@@ -1,1 +1,0 @@
-tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nAuthor : ",color:gold},{"text":"[Lena Raine]",color:dark_green,bold:true},{"text":"\nTitle : ",color:"dark_aqua"},{"text":"[Pigstep]",color:gold,bold:true},{"text":"\n____________________"}]
