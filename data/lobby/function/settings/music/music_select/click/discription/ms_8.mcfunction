@@ -1,1 +1,1 @@
-tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nAuthor : ",color:gold},{"text":"[Aaron Cherof]",color:dark_green,bold:true},{"text":"\nTitle : ",color:"dark_aqua"},{"text":"[Relic]",color:gold,bold:true},{"text":"\n____________________"}]
+tellraw @s [{"text":"____________________"},{"text":"\n"},{"text":"\nAuthor : ",color:gold},{"text":"[Aaron Cherof]",color:dark_green,bold:true},{"text":"\nTitle : ",color:"dark_aqua"},{"text":"[Relic]",color:red,bold:true},{"text":"\n____________________"}]
