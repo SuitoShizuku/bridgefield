@@ -9,11 +9,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "interact"
-    ]
-  ],
   "rewards": {
     "function": "lobby:credit/click/show_text"
   }
