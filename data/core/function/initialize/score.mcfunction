@@ -89,3 +89,6 @@ scoreboard objectives add music_select dummy "music_select"
 
 #music_random用
 scoreboard objectives add bgm_id_random dummy "BGM_ID_RANDOM"
+
+#スコア関係
+scoreboard objectives add rank dummy "ランク"
