@@ -22,3 +22,6 @@ execute as @a unless score @s leave matches -2147483648..2147483647 run function
 
 #音楽再生
 function core:ingame/music/main
+
+#ランク
+function core:rank/main
