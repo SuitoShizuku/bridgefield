@@ -1,3 +1,3 @@
 summon item_display ~ ~-2 ~ {Tags:[rd,lobby,rank,up,rotation],item:{id:"minecraft:bell"},teleport_duration:5,transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.5,0.5,0.5],translation:[0,0,0]}} 
 summon item_display ~ ~-2 ~-1 {Tags:[rd,lobby,ranking,up,rotation],item:{id:"minecraft:beacon"},teleport_duration:5,transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.5,0.5,0.5],translation:[0,0,0]}} 
-summon item_display ~ ~-2 ~-1 {Tags:[rd,lobby,setting,up,rotation],item:{id:"minecraft:anvil"},teleport_duration:5,transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.5,0.5,0.5],translation:[0,0,0]}}
+summon item_display ~ ~-2 ~1 {Tags:[rd,lobby,setting,up,rotation],item:{id:"minecraft:anvil"},teleport_duration:5,transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.5,0.5,0.5],translation:[0,0,0]}}

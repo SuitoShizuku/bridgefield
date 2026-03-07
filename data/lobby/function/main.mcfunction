@@ -33,3 +33,6 @@ function lobby:settings/maps/preview/return
 
 #music_selector
 function lobby:settings/music/main
+
+#rd
+function lobby:rank_display/main
