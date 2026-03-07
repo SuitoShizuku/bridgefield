@@ -4,3 +4,5 @@ scoreboard players set @s rank.xp 0
 scoreboard players set @s rank.xp.multiple 10
 scoreboard players set @s rank.xp.need 500
 scoreboard players set @s rank.xp.need.multiple 105
+scoreboard players set @s rd.settings.notification.levelup 1
+scoreboard players set @s rd.settings.notification.xp_get 1

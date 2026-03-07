@@ -1,6 +1,6 @@
-tellraw @s {"text":"----------[Settings]---------",color:gray}
-tellraw @s[scores={rd.settings.nitification.levelup=0}] ["レベルアップ通知 : ",{"text":"OFF ","color":"blue"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/level_up_notification/on"}}]
-tellraw @s[scores={rd.settings.nitification.levelup=1}] ["レベルアップ通知 : ",{"text":"ON ","color":"dark_red"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/level_up_notification/off"}}]
-tellraw @s[scores={rd.settings.nitification.levelup=0}] ["経験値獲得通知 : ",{"text":"OFF ","color":"blue"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/xp_get_notification/on"}}]
-tellraw @s[scores={rd.settings.nitification.levelup=1}] ["経験値獲得通知 : ",{"text":"ON ","color":"dark_red"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/xp_get_notification/off"}}]
-tellraw @s {"text":"-----------------------------",color:gray}
+tellraw @s {"text":"----------[Settings]----------",color:gray}
+tellraw @s[scores={rd.settings.notification.levelup=0}] ["レベルアップ通知 : ",{"text":"OFF ","color":"blue"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/level_up_notification/on"}}]
+tellraw @s[scores={rd.settings.notification.levelup=1}] ["レベルアップ通知 : ",{"text":"ON ","color":"dark_red"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/level_up_notification/off"}}]
+tellraw @s[scores={rd.settings.notification.xp_get=0}] ["経験値獲得通知 : ",{"text":"OFF ","color":"blue"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/xp_get_notification/on"}}]
+tellraw @s[scores={rd.settings.notification.xp_get=1}] ["経験値獲得通知 : ",{"text":"ON ","color":"dark_red"},{"text":"[ Click Here ]","color":"gray","click_event":{"action":"run_command","command":"/function lobby:rank_display/display/click/settings/xp_get_notification/off"}}]
+tellraw @s {"text":"----------------------------",color:gray}
