@@ -1,0 +1,1 @@
+execute if score @s rank.xp <= @s rank.xp.need run function core:rank/rank_up/rank_up

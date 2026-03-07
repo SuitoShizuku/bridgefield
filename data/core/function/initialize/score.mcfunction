@@ -90,5 +90,9 @@ scoreboard objectives add music_select dummy "music_select"
 #music_random用
 scoreboard objectives add bgm_id_random dummy "BGM_ID_RANDOM"
 
-#スコア関係
+#ランク関係
 scoreboard objectives add rank dummy "ランク"
+scoreboard objectives add rank.xp dummy "ランクXP"
+scoreboard objectives add rank.xp.multiple dummy "ランクXP倍率"
+scoreboard objectives add rank.xp.need dummy "ランク必要XP"
+scoreboard objectives add rank.xp.need.multiple dummy "ランク必要XP倍率"
