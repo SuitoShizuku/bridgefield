@@ -1,0 +1,1 @@
+execute positioned -28.5 2 9.5 run function lobby:rank_display/display/item_display
