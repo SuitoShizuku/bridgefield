@@ -9,3 +9,4 @@ execute if score $2 rank.ranking matches 0 run tellraw @s [{"text":"2位 : "},{"
 execute if score $3 rank.ranking matches 0 run tellraw @s [{"text":"3位 : "},{"text":" None ",color:dark_gray},{"text":" | "},{"text":" None ",color:dark_gray},{text:"Lv",color:gray,bold:true}]
 execute if score $4 rank.ranking matches 0 run tellraw @s [{"text":"4位 : "},{"text":" None ",color:dark_gray},{"text":" | "},{"text":" None ",color:dark_gray},{text:"Lv",color:gray,bold:true}]
 execute if score $5 rank.ranking matches 0 run tellraw @s [{"text":"5位 : "},{"text":" None ",color:dark_gray},{"text":" | "},{"text":" None ",color:dark_gray},{text:"Lv",color:gray,bold:true}]
+tellraw @s {"text":"----------------------------",color:gray}
