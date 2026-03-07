@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"ranking\",\"rd\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lobby:rank_display/display/click/ranking"
+  }
+}
