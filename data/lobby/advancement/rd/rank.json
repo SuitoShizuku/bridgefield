@@ -9,11 +9,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "interact"
-    ]
-  ],
   "rewards": {
     "function": "lobby:rank_display/display/click/rank"
   }
