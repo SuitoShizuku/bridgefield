@@ -1,4 +1,4 @@
-execute if score @s bgm_id matches 100 store result score @s bgm_id_random run random value 1..11
+execute if score @s bgm matches 0 if score @s bgm_id matches 100 store result score @s bgm_id_random run random value 1..11
 execute if score @s bgm_id matches 1 run function core:ingame/music/loop/otherside
 execute if score @s bgm_id matches 2 run function core:ingame/music/loop/13
 execute if score @s bgm_id matches 3 run function core:ingame/music/loop/cat
