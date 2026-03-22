@@ -19,6 +19,9 @@ execute if score $toggle iv matches 1 run particle minecraft:white_smoke ~ ~ ~-1
 #オフならdisplayを削除する
 execute if score $toggle iv matches 0 run kill @e[tag=iv]
 
+#連打時スケジュールが残るのでschedule clear
+schedule clear lobby:item_viewer/display/set_button
+
 #オフなら閉じる際の音再生
 execute if score $toggle iv matches 0 run playsound minecraft:entity.item.pickup ambient @a ~ ~ ~ 1 0.1 0.1
 
