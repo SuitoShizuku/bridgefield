@@ -479,3 +479,5 @@
 ``data\core\function\ingame\item\consume\use``
 
 の中にルートテーブルを追加する時に書いた`<consumeId>`と同じ名前の関数ファイルを作成し、消費アイテムの効果を書く。
+
+test
